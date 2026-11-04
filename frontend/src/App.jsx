@@ -100,7 +100,7 @@ export default function App() {
           <div className="contenedor">
             {!informe && !pendiente ? (
               <Inicio>
-                <Compositor alEnviar={consultar} ocupado={Boolean(pendiente)} contexto={null} sugerencias={sugerencias} autoFoco />
+                <Compositor alEnviar={(m) => consultar(m, { sinContexto: true })} ocupado={Boolean(pendiente)} contexto={null} sugerencias={sugerencias} autoFoco />
                 {error && <p className="aviso error" role="alert"><TriangleAlert aria-hidden="true" />{error}</p>}
                 {aclaracion && <p className="aviso aclaracion" role="status"><MessageCircleQuestion aria-hidden="true" />{aclaracion.mensaje}</p>}
               </Inicio>
@@ -115,7 +115,7 @@ export default function App() {
                 />
                 {error && <p className="aviso error" role="alert" style={{ marginTop: 16 }}><TriangleAlert aria-hidden="true" />{error}</p>}
                 {aclaracion && <p className="aviso aclaracion" role="status" style={{ marginTop: 16 }}><MessageCircleQuestion aria-hidden="true" />{aclaracion.mensaje}</p>}
-                {pendiente ? <Cargando mensaje={pendiente} /> : informe && <Informe key={informe.id} informe={informe} sesionId={sesionId} />}
+                {pendiente ? <Cargando mensaje={pendiente} /> : informe && <Informe key={informe.id} informe={informe} sesionId={sesionId} investigar={(m) => consultar(m, { sinContexto: true })} verCatalogo={() => setVista('catalogo')} />}
               </>
             )}
           </div>
