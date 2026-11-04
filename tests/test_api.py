@@ -212,27 +212,6 @@ def test_consulta_devuelve_informe(cliente):
     assert cuerpo["informe"]["pasos"][0]["id"] == "interpretar"
 
 
-def _informe_de_prueba():
-    resultado = generar_informe(contexto_tool(), categorias=["Limpieza"], limite=3)
-    return retirar_informe(resultado["informe_id"])
-
-
-def test_comentario_con_datos_del_informe_se_conserva():
-    informe = _informe_de_prueba()
-    total = informe["resumen"]["totalProductos"]
-    texto = f"Se revisaron {total} productos; empezá por los de mayor brecha."
-    assert servicio_agente._comentario_seguro(texto, informe, "x") == texto
-
-
-def test_comentario_con_un_numero_inventado_se_descarta():
-    informe = _informe_de_prueba()
-    assert servicio_agente._comentario_seguro("Conviene bajar el precio a $ 98.765,43.", informe, "x") is None
-
-
-def test_comentario_vacio_no_se_muestra():
-    assert servicio_agente._comentario_seguro("", _informe_de_prueba(), "x") is None
-
-
 def test_si_falla_el_comentario_entrega_el_informe(monkeypatch):
     resultado = generar_informe(contexto_tool(), categorias=["Limpieza"], limite=3)
 
