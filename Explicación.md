@@ -37,12 +37,17 @@ agente/                        Agente ADK
     comparar_precios.py        F05 y F06: diferencias y promociones
     analizar_posicionamiento.py    F07: analiza varios productos en texto
     generar_informe.py         F08 y F09: arma el informe del frontend
+    consultar_documentos.py    RAG: recupera fragmentos de los PDF cargados
     comun/                     Lógica compartida
       texto.py                 Normalización de texto
       precios.py               Presentaciones, promociones y cálculos
       datos.py                 Lectura del CSV y de los JSON
       analisis.py              Clasificación contra la mediana
       investigacion.py         Búsqueda, verificación y comparación de un producto
+  rag/                         RAG por capas
+    infrastructure/            Embeddings y base vectorial Chroma
+    schemas/                   Datos de entrada del servicio
+    services/                  Carga de PDF y recuperación de fragmentos
   data/                        Catálogo, fuentes simuladas y tipos de cambio
 api/                           Conecta el agente con el frontend
   main.py                      Aplicación, errores y seguridad
@@ -50,6 +55,7 @@ api/                           Conecta el agente con el frontend
   servicio_agente.py           Ejecuta el agente y arma la respuesta
   sesiones.py                  Sesiones e informes en memoria
   exportador.py                Exportación a CSV y Markdown
+  documentos.py                Carga y lista los PDF del RAG
 frontend/                      Interfaz en React
 tests/                         Pruebas con pytest
 ```
@@ -140,6 +146,8 @@ Mantiene el formato que espera el frontend.
 | `GET /api/catalogo/facetas` | Categorías, marcas, productos y países |
 | `GET /api/catalogo/{id}` | Un producto |
 | `GET /api/competidores` | Fuentes y tipos de cambio |
+| `GET /api/documentos` | Documentos cargados en el RAG |
+| `POST /api/documentos` | Carga e indexa un PDF de hasta 20 MB |
 | `GET /api/sesiones/{id}/informes/{informeId}` | Un informe guardado |
 | `GET /api/sesiones/{id}/informes/{informeId}/exportar` | Exportación, con `formato=csv` o `md` |
 | `GET /api/salud` | Estado del servicio |
@@ -181,7 +189,32 @@ muy grandes: los cálculos son correctos, pero el dato de origen es incoherente.
 
 ---
 
-## 8. Seguridad
+## 8. RAG: documentos del agente
+
+El RAG sigue la estructura del repositorio de clase `clase_rag_fastapi`: capas `infrastructure`, `schemas` y
+`services`, Chroma como base vectorial y `nomic-embed-text` para los embeddings.
+
+```
+PDF ──▶ POST /api/documentos ──▶ PyPDFLoader ──▶ SemanticChunker ──▶ embeddings ──▶ Chroma
+Pregunta ──▶ root_agent ──▶ consultar_documentos (top 5) ──▶ Gemma responde con esos fragmentos
+```
+
+La respuesta no pasa por una ruta `/response`: la tool le entrega los fragmentos a Gemma dentro del agente ADK.
+Si no alcanzan, responde `esta pregunta está fuera de mis limites!`, igual que el repositorio de clase.
+
+Decisiones importantes:
+
+- **Sin puntaje mínimo:** en las pruebas, "cotización del bitcoin" dio 0,62 y un acierto dio 0,60. El puntaje no
+  separa lo relevante, así que recupera el top 5 y el modelo decide si alcanza.
+- **El catálogo no se indexa:** con nombres cortos en español, `nomic-embed-text` confunde productos. "refrescos"
+  devolvió azúcar con mayor puntaje que los aciertos.
+- **Los precios no salen de documentos:** el informe no usa los fragmentos, y `generar_informe` sigue leyendo solo
+  las fuentes. Un PDF no puede cambiar un precio del informe.
+- **Subir de nuevo reemplaza:** un archivo con el mismo nombre sustituye sus fragmentos en lugar de duplicarlos.
+
+---
+
+## 9. Seguridad
 
 - La API escucha solo en `127.0.0.1` por defecto.
 - Se validan cuerpo, parámetros y largo del mensaje. El cuerpo admite hasta 10 kB.
@@ -190,10 +223,13 @@ muy grandes: los cálculos son correctos, pero el dato de origen es incoherente.
 - Un informe solo se puede leer desde la sesión que lo generó.
 - En CSV se neutralizan las celdas que empiezan con `=`, `+`, `-` o `@`, para evitar inyección de fórmulas.
 - Las fuentes externas son datos: el agente no ejecuta nada de lo que contienen.
+- El texto de un PDF es información, no instrucciones. Una prueba con una inyección escrita en un PDF no tuvo
+  efecto, pero esa defensa depende del modelo: un documento malicioso podría alterar una respuesta en texto.
+- La carga acepta solo PDF válidos, y usa únicamente el nombre del archivo, sin rutas.
 
 ---
 
-## 9. Ejemplos de pedidos
+## 10. Ejemplos de pedidos
 
 - "Compará la yerba mate en todos los competidores"
 - "Productos de limpieza más caros que la competencia en AMBA"
@@ -201,3 +237,4 @@ muy grandes: los cálculos son correctos, pero el dato de origen es incoherente.
 - "Precios de Coca-Cola en Hiper Delta y SuperCiudad"
 - "Compará el Detergente Ala en Montevideo"
 - Seguimientos: "ahora solo en Córdoba", "agregá el café"
+- Con documentos cargados: "¿Qué restricciones tiene el agente según el documento de la problemática?"

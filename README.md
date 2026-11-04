@@ -24,6 +24,10 @@ ollama signin
 ollama pull gemma4:31b-cloud
 ```
 
+```bash
+ollama pull nomic-embed-text
+```
+
 ## Instalación
 
 Desde la raíz del repositorio, con Python 3.12:
@@ -74,6 +78,12 @@ La API sirve el frontend compilado en http://127.0.0.1:3001.
 
 Muestra las llamadas a herramientas paso a paso. Elegí la aplicación `agente`.
 
+## Documentos (RAG)
+
+En **Fuentes → Documentos del agente** se cargan PDF con políticas o reglas. Después se pregunta sobre
+ellos en **Investigar**, y el agente responde citando archivo y página. El índice se guarda en
+`agente/data/vector_store/` y no se sube al repositorio.
+
 ## Tests
 
 No necesitan el modelo: reemplazan su respuesta por una fija.
@@ -87,6 +97,7 @@ No necesitan el modelo: reemplazan su respuesta por una fija.
 | Variable | Valor por defecto | Para qué sirve |
 |---|---|---|
 | `MODELO_AGENTE` | `ollama_chat/gemma4:31b-cloud` | Modelo que usa el agente |
+| `MODELO_EMBEDDING` | `nomic-embed-text` | Modelo de embeddings del RAG |
 | `OLLAMA_API_BASE` | `http://localhost:11434` | Dirección de Ollama |
 | `HOST` y `PORT` | `127.0.0.1` y `3001` | Dirección de la API |
 | `ORIGENES_PERMITIDOS` | `http://localhost:5173,http://127.0.0.1:5173` | Orígenes admitidos por CORS |
