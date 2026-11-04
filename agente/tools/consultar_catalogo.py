@@ -1,10 +1,11 @@
 """Herramienta F02: consulta del catálogo de Ragnar."""
 from .comun.datos import leer_catalogo
+from .comun.precios import RE_PACK, RE_SIMPLE, leer_presentacion
 from .comun.texto import normalizar, tokens
 
 
 def filtrar_catalogo(texto: str, categoria: str, marca: str, pais: str) -> list:
-    buscados = tokens(texto)
+    buscados, presentacion = _separar_presentacion(texto)
     resultado = []
     for p in leer_catalogo():
         if categoria and normalizar(p["categoria"]) != normalizar(categoria):
@@ -16,7 +17,19 @@ def filtrar_catalogo(texto: str, categoria: str, marca: str, pais: str) -> list:
         presentes = set(tokens(f"{p['producto']} {p['marca']} {p['categoria']}"))
         if all(t in presentes for t in buscados):
             resultado.append(p)
-    return resultado
+    exactos = [p for p in resultado if presentacion and _misma_presentacion(p, presentacion)]
+    return exactos or resultado
+
+
+def _separar_presentacion(nombre: str) -> tuple:
+    """Separa "Yerba mate 500 g" en las palabras del nombre y su presentación."""
+    sin_tamano = RE_SIMPLE.sub(" ", RE_PACK.sub(" ", normalizar(nombre)))
+    return set(tokens(sin_tamano)), leer_presentacion(nombre)
+
+
+def _misma_presentacion(producto: dict, presentacion: dict) -> bool:
+    return (producto["unidad_medida"] == presentacion["unidad"]
+            and producto["contenido"] == presentacion["contenido"])
 
 
 def seleccionar_productos(ids: list, productos: list, marcas: list, categorias: list) -> list:
@@ -25,20 +38,24 @@ def seleccionar_productos(ids: list, productos: list, marcas: list, categorias: 
         pedidos = set(ids)
         return [p for p in leer_catalogo() if p["producto_id"] in pedidos]
 
-    nombres = [set(tokens(n)) for n in productos]
     marcas_pedidas = {normalizar(m) for m in marcas}
     categorias_pedidas = {normalizar(c) for c in categorias}
-    seleccion = []
-    for p in leer_catalogo():
+    candidatos = [
+        p for p in leer_catalogo()
+        if (not marcas_pedidas or normalizar(p["marca"]) in marcas_pedidas)
+        and (not categorias_pedidas or normalizar(p["categoria"]) in categorias_pedidas)
+    ]
+    if not productos:
+        return candidatos
+
+    elegidos = set()
+    for pedido in productos:
+        nombre, presentacion = _separar_presentacion(pedido)
         # El modelo a veces pasa una marca como producto: "Coca-Cola" también tiene que coincidir.
-        if nombres and not any(n <= set(tokens(f"{p['producto']} {p['marca']}")) for n in nombres):
-            continue
-        if marcas_pedidas and normalizar(p["marca"]) not in marcas_pedidas:
-            continue
-        if categorias_pedidas and normalizar(p["categoria"]) not in categorias_pedidas:
-            continue
-        seleccion.append(p)
-    return seleccion
+        por_nombre = [p for p in candidatos if nombre <= set(tokens(f"{p['producto']} {p['marca']}"))]
+        exactos = [p for p in por_nombre if presentacion and _misma_presentacion(p, presentacion)]
+        elegidos.update(p["producto_id"] for p in exactos or por_nombre)
+    return [p for p in candidatos if p["producto_id"] in elegidos]
 
 
 def consultar_catalogo(texto: str = "", categoria: str = "", marca: str = "", pais: str = "", limite: int = 20) -> dict:

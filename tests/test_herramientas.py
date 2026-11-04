@@ -45,6 +45,12 @@ def test_catalogo_filtra_por_categoria():
     assert consultar_catalogo(categoria="limpieza")["total"] == 101
 
 
+def test_catalogo_entiende_el_tamano_pedido():
+    resultado = consultar_catalogo(texto="Coca-Cola de 2500 ml")
+    assert resultado["total"] >= 1
+    assert {p["presentacion"] for p in resultado["productos"]} == {"2500 ml"}
+
+
 def test_catalogo_no_inventa_productos():
     assert consultar_catalogo(texto="xyzabc") == {"total": 0, "mostrados": 0, "productos": []}
 
