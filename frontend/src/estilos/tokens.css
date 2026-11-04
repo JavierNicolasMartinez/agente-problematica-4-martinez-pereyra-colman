@@ -1,0 +1,68 @@
+/*
+ * Tokens del sistema visual "Fleje".
+ * Mundo: la góndola del supermercado. Verde botella del mueble, el fleje amarillo
+ * de las ofertas y la tipografía condensada de los precios en las etiquetas.
+ * Elegido para uso diurno en oficina: fondo claro con un tinte verde frío.
+ */
+:root {
+  /* Superficies */
+  --suelo: oklch(0.972 0.007 165);
+  --papel: oklch(0.995 0.003 165);
+  --hundido: oklch(0.945 0.01 165);
+  --linea: oklch(0.88 0.014 165);
+  --linea-suave: oklch(0.925 0.01 165);
+
+  /* Tinta */
+  --tinta: oklch(0.23 0.025 165);
+  --tinta-2: oklch(0.42 0.025 165);
+  --tinta-3: oklch(0.52 0.02 165);
+
+  /* Mueble de góndola (barra lateral) */
+  --gondola: oklch(0.29 0.055 163);
+  --gondola-2: oklch(0.34 0.06 163);
+  --gondola-3: oklch(0.41 0.06 163);
+  --gondola-tinta: oklch(0.93 0.025 163);
+  --gondola-tinta-2: oklch(0.78 0.035 163);
+
+  /* Fleje amarillo: SOLO promociones y la marca de Ragnar en la regla */
+  --fleje: oklch(0.885 0.165 95);
+  --fleje-hondo: oklch(0.8 0.165 88);
+  --fleje-tinta: oklch(0.3 0.06 85);
+
+  /* Estados de precio */
+  --caro: oklch(0.56 0.165 35);
+  --caro-suave: oklch(0.95 0.035 35);
+  --barato: oklch(0.52 0.11 162);
+  --barato-suave: oklch(0.95 0.03 162);
+  --duda: oklch(0.55 0.11 285);
+  --duda-suave: oklch(0.95 0.025 285);
+  --nada: oklch(0.6 0.012 165);
+  --nada-suave: oklch(0.94 0.006 165);
+  --linea-ok: oklch(0.55 0.02 165);
+
+  /* Tipografía */
+  --fuente: 'Archivo Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --angosta: 72%;
+  --muy-angosta: 64%;
+
+  --t-xs: 0.75rem;
+  --t-s: 0.8125rem;
+  --t-m: 0.9375rem;
+  --t-l: 1.125rem;
+  --t-xl: 1.5rem;
+  --t-2xl: 2.25rem;
+  --t-3xl: clamp(2.25rem, 1.6rem + 2.4vw, 3.5rem);
+
+  /* Espacio (ritmo de 4px) */
+  --e-1: 4px; --e-2: 8px; --e-3: 12px; --e-4: 16px; --e-5: 24px; --e-6: 32px; --e-7: 48px; --e-8: 64px;
+
+  --radio-s: 6px;
+  --radio-m: 10px;
+  --radio-l: 14px;
+
+  --sombra-1: 0 1px 2px oklch(0.23 0.03 165 / 0.06), 0 1px 1px oklch(0.23 0.03 165 / 0.04);
+  --sombra-2: 0 6px 18px -6px oklch(0.23 0.04 165 / 0.18), 0 2px 4px oklch(0.23 0.03 165 / 0.06);
+
+  --salida: cubic-bezier(0.16, 1, 0.3, 1);
+  --rail: 264px;
+}
