@@ -1,0 +1,4811 @@
+{
+ "aviso": "FUENTE SIMULADA con fines académicos. Competidor, dominio y precios ficticios.",
+ "competidor": {
+  "id": "almacen-pampa",
+  "nombre": "Almacén Pampa",
+  "sitio": "https://almacenpampa.example",
+  "pais": "Argentina",
+  "moneda": "ARS",
+  "regiones": [
+   "Córdoba",
+   "Rosario",
+   "Mendoza"
+  ],
+  "permite_consulta_automatizada": true,
+  "condiciones": "Consulta automatizada permitida (simulado)."
+ },
+ "generado": "2026-11-02",
+ "productos": [
+  {
+   "sku": "ALM-00001",
+   "titulo": "Galletitas dulces 900 gr",
+   "marca": null,
+   "categoria": "Alimentos",
+   "precio_regular": 11098.24,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/galletitas-dulces-900-gr-alm-00001",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00002",
+   "titulo": "Leche entera La Serenísima x 250 gr",
+   "marca": "La Serenísima",
+   "categoria": "Alimentos",
+   "precio_regular": 3664.46,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/leche-entera-la-serenisima-x-250-gr-alm-00002",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00003",
+   "titulo": "Dove Desodorante 750 ml",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 2655.05,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/dove-desodorante-750-ml-alm-00003",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00004",
+   "titulo": "Bolsapel Bolsa de residuos 4 un",
+   "marca": "Bolsapel",
+   "categoria": "Hogar",
+   "precio_regular": 33021.77,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/bolsapel-bolsa-de-residuos-4-un-alm-00004",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00005",
+   "titulo": "Lavandina Ayudin x 1000 cc",
+   "marca": "Ayudin",
+   "categoria": "Limpieza",
+   "precio_regular": 2551.49,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/lavandina-ayudin-x-1000-cc-alm-00005",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00006",
+   "titulo": "Elite Servilletas 12 un",
+   "marca": "Elite",
+   "categoria": "Hogar",
+   "precio_regular": 96737.09,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/elite-servilletas-12-un-alm-00006",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00007",
+   "titulo": "Desodorante Dove 90 ml",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 1030.86,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/desodorante-dove-90-ml-alm-00007",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00008",
+   "titulo": "Ala Detergente 750 ml",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 9887.4,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/ala-detergente-750-ml-alm-00008",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00009",
+   "titulo": "Consul Bolsa de residuos 4 u",
+   "marca": "Consul",
+   "categoria": "Hogar",
+   "precio_regular": 11408.92,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/consul-bolsa-de-residuos-4-u-alm-00009",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00010",
+   "titulo": "Detergente Cif 1 L",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 5908.92,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/detergente-cif-1-l-alm-00010",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00011",
+   "titulo": "Limpiador de pisos Lysoform x 1000 cc",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 17370.94,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/limpiador-de-pisos-lysoform-x-1000-cc-alm-00011",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00012",
+   "titulo": "Lysoform Limpiador de pisos 900 cc",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 5121.89,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/lysoform-limpiador-de-pisos-900-cc-alm-00012",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00013",
+   "titulo": "Esponja de cocina Mortimer 12 un",
+   "marca": "Mortimer",
+   "categoria": "Hogar",
+   "precio_regular": 87018.08,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/esponja-de-cocina-mortimer-12-un-alm-00013",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00014",
+   "titulo": "Limpiador de pisos Poett 2 litros",
+   "marca": "Poett",
+   "categoria": "Limpieza",
+   "precio_regular": 18147.83,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/limpiador-de-pisos-poett-2-litros-alm-00014",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00015",
+   "titulo": "Cif Limpiador de pisos 1000 ml",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 11313.1,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/cif-limpiador-de-pisos-1000-ml-alm-00015",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00016",
+   "titulo": "Galletitas dulces Terrabusi x 1 kg",
+   "marca": "Terrabusi",
+   "categoria": "Alimentos",
+   "precio_regular": 7010.21,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/galletitas-dulces-terrabusi-x-1-kg-alm-00016",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00017",
+   "titulo": "Amanda Yerba mate 375 g",
+   "marca": "Amanda",
+   "categoria": "Alimentos",
+   "precio_regular": 450.64,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/amanda-yerba-mate-375-g-alm-00017",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00018",
+   "titulo": "Servilletas Elite perfumado 2 u",
+   "marca": "Elite",
+   "categoria": "Hogar",
+   "precio_regular": 3074.95,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/servilletas-elite-perfumado-2-u-alm-00018",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00019",
+   "titulo": "Bolsa de residuos 2 u",
+   "marca": null,
+   "categoria": "Hogar",
+   "precio_regular": 16217.01,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/bolsa-de-residuos-2-u-alm-00019",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00020",
+   "titulo": "Yerba mate Playadito x 1,5 kg",
+   "marca": "Playadito",
+   "categoria": "Alimentos",
+   "precio_regular": 14933.07,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/yerba-mate-playadito-x-1-5-kg-alm-00020",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00021",
+   "titulo": "Coca-Cola Gaseosa cola 350 cc",
+   "marca": "Coca-Cola",
+   "categoria": "Bebidas",
+   "precio_regular": 3168.49,
+   "precio_promocional": 2851.64,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "10% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/coca-cola-gaseosa-cola-350-cc-alm-00021",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00022",
+   "titulo": "Lux Jabon de tocador 90 ml",
+   "marca": "Lux",
+   "categoria": "Higiene personal",
+   "precio_regular": 1234.62,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/lux-jabon-de-tocador-90-ml-alm-00022",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00023",
+   "titulo": "Pureza Harina de trigo 750 g",
+   "marca": "Pureza",
+   "categoria": "Alimentos",
+   "precio_regular": 6885.5,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/pureza-harina-de-trigo-750-g-alm-00023",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00024",
+   "titulo": "Jabon de tocador Lux x 50 cc",
+   "marca": "Lux",
+   "categoria": "Higiene personal",
+   "precio_regular": 198.35,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/jabon-de-tocador-lux-x-50-cc-alm-00024",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00025",
+   "titulo": "Bebida energizante Red Bull 2,5 lt",
+   "marca": "Red Bull",
+   "categoria": "Bebidas",
+   "precio_regular": 22671.46,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/bebida-energizante-red-bull-2-5-lt-alm-00025",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00026",
+   "titulo": "Lavandina Clorox 3000 ml",
+   "marca": "Clorox",
+   "categoria": "Limpieza",
+   "precio_regular": 40665.75,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/lavandina-clorox-3000-ml-alm-00026",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00027",
+   "titulo": "Agua saborizada H2OH zero 1,5 litros",
+   "marca": "H2OH",
+   "categoria": "Bebidas",
+   "precio_regular": 5386.27,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/agua-saborizada-h2oh-zero-1-5-litros-alm-00027",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00028",
+   "titulo": "Aceite de girasol Natura x 1 kg",
+   "marca": "Natura",
+   "categoria": "Alimentos",
+   "precio_regular": 6628.72,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/aceite-de-girasol-natura-x-1-kg-alm-00028",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00029",
+   "titulo": "Acondicionador Dove 200 cc",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 3251.21,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/acondicionador-dove-200-cc-alm-00029",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00030",
+   "titulo": "Yerba mate integral Taragüi x 1 kg",
+   "marca": "Taragüi",
+   "categoria": "Alimentos",
+   "precio_regular": 2108.75,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/yerba-mate-integral-taragui-x-1-kg-alm-00030",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00031",
+   "titulo": "Morixe Harina de trigo 500 g",
+   "marca": "Morixe",
+   "categoria": "Alimentos",
+   "precio_regular": 1117.66,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/morixe-harina-de-trigo-500-g-alm-00031",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00032",
+   "titulo": "Rollo de cocina perfumado Sussex x 4 u",
+   "marca": "Sussex",
+   "categoria": "Hogar",
+   "precio_regular": 26830.52,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/rollo-de-cocina-perfumado-sussex-x-4-u-alm-00032",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00033",
+   "titulo": "Poett Limpiador de pisos 500 cc",
+   "marca": "Poett",
+   "categoria": "Limpieza",
+   "precio_regular": 4987.85,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/poett-limpiador-de-pisos-500-cc-alm-00033",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00034",
+   "titulo": "Jabon liquido para ropa Drive x 750 ml",
+   "marca": "Drive",
+   "categoria": "Limpieza",
+   "precio_regular": 4740.93,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/jabon-liquido-para-ropa-drive-x-750-ml-alm-00034",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00035",
+   "titulo": "Ala Suavizante para ropa 1 lt",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 1739.51,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/ala-suavizante-para-ropa-1-lt-alm-00035",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00036",
+   "titulo": "Bebida energizante Monster 2,5 lt",
+   "marca": "Monster",
+   "categoria": "Bebidas",
+   "precio_regular": 5948.82,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/bebida-energizante-monster-2-5-lt-alm-00036",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00037",
+   "titulo": "Fideos spaghetti Matarazzo x 1 kg",
+   "marca": "Matarazzo",
+   "categoria": "Alimentos",
+   "precio_regular": 10336.18,
+   "precio_promocional": 8785.75,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "15% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/fideos-spaghetti-matarazzo-x-1-kg-alm-00037",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00038",
+   "titulo": "Servilletas Elite 1 u",
+   "marca": "Elite",
+   "categoria": "Hogar",
+   "precio_regular": 9621.14,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/servilletas-elite-1-u-alm-00038",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00039",
+   "titulo": "Esponja de cocina Virulana 1 unidades",
+   "marca": "Virulana",
+   "categoria": "Hogar",
+   "precio_regular": 6461.57,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/esponja-de-cocina-virulana-1-unidades-alm-00039",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00040",
+   "titulo": "Jabon liquido para ropa Skip 2000 cc",
+   "marca": "Skip",
+   "categoria": "Limpieza",
+   "precio_regular": 27638.19,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/jabon-liquido-para-ropa-skip-2000-cc-alm-00040",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00041",
+   "titulo": "Arroz largo fino Dos Hermanos x 250 g",
+   "marca": "Dos Hermanos",
+   "categoria": "Alimentos",
+   "precio_regular": 1625.25,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/arroz-largo-fino-dos-hermanos-x-250-g-alm-00041",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00042",
+   "titulo": "Servilletas Elite x 24 unidades",
+   "marca": "Elite",
+   "categoria": "Hogar",
+   "precio_regular": 185417.11,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/servilletas-elite-x-24-unidades-alm-00042",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00043",
+   "titulo": "Agua mineral Villavicencio x 2,5 litros",
+   "marca": "Villavicencio",
+   "categoria": "Bebidas",
+   "precio_regular": 9349.63,
+   "precio_promocional": 7012.22,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "25% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/agua-mineral-villavicencio-x-2-5-litros-alm-00043",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00044",
+   "titulo": "Arroz largo fino Gallo x 1,5 kg",
+   "marca": "Gallo",
+   "categoria": "Alimentos",
+   "precio_regular": 4465.79,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/arroz-largo-fino-gallo-x-1-5-kg-alm-00044",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00045",
+   "titulo": "Arroz largo fino Gallo x 750 gr",
+   "marca": "Gallo",
+   "categoria": "Alimentos",
+   "precio_regular": 7826.88,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/arroz-largo-fino-gallo-x-750-gr-alm-00045",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00046",
+   "titulo": "Bebida energizante Red Bull x 3 lt",
+   "marca": "Red Bull",
+   "categoria": "Bebidas",
+   "precio_regular": 6444.32,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/bebida-energizante-red-bull-x-3-lt-alm-00046",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00047",
+   "titulo": "Esponja de cocina Virulana jumbo 2 u",
+   "marca": "Virulana",
+   "categoria": "Hogar",
+   "precio_regular": 5035.08,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/esponja-de-cocina-virulana-jumbo-2-u-alm-00047",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00048",
+   "titulo": "Leche entera Ilolay 250 grs",
+   "marca": "Ilolay",
+   "categoria": "Alimentos",
+   "precio_regular": 1853.54,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/leche-entera-ilolay-250-grs-alm-00048",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00049",
+   "titulo": "Elite Servilletas 12 un",
+   "marca": "Elite",
+   "categoria": "Hogar",
+   "precio_regular": 88541.88,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/elite-servilletas-12-un-alm-00049",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00050",
+   "titulo": "Esponja de cocina Scotch-Brite 1 unidades",
+   "marca": "Scotch-Brite",
+   "categoria": "Hogar",
+   "precio_regular": 10511.8,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/esponja-de-cocina-scotch-brite-1-unidades-alm-00050",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00051",
+   "titulo": "Favorita Harina de trigo 750 grs",
+   "marca": "Favorita",
+   "categoria": "Alimentos",
+   "precio_regular": 5140.23,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/favorita-harina-de-trigo-750-grs-alm-00051",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00052",
+   "titulo": "Suavizante para ropa Vivere 6 lt",
+   "marca": "Vivere",
+   "categoria": "Limpieza",
+   "precio_regular": 39261.72,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/suavizante-para-ropa-vivere-6-lt-alm-00052",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00053",
+   "titulo": "Servilletas Sussex x 1 u",
+   "marca": "Sussex",
+   "categoria": "Hogar",
+   "precio_regular": 7751.3,
+   "precio_promocional": 5813.48,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "25% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/servilletas-sussex-x-1-u-alm-00053",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00054",
+   "titulo": "Monster Bebida energizante zero 2,25 litros",
+   "marca": "Monster",
+   "categoria": "Bebidas",
+   "precio_regular": 9047.77,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/monster-bebida-energizante-zero-2-25-litros-alm-00054",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00055",
+   "titulo": "Jugo de naranja Citric x 2 lt",
+   "marca": "Citric",
+   "categoria": "Bebidas",
+   "precio_regular": 19682.93,
+   "precio_promocional": 14762.2,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "25% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/jugo-de-naranja-citric-x-2-lt-alm-00055",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00056",
+   "titulo": "Consul Bolsa de residuos 6 unidades",
+   "marca": "Consul",
+   "categoria": "Hogar",
+   "precio_regular": 49915.69,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/consul-bolsa-de-residuos-6-unidades-alm-00056",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00057",
+   "titulo": "Jugo de naranja Baggio x 1 L",
+   "marca": "Baggio",
+   "categoria": "Bebidas",
+   "precio_regular": 3415.27,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/jugo-de-naranja-baggio-x-1-l-alm-00057",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00058",
+   "titulo": "Higienol Rollo de cocina 12 unidades",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 24778.68,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/higienol-rollo-de-cocina-12-unidades-alm-00058",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00059",
+   "titulo": "Esponja de cocina Scotch-Brite 6 unidades",
+   "marca": "Scotch-Brite",
+   "categoria": "Hogar",
+   "precio_regular": 13393.36,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/esponja-de-cocina-scotch-brite-6-unidades-alm-00059",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00060",
+   "titulo": "Detergente Ala 500 ml",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 866.02,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/detergente-ala-500-ml-alm-00060",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00061",
+   "titulo": "Pantene Shampoo 90 ml",
+   "marca": "Pantene",
+   "categoria": "Higiene personal",
+   "precio_regular": 269.05,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/pantene-shampoo-90-ml-alm-00061",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00062",
+   "titulo": "Suavizante para ropa 1,5 L",
+   "marca": null,
+   "categoria": "Limpieza",
+   "precio_regular": 12436.14,
+   "precio_promocional": 11192.53,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "10% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/suavizante-para-ropa-1-5-l-alm-00062",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00063",
+   "titulo": "Higienol Papel higienico 50 ml",
+   "marca": "Higienol",
+   "categoria": "Higiene personal",
+   "precio_regular": 279.26,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/higienol-papel-higienico-50-ml-alm-00063",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00064",
+   "titulo": "Bolsa de residuos Consul x 1 un",
+   "marca": "Consul",
+   "categoria": "Hogar",
+   "precio_regular": 4622.97,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/bolsa-de-residuos-consul-x-1-un-alm-00064",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00065",
+   "titulo": "Servilletas Campanita x 24 un",
+   "marca": "Campanita",
+   "categoria": "Hogar",
+   "precio_regular": 279406.91,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/servilletas-campanita-x-24-un-alm-00065",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00066",
+   "titulo": "Citric Jugo de naranja 2500 ml",
+   "marca": "Citric",
+   "categoria": "Bebidas",
+   "precio_regular": 16773.54,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/citric-jugo-de-naranja-2500-ml-alm-00066",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00067",
+   "titulo": "Arroz largo fino Dos Hermanos 900 gr",
+   "marca": "Dos Hermanos",
+   "categoria": "Alimentos",
+   "precio_regular": 6211.49,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/arroz-largo-fino-dos-hermanos-900-gr-alm-00067",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00068",
+   "titulo": "Acondicionador Sedal x 100 cc",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 1082.79,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/acondicionador-sedal-x-100-cc-alm-00068",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00069",
+   "titulo": "Acondicionador Sedal 200 cc",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 3818.71,
+   "precio_promocional": 3245.9,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "15% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/acondicionador-sedal-200-cc-alm-00069",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00070",
+   "titulo": "Agua mineral 2500 ml",
+   "marca": null,
+   "categoria": "Bebidas",
+   "precio_regular": 31374.66,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/agua-mineral-2500-ml-alm-00070",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00071",
+   "titulo": "Suavizante para ropa Ala 1500 ml",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 10187.75,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/suavizante-para-ropa-ala-1500-ml-alm-00071",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00072",
+   "titulo": "Galletitas dulces Oreo 500 g",
+   "marca": "Oreo",
+   "categoria": "Alimentos",
+   "precio_regular": 5257.2,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/galletitas-dulces-oreo-500-g-alm-00072",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00073",
+   "titulo": "Cafe molido Bonafide x 1 kg",
+   "marca": "Bonafide",
+   "categoria": "Alimentos",
+   "precio_regular": 11155.06,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/cafe-molido-bonafide-x-1-kg-alm-00073",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00074",
+   "titulo": "Colgate Pasta dental 25 cc",
+   "marca": "Colgate",
+   "categoria": "Higiene personal",
+   "precio_regular": 367.58,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/colgate-pasta-dental-25-cc-alm-00074",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00075",
+   "titulo": "Arroz largo fino Gallo x 900 gr",
+   "marca": "Gallo",
+   "categoria": "Alimentos",
+   "precio_regular": 8393.84,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/arroz-largo-fino-gallo-x-900-gr-alm-00075",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00076",
+   "titulo": "Sussex Servilletas 4 un",
+   "marca": "Sussex",
+   "categoria": "Hogar",
+   "precio_regular": 35600.54,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/sussex-servilletas-4-un-alm-00076",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00077",
+   "titulo": "Mayonesa 250 grs",
+   "marca": null,
+   "categoria": "Alimentos",
+   "precio_regular": 702.58,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/mayonesa-250-grs-alm-00077",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00078",
+   "titulo": "Jabon de tocador Rexona 100 ml",
+   "marca": "Rexona",
+   "categoria": "Higiene personal",
+   "precio_regular": 448.87,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/jabon-de-tocador-rexona-100-ml-alm-00078",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00079",
+   "titulo": "Esponja de cocina Virulana x 24 un",
+   "marca": "Virulana",
+   "categoria": "Hogar",
+   "precio_regular": 122167.84,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/esponja-de-cocina-virulana-x-24-un-alm-00079",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00080",
+   "titulo": "Jabon de tocador Dove 500 cc",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 5801.08,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/jabon-de-tocador-dove-500-cc-alm-00080",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00081",
+   "titulo": "Harina de trigo Morixe x 2 kg",
+   "marca": "Morixe",
+   "categoria": "Alimentos",
+   "precio_regular": 20276.3,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/harina-de-trigo-morixe-x-2-kg-alm-00081",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00082",
+   "titulo": "Rollo de cocina Elite 1 u",
+   "marca": "Elite",
+   "categoria": "Hogar",
+   "precio_regular": 6849.38,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/rollo-de-cocina-elite-1-u-alm-00082",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00083",
+   "titulo": "Sancor Leche entera 250 gr",
+   "marca": "Sancor",
+   "categoria": "Alimentos",
+   "precio_regular": 1932.91,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/sancor-leche-entera-250-gr-alm-00083",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00084",
+   "titulo": "Nivea Desodorante 100 ml",
+   "marca": "Nivea",
+   "categoria": "Higiene personal",
+   "precio_regular": 1008.45,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/nivea-desodorante-100-ml-alm-00084",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00085",
+   "titulo": "Jugo de naranja Cepita 1000 cc",
+   "marca": "Cepita",
+   "categoria": "Bebidas",
+   "precio_regular": 10451.79,
+   "precio_promocional": 8361.43,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "20% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/jugo-de-naranja-cepita-1000-cc-alm-00085",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00086",
+   "titulo": "Nivea Desodorante 25 cc",
+   "marca": "Nivea",
+   "categoria": "Higiene personal",
+   "precio_regular": 583.24,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/nivea-desodorante-25-cc-alm-00086",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00087",
+   "titulo": "Cafe molido Nescafé 500 gr",
+   "marca": "Nescafé",
+   "categoria": "Alimentos",
+   "precio_regular": 6602.04,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/cafe-molido-nescafe-500-gr-alm-00087",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00088",
+   "titulo": "Dos Hermanos Arroz largo fino 2 kg",
+   "marca": "Dos Hermanos",
+   "categoria": "Alimentos",
+   "precio_regular": 20221.7,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "segunda_unidad",
+    "porcentaje": 70,
+    "descripcion": "70% off en la segunda unidad",
+    "vigencia_hasta": "2026-11-12"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/dos-hermanos-arroz-largo-fino-2-kg-alm-00088",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00089",
+   "titulo": "Servilletas Campanita 2 un",
+   "marca": "Campanita",
+   "categoria": "Hogar",
+   "precio_regular": 17428.09,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/servilletas-campanita-2-un-alm-00089",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00090",
+   "titulo": "Agua saborizada H2OH 350 ml",
+   "marca": "H2OH",
+   "categoria": "Bebidas",
+   "precio_regular": 336.21,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/agua-saborizada-h2oh-350-ml-alm-00090",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00091",
+   "titulo": "Aceite de girasol Cañuelas 1 kg",
+   "marca": "Cañuelas",
+   "categoria": "Alimentos",
+   "precio_regular": 10792.98,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/aceite-de-girasol-canuelas-1-kg-alm-00091",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00092",
+   "titulo": "Higienol Rollo de cocina 24 u",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 30821.85,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/higienol-rollo-de-cocina-24-u-alm-00092",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00093",
+   "titulo": "Ayudin Lavandina 500 ml",
+   "marca": "Ayudin",
+   "categoria": "Limpieza",
+   "precio_regular": 5081.97,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/ayudin-lavandina-500-ml-alm-00093",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00094",
+   "titulo": "Detergente Cif x 2000 ml",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 9735.54,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/detergente-cif-x-2000-ml-alm-00094",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00095",
+   "titulo": "Pasta dental Oral-B x 50 ml",
+   "marca": "Oral-B",
+   "categoria": "Higiene personal",
+   "precio_regular": 678.91,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/pasta-dental-oral-b-x-50-ml-alm-00095",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00096",
+   "titulo": "Aceite de girasol Cocinero 2000 gr",
+   "marca": "Cocinero",
+   "categoria": "Alimentos",
+   "precio_regular": 18606.78,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/aceite-de-girasol-cocinero-2000-gr-alm-00096",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00097",
+   "titulo": "Lavandina Querubin 500 cc",
+   "marca": "Querubin",
+   "categoria": "Limpieza",
+   "precio_regular": 2057.06,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/lavandina-querubin-500-cc-alm-00097",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00098",
+   "titulo": "Agua saborizada sabor pomelo H2OH x 2 litros",
+   "marca": "H2OH",
+   "categoria": "Bebidas",
+   "precio_regular": 5759.72,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/agua-saborizada-sabor-pomelo-h2oh-x-2-litros-alm-00098",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00099",
+   "titulo": "Bebida energizante Red Bull 500 ml",
+   "marca": "Red Bull",
+   "categoria": "Bebidas",
+   "precio_regular": 2752.52,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/bebida-energizante-red-bull-500-ml-alm-00099",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00100",
+   "titulo": "Poett Limpiador de pisos 1,5 L",
+   "marca": "Poett",
+   "categoria": "Limpieza",
+   "precio_regular": 24544.03,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/poett-limpiador-de-pisos-1-5-l-alm-00100",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00101",
+   "titulo": "Pasta dental Oral-B 500 cc",
+   "marca": "Oral-B",
+   "categoria": "Higiene personal",
+   "precio_regular": 5231.48,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/pasta-dental-oral-b-500-cc-alm-00101",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00102",
+   "titulo": "Dominó Azucar refinada 500 gr",
+   "marca": "Dominó",
+   "categoria": "Alimentos",
+   "precio_regular": 4120.6,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/domino-azucar-refinada-500-gr-alm-00102",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00103",
+   "titulo": "Acondicionador Dove 100 cc",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 979.5,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/acondicionador-dove-100-cc-alm-00103",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00104",
+   "titulo": "Jabon liquido para ropa Skip x 750 cc",
+   "marca": "Skip",
+   "categoria": "Limpieza",
+   "precio_regular": 9052.23,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/jabon-liquido-para-ropa-skip-x-750-cc-alm-00104",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00105",
+   "titulo": "Jugo de naranja Baggio x 2 L",
+   "marca": "Baggio",
+   "categoria": "Bebidas",
+   "precio_regular": 16275.85,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/jugo-de-naranja-baggio-x-2-l-alm-00105",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00106",
+   "titulo": "Suavizante para ropa Comfort 900 cc",
+   "marca": "Comfort",
+   "categoria": "Limpieza",
+   "precio_regular": 12228.77,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/suavizante-para-ropa-comfort-900-cc-alm-00106",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00107",
+   "titulo": "Jugo de naranja Cepita 1500 cc",
+   "marca": "Cepita",
+   "categoria": "Bebidas",
+   "precio_regular": 10624.58,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/jugo-de-naranja-cepita-1500-cc-alm-00107",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00108",
+   "titulo": "Lysoform Desinfectante 3 L",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 28982.89,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/lysoform-desinfectante-3-l-alm-00108",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00109",
+   "titulo": "Cif Desinfectante 1 lt",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 3799.46,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/cif-desinfectante-1-lt-alm-00109",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00110",
+   "titulo": "Fideos spaghetti integral Lucchetti x 750 gr",
+   "marca": "Lucchetti",
+   "categoria": "Alimentos",
+   "precio_regular": 2505.96,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/fideos-spaghetti-integral-lucchetti-x-750-gr-alm-00110",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00111",
+   "titulo": "Acondicionador Pantene 500 ml",
+   "marca": "Pantene",
+   "categoria": "Higiene personal",
+   "precio_regular": 683.46,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/acondicionador-pantene-500-ml-alm-00111",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00112",
+   "titulo": "Limpiador de pisos Lysoform 2000 ml",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 16014.98,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/limpiador-de-pisos-lysoform-2000-ml-alm-00112",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00113",
+   "titulo": "Ala Jabon liquido para ropa 3 litros",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 49369.31,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/ala-jabon-liquido-para-ropa-3-litros-alm-00113",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00114",
+   "titulo": "Limpiador de pisos Cif 900 ml",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 10134.62,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/limpiador-de-pisos-cif-900-ml-alm-00114",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00115",
+   "titulo": "Galletitas dulces Bagley 1,5 kg",
+   "marca": "Bagley",
+   "categoria": "Alimentos",
+   "precio_regular": 12527.67,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/galletitas-dulces-bagley-1-5-kg-alm-00115",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00116",
+   "titulo": "Gaseosa cola Manaos 500 cc",
+   "marca": "Manaos",
+   "categoria": "Bebidas",
+   "precio_regular": 2499.29,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/gaseosa-cola-manaos-500-cc-alm-00116",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00117",
+   "titulo": "Cif Detergente 750 cc",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 11300.11,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/cif-detergente-750-cc-alm-00117",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00118",
+   "titulo": "Servilletas Campanita x 6 un",
+   "marca": "Campanita",
+   "categoria": "Hogar",
+   "precio_regular": 66915.59,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/servilletas-campanita-x-6-un-alm-00118",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00119",
+   "titulo": "Acondicionador Pantene 100 ml",
+   "marca": "Pantene",
+   "categoria": "Higiene personal",
+   "precio_regular": 1182.08,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/acondicionador-pantene-100-ml-alm-00119",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00120",
+   "titulo": "Rollo de cocina Higienol 8 un",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 13126.36,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/rollo-de-cocina-higienol-8-un-alm-00120",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00121",
+   "titulo": "Agua mineral Glaciar 2,25 L",
+   "marca": "Glaciar",
+   "categoria": "Bebidas",
+   "precio_regular": 16596.75,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/agua-mineral-glaciar-2-25-l-alm-00121",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00122",
+   "titulo": "Shampoo Head & Shoulders 100 ml",
+   "marca": "Head & Shoulders",
+   "categoria": "Higiene personal",
+   "precio_regular": 1373,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/shampoo-head-shoulders-100-ml-alm-00122",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00123",
+   "titulo": "Agua mineral Eco de los Andes x 1,5 L",
+   "marca": "Eco de los Andes",
+   "categoria": "Bebidas",
+   "precio_regular": 9304.61,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/agua-mineral-eco-de-los-andes-x-1-5-l-alm-00123",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00124",
+   "titulo": "Detergente Magistral x 900 cc",
+   "marca": "Magistral",
+   "categoria": "Limpieza",
+   "precio_regular": 13554.9,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "segunda_unidad",
+    "porcentaje": 70,
+    "descripcion": "70% off en la segunda unidad",
+    "vigencia_hasta": "2026-11-12"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/detergente-magistral-x-900-cc-alm-00124",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00125",
+   "titulo": "Pasta dental Oral-B 90 ml",
+   "marca": "Oral-B",
+   "categoria": "Higiene personal",
+   "precio_regular": 783.44,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/pasta-dental-oral-b-90-ml-alm-00125",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00126",
+   "titulo": "Bolsa de residuos Higienol x 12 un",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 136284.67,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/bolsa-de-residuos-higienol-x-12-un-alm-00126",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00127",
+   "titulo": "Desinfectante Lysoform x 500 cc",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 7710.38,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/desinfectante-lysoform-x-500-cc-alm-00127",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00128",
+   "titulo": "Bolsapel Bolsa de residuos 6 un",
+   "marca": "Bolsapel",
+   "categoria": "Hogar",
+   "precio_regular": 45852.31,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/bolsapel-bolsa-de-residuos-6-un-alm-00128",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00129",
+   "titulo": "Arroz largo fino Gallo x 250 g",
+   "marca": "Gallo",
+   "categoria": "Alimentos",
+   "precio_regular": 2905.19,
+   "precio_promocional": 2324.15,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "20% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/arroz-largo-fino-gallo-x-250-g-alm-00129",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00130",
+   "titulo": "Monster Bebida energizante 1000 cc",
+   "marca": "Monster",
+   "categoria": "Bebidas",
+   "precio_regular": 9326.9,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/monster-bebida-energizante-1000-cc-alm-00130",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00131",
+   "titulo": "Harina de trigo Favorita x 250 grs",
+   "marca": "Favorita",
+   "categoria": "Alimentos",
+   "precio_regular": 674.71,
+   "precio_promocional": 472.3,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "30% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/harina-de-trigo-favorita-x-250-grs-alm-00131",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00132",
+   "titulo": "Red Bull Bebida energizante 350 ml",
+   "marca": "Red Bull",
+   "categoria": "Bebidas",
+   "precio_regular": 2476.92,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/red-bull-bebida-energizante-350-ml-alm-00132",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00133",
+   "titulo": "Higienol Papel higienico 500 cc",
+   "marca": "Higienol",
+   "categoria": "Higiene personal",
+   "precio_regular": 3436.96,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/higienol-papel-higienico-500-cc-alm-00133",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00134",
+   "titulo": "Desinfectante Cif 900 ml",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 14628.15,
+   "precio_promocional": 11702.52,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "20% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/desinfectante-cif-900-ml-alm-00134",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00135",
+   "titulo": "Lucchetti Fideos spaghetti 2000 grs",
+   "marca": "Lucchetti",
+   "categoria": "Alimentos",
+   "precio_regular": 5757.09,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/lucchetti-fideos-spaghetti-2000-grs-alm-00135",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00136",
+   "titulo": "Limpiador de pisos Cif x 3 litros",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 16292.44,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/limpiador-de-pisos-cif-x-3-litros-alm-00136",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00137",
+   "titulo": "Mayonesa 1 kg",
+   "marca": null,
+   "categoria": "Alimentos",
+   "precio_regular": 7396.27,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "segunda_unidad",
+    "porcentaje": 70,
+    "descripcion": "70% off en la segunda unidad",
+    "vigencia_hasta": "2026-11-12"
+   },
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/mayonesa-1-kg-alm-00137",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00138",
+   "titulo": "Coca-Cola Gaseosa cola 1 lt",
+   "marca": "Coca-Cola",
+   "categoria": "Bebidas",
+   "precio_regular": 1566.67,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/coca-cola-gaseosa-cola-1-lt-alm-00138",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00139",
+   "titulo": "Eco de los Andes Agua mineral 350 ml",
+   "marca": "Eco de los Andes",
+   "categoria": "Bebidas",
+   "precio_regular": 2146.2,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/eco-de-los-andes-agua-mineral-350-ml-alm-00139",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00140",
+   "titulo": "Rollo de cocina Elite 6 u",
+   "marca": "Elite",
+   "categoria": "Hogar",
+   "precio_regular": 50961.19,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/rollo-de-cocina-elite-6-u-alm-00140",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00141",
+   "titulo": "Fideos spaghetti Favorita 500 grs",
+   "marca": "Favorita",
+   "categoria": "Alimentos",
+   "precio_regular": 2686.66,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/fideos-spaghetti-favorita-500-grs-alm-00141",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00142",
+   "titulo": "Taragüi Yerba mate 1500 gr",
+   "marca": "Taragüi",
+   "categoria": "Alimentos",
+   "precio_regular": 17214.11,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/taragui-yerba-mate-1500-gr-alm-00142",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00143",
+   "titulo": "Jabon de tocador Lux 100 cc",
+   "marca": "Lux",
+   "categoria": "Higiene personal",
+   "precio_regular": 2369.63,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/jabon-de-tocador-lux-100-cc-alm-00143",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00144",
+   "titulo": "Aquarius Agua saborizada 1000 ml",
+   "marca": "Aquarius",
+   "categoria": "Bebidas",
+   "precio_regular": 7544.71,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/aquarius-agua-saborizada-1000-ml-alm-00144",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00145",
+   "titulo": "Gaseosa cola Pepsi 2 lt",
+   "marca": "Pepsi",
+   "categoria": "Bebidas",
+   "precio_regular": 19075.48,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/gaseosa-cola-pepsi-2-lt-alm-00145",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00146",
+   "titulo": "Sensodyne Pasta dental 200 ml",
+   "marca": "Sensodyne",
+   "categoria": "Higiene personal",
+   "precio_regular": 409,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/sensodyne-pasta-dental-200-ml-alm-00146",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00147",
+   "titulo": "Campanita Servilletas 1 u",
+   "marca": "Campanita",
+   "categoria": "Hogar",
+   "precio_regular": 1251.49,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/campanita-servilletas-1-u-alm-00147",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00148",
+   "titulo": "Jugo de naranja Citric x 1000 cc",
+   "marca": "Citric",
+   "categoria": "Bebidas",
+   "precio_regular": 1454.38,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/jugo-de-naranja-citric-x-1000-cc-alm-00148",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00149",
+   "titulo": "Esponja de cocina null x 4 u",
+   "marca": null,
+   "categoria": "Hogar",
+   "precio_regular": 6403.74,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/esponja-de-cocina-null-x-4-u-alm-00149",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00150",
+   "titulo": "Rollo de cocina Sussex 2 u",
+   "marca": "Sussex",
+   "categoria": "Hogar",
+   "precio_regular": 7630.67,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/rollo-de-cocina-sussex-2-u-alm-00150",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00151",
+   "titulo": "Jabon liquido para ropa Skip 450 ml",
+   "marca": "Skip",
+   "categoria": "Limpieza",
+   "precio_regular": 673.78,
+   "precio_promocional": 572.71,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "15% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/jabon-liquido-para-ropa-skip-450-ml-alm-00151",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00152",
+   "titulo": "Pepsi Gaseosa cola 2,5 litros",
+   "marca": "Pepsi",
+   "categoria": "Bebidas",
+   "precio_regular": 2564.35,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/pepsi-gaseosa-cola-2-5-litros-alm-00152",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00153",
+   "titulo": "Yerba mate Taragüi 900 grs",
+   "marca": "Taragüi",
+   "categoria": "Alimentos",
+   "precio_regular": 4848.3,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/yerba-mate-taragui-900-grs-alm-00153",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00154",
+   "titulo": "Lavandina Ayudin x 900 ml",
+   "marca": "Ayudin",
+   "categoria": "Limpieza",
+   "precio_regular": 4855.24,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/lavandina-ayudin-x-900-ml-alm-00154",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00155",
+   "titulo": "Acondicionador Pantene x 1000 cc",
+   "marca": "Pantene",
+   "categoria": "Higiene personal",
+   "precio_regular": 2797.89,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/acondicionador-pantene-x-1000-cc-alm-00155",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00156",
+   "titulo": "Jabon liquido para ropa Drive 1,5 L",
+   "marca": "Drive",
+   "categoria": "Limpieza",
+   "precio_regular": 5943.68,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/jabon-liquido-para-ropa-drive-1-5-l-alm-00156",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00157",
+   "titulo": "Arroz largo fino null x 1000 grs",
+   "marca": null,
+   "categoria": "Alimentos",
+   "precio_regular": 4056.92,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/arroz-largo-fino-null-x-1000-grs-alm-00157",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00158",
+   "titulo": "Detergente Magistral x 2 L",
+   "marca": "Magistral",
+   "categoria": "Limpieza",
+   "precio_regular": 24978.99,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/detergente-magistral-x-2-l-alm-00158",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00159",
+   "titulo": "Leche entera La Serenísima integral 500 grs",
+   "marca": "La Serenísima",
+   "categoria": "Alimentos",
+   "precio_regular": 3548.5,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/leche-entera-la-serenisima-integral-500-grs-alm-00159",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00160",
+   "titulo": "Jabon de tocador Rexona x 100 cc",
+   "marca": "Rexona",
+   "categoria": "Higiene personal",
+   "precio_regular": 565.94,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/jabon-de-tocador-rexona-x-100-cc-alm-00160",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00161",
+   "titulo": "Gaseosa cola Manaos x 700 ml",
+   "marca": "Manaos",
+   "categoria": "Bebidas",
+   "precio_regular": 7633.57,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/gaseosa-cola-manaos-x-700-ml-alm-00161",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00162",
+   "titulo": "Cafe molido Bonafide x 900 grs",
+   "marca": "Bonafide",
+   "categoria": "Alimentos",
+   "precio_regular": 8946.06,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/cafe-molido-bonafide-x-900-grs-alm-00162",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00163",
+   "titulo": "Fideos spaghetti Favorita x 250 gr",
+   "marca": "Favorita",
+   "categoria": "Alimentos",
+   "precio_regular": 2167.2,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/fideos-spaghetti-favorita-x-250-gr-alm-00163",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00164",
+   "titulo": "Fideos spaghetti Lucchetti 1000 grs",
+   "marca": "Lucchetti",
+   "categoria": "Alimentos",
+   "precio_regular": 12656.06,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/fideos-spaghetti-lucchetti-1000-grs-alm-00164",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00165",
+   "titulo": "Aceite de girasol Cocinero 1000 g",
+   "marca": "Cocinero",
+   "categoria": "Alimentos",
+   "precio_regular": 3902.64,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/aceite-de-girasol-cocinero-1000-g-alm-00165",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00166",
+   "titulo": "Playadito Yerba mate 750 g",
+   "marca": "Playadito",
+   "categoria": "Alimentos",
+   "precio_regular": 5910.35,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/playadito-yerba-mate-750-g-alm-00166",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00167",
+   "titulo": "Elite Papel higienico 100 ml",
+   "marca": "Elite",
+   "categoria": "Higiene personal",
+   "precio_regular": 1327.93,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/elite-papel-higienico-100-ml-alm-00167",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00168",
+   "titulo": "Bebida energizante Monster 500 ml",
+   "marca": "Monster",
+   "categoria": "Bebidas",
+   "precio_regular": 1444.95,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/bebida-energizante-monster-500-ml-alm-00168",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00169",
+   "titulo": "Jabon de tocador Rexona 400 cc",
+   "marca": "Rexona",
+   "categoria": "Higiene personal",
+   "precio_regular": 6026.49,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/jabon-de-tocador-rexona-400-cc-alm-00169",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00170",
+   "titulo": "Desodorante Nivea 750 ml",
+   "marca": "Nivea",
+   "categoria": "Higiene personal",
+   "precio_regular": 12005.78,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/desodorante-nivea-750-ml-alm-00170",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00171",
+   "titulo": "Cif Detergente 3000 cc",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 45366.93,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/cif-detergente-3000-cc-alm-00171",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00172",
+   "titulo": "Limpiador de pisos gel Cif x 500 ml",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 9575.34,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/limpiador-de-pisos-gel-cif-x-500-ml-alm-00172",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00173",
+   "titulo": "Gaseosa cola 2 litros",
+   "marca": null,
+   "categoria": "Bebidas",
+   "precio_regular": 8633.16,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/gaseosa-cola-2-litros-alm-00173",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00174",
+   "titulo": "Fanacoa Mayonesa 500 gr",
+   "marca": "Fanacoa",
+   "categoria": "Alimentos",
+   "precio_regular": 1217.91,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/fanacoa-mayonesa-500-gr-alm-00174",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00175",
+   "titulo": "Lavandina Clorox gel 750 cc",
+   "marca": "Clorox",
+   "categoria": "Limpieza",
+   "precio_regular": 8146.13,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/lavandina-clorox-gel-750-cc-alm-00175",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00176",
+   "titulo": "Fideos spaghetti Matarazzo 1500 gr",
+   "marca": "Matarazzo",
+   "categoria": "Alimentos",
+   "precio_regular": 20338.96,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/fideos-spaghetti-matarazzo-1500-gr-alm-00176",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00177",
+   "titulo": "Papel higienico Elite 1000 ml",
+   "marca": "Elite",
+   "categoria": "Higiene personal",
+   "precio_regular": 20413.97,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/papel-higienico-elite-1000-ml-alm-00177",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00178",
+   "titulo": "Magistral Detergente 1500 ml",
+   "marca": "Magistral",
+   "categoria": "Limpieza",
+   "precio_regular": 6350.66,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/magistral-detergente-1500-ml-alm-00178",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00179",
+   "titulo": "Galletitas dulces Oreo 1500 gr",
+   "marca": "Oreo",
+   "categoria": "Alimentos",
+   "precio_regular": 4664.58,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/galletitas-dulces-oreo-1500-gr-alm-00179",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00180",
+   "titulo": "Sedal Shampoo 100 cc",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 1982.18,
+   "precio_promocional": 1486.64,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "25% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/sedal-shampoo-100-cc-alm-00180",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00181",
+   "titulo": "Fideos spaghetti Favorita 1000 gr",
+   "marca": "Favorita",
+   "categoria": "Alimentos",
+   "precio_regular": 12682.38,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/fideos-spaghetti-favorita-1000-gr-alm-00181",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00182",
+   "titulo": "Desinfectante Procenex 900 ml",
+   "marca": "Procenex",
+   "categoria": "Limpieza",
+   "precio_regular": 8913.76,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/desinfectante-procenex-900-ml-alm-00182",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00183",
+   "titulo": "Pantene Acondicionador 90 cc",
+   "marca": "Pantene",
+   "categoria": "Higiene personal",
+   "precio_regular": 415.54,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/pantene-acondicionador-90-cc-alm-00183",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00184",
+   "titulo": "Hellmann's Mayonesa 2000 g",
+   "marca": "Hellmann's",
+   "categoria": "Alimentos",
+   "precio_regular": 19718.17,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/hellmann-s-mayonesa-2000-g-alm-00184",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00185",
+   "titulo": "Citric Jugo de naranja sabor pomelo 1,5 lt",
+   "marca": "Citric",
+   "categoria": "Bebidas",
+   "precio_regular": 3198.49,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/citric-jugo-de-naranja-sabor-pomelo-1-5-lt-alm-00185",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00186",
+   "titulo": "Rollo de cocina 4 unidades",
+   "marca": null,
+   "categoria": "Hogar",
+   "precio_regular": 20282.83,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/rollo-de-cocina-4-unidades-alm-00186",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00187",
+   "titulo": "Esponja de cocina Mortimer x 24 u",
+   "marca": "Mortimer",
+   "categoria": "Hogar",
+   "precio_regular": 105400.85,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/esponja-de-cocina-mortimer-x-24-u-alm-00187",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00188",
+   "titulo": "Cif Detergente 900 cc",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 13813.25,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/cif-detergente-900-cc-alm-00188",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00189",
+   "titulo": "Sedal Shampoo repuesto 90 cc",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 1482.72,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/sedal-shampoo-repuesto-90-cc-alm-00189",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00190",
+   "titulo": "Jabon liquido para ropa Skip x 3 L",
+   "marca": "Skip",
+   "categoria": "Limpieza",
+   "precio_regular": 21276.74,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/jabon-liquido-para-ropa-skip-x-3-l-alm-00190",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00191",
+   "titulo": "Jabon liquido para ropa Ala 750 ml",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 10369.58,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/jabon-liquido-para-ropa-ala-750-ml-alm-00191",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00192",
+   "titulo": "Bebida energizante Speed 2,25 L",
+   "marca": "Speed",
+   "categoria": "Bebidas",
+   "precio_regular": 25389.13,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/bebida-energizante-speed-2-25-l-alm-00192",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00193",
+   "titulo": "Bebida energizante Speed x 1000 ml",
+   "marca": "Speed",
+   "categoria": "Bebidas",
+   "precio_regular": 7784.26,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/bebida-energizante-speed-x-1000-ml-alm-00193",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00194",
+   "titulo": "Jabon liquido para ropa Skip 500 ml",
+   "marca": "Skip",
+   "categoria": "Limpieza",
+   "precio_regular": 1306.82,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/jabon-liquido-para-ropa-skip-500-ml-alm-00194",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00195",
+   "titulo": "Levité Agua saborizada 2000 ml",
+   "marca": "Levité",
+   "categoria": "Bebidas",
+   "precio_regular": 16951.48,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/levite-agua-saborizada-2000-ml-alm-00195",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00196",
+   "titulo": "Gaseosa cola Manaos 1 L",
+   "marca": "Manaos",
+   "categoria": "Bebidas",
+   "precio_regular": 3131.08,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/gaseosa-cola-manaos-1-l-alm-00196",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00197",
+   "titulo": "Galletitas dulces Bagley x 2000 gr",
+   "marca": "Bagley",
+   "categoria": "Alimentos",
+   "precio_regular": 8272.11,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/galletitas-dulces-bagley-x-2000-gr-alm-00197",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00198",
+   "titulo": "Shampoo Pantene x 100 ml",
+   "marca": "Pantene",
+   "categoria": "Higiene personal",
+   "precio_regular": 1735.01,
+   "precio_promocional": 1388.01,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "20% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/shampoo-pantene-x-100-ml-alm-00198",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00199",
+   "titulo": "Limpiador de pisos Lysoform 3000 cc",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 37564.65,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/limpiador-de-pisos-lysoform-3000-cc-alm-00199",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00200",
+   "titulo": "Papel higienico Higienol x 200 ml",
+   "marca": "Higienol",
+   "categoria": "Higiene personal",
+   "precio_regular": 2726.7,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/papel-higienico-higienol-x-200-ml-alm-00200",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00201",
+   "titulo": "Detergente Ala 900 cc",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 15590.96,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/detergente-ala-900-cc-alm-00201",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00202",
+   "titulo": "Jugo de naranja Cepita 500 ml",
+   "marca": "Cepita",
+   "categoria": "Bebidas",
+   "precio_regular": 4249.25,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/jugo-de-naranja-cepita-500-ml-alm-00202",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00203",
+   "titulo": "Bebida energizante 500 ml",
+   "marca": null,
+   "categoria": "Bebidas",
+   "precio_regular": 459.23,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/bebida-energizante-500-ml-alm-00203",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00204",
+   "titulo": "Esponja de cocina Virulana 4 u",
+   "marca": "Virulana",
+   "categoria": "Hogar",
+   "precio_regular": 32927.63,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/esponja-de-cocina-virulana-4-u-alm-00204",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00205",
+   "titulo": "Nivea Desodorante 90 ml",
+   "marca": "Nivea",
+   "categoria": "Higiene personal",
+   "precio_regular": 883.78,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/nivea-desodorante-90-ml-alm-00205",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00206",
+   "titulo": "Vivere Suavizante para ropa 1000 ml",
+   "marca": "Vivere",
+   "categoria": "Limpieza",
+   "precio_regular": 14019.89,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/vivere-suavizante-para-ropa-1000-ml-alm-00206",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00207",
+   "titulo": "Yerba mate 250 gr",
+   "marca": null,
+   "categoria": "Alimentos",
+   "precio_regular": 2302.02,
+   "precio_promocional": 1841.62,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "20% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/yerba-mate-250-gr-alm-00207",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00208",
+   "titulo": "Ledesma Azucar refinada orgánico 250 gr",
+   "marca": "Ledesma",
+   "categoria": "Alimentos",
+   "precio_regular": 2438.23,
+   "precio_promocional": 2194.41,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "10% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/ledesma-azucar-refinada-organico-250-gr-alm-00208",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00209",
+   "titulo": "Dove Jabon de tocador 750 cc",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 17419.29,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/dove-jabon-de-tocador-750-cc-alm-00209",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00210",
+   "titulo": "Servilletas Campanita 4 u",
+   "marca": "Campanita",
+   "categoria": "Hogar",
+   "precio_regular": 16642.93,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/servilletas-campanita-4-u-alm-00210",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00211",
+   "titulo": "Agua saborizada H2OH 2250 ml",
+   "marca": "H2OH",
+   "categoria": "Bebidas",
+   "precio_regular": 13377.03,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/agua-saborizada-h2oh-2250-ml-alm-00211",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00212",
+   "titulo": "Gaseosa cola Pepsi 350 ml",
+   "marca": "Pepsi",
+   "categoria": "Bebidas",
+   "precio_regular": 329.76,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/gaseosa-cola-pepsi-350-ml-alm-00212",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00213",
+   "titulo": "Gallo Arroz largo fino 2 kg",
+   "marca": "Gallo",
+   "categoria": "Alimentos",
+   "precio_regular": 21812.23,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/gallo-arroz-largo-fino-2-kg-alm-00213",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00214",
+   "titulo": "Acondicionador Sedal 750 ml",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 3256.97,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/acondicionador-sedal-750-ml-alm-00214",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00215",
+   "titulo": "Esponja de cocina Mortimer x 12 un",
+   "marca": "Mortimer",
+   "categoria": "Hogar",
+   "precio_regular": 63249.57,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/esponja-de-cocina-mortimer-x-12-un-alm-00215",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00216",
+   "titulo": "Servilletas Sussex 2 u",
+   "marca": "Sussex",
+   "categoria": "Hogar",
+   "precio_regular": 5174.09,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/servilletas-sussex-2-u-alm-00216",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00217",
+   "titulo": "Suavizante para ropa Ala 900 cc",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 12788.14,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/suavizante-para-ropa-ala-900-cc-alm-00217",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00218",
+   "titulo": "Jugo de naranja Cepita 2250 ml",
+   "marca": "Cepita",
+   "categoria": "Bebidas",
+   "precio_regular": 18595.75,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/jugo-de-naranja-cepita-2250-ml-alm-00218",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00219",
+   "titulo": "Yerba mate Taragüi 1,5 kg",
+   "marca": "Taragüi",
+   "categoria": "Alimentos",
+   "precio_regular": 13236.15,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/yerba-mate-taragui-1-5-kg-alm-00219",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00220",
+   "titulo": "Dove Acondicionador 2 L",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 25907.95,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/dove-acondicionador-2-l-alm-00220",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00221",
+   "titulo": "Agua mineral Eco de los Andes 1 lt",
+   "marca": "Eco de los Andes",
+   "categoria": "Bebidas",
+   "precio_regular": 3079.63,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/agua-mineral-eco-de-los-andes-1-lt-alm-00221",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00222",
+   "titulo": "Agua saborizada Levité x 500 ml",
+   "marca": "Levité",
+   "categoria": "Bebidas",
+   "precio_regular": 1151.02,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/agua-saborizada-levite-x-500-ml-alm-00222",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00223",
+   "titulo": "Agua mineral Villavicencio 350 cc",
+   "marca": "Villavicencio",
+   "categoria": "Bebidas",
+   "precio_regular": 1530.96,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/agua-mineral-villavicencio-350-cc-alm-00223",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00224",
+   "titulo": "Agua mineral Glaciar x 2000 ml",
+   "marca": "Glaciar",
+   "categoria": "Bebidas",
+   "precio_regular": 5638.35,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/agua-mineral-glaciar-x-2000-ml-alm-00224",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00225",
+   "titulo": "Cafe molido Nescafé 900 gr",
+   "marca": "Nescafé",
+   "categoria": "Alimentos",
+   "precio_regular": 13727.45,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/cafe-molido-nescafe-900-gr-alm-00225",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00226",
+   "titulo": "Papel higienico Elite x 400 ml",
+   "marca": "Elite",
+   "categoria": "Higiene personal",
+   "precio_regular": 3889.97,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/papel-higienico-elite-x-400-ml-alm-00226",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00227",
+   "titulo": "Rexona Jabon de tocador 200 ml",
+   "marca": "Rexona",
+   "categoria": "Higiene personal",
+   "precio_regular": 3245.27,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/rexona-jabon-de-tocador-200-ml-alm-00227",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00228",
+   "titulo": "Acondicionador Pantene x 200 ml",
+   "marca": "Pantene",
+   "categoria": "Higiene personal",
+   "precio_regular": 2965.75,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/acondicionador-pantene-x-200-ml-alm-00228",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00229",
+   "titulo": "Jugo de naranja null x 2000 cc",
+   "marca": null,
+   "categoria": "Bebidas",
+   "precio_regular": 13589.75,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/jugo-de-naranja-null-x-2000-cc-alm-00229",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00230",
+   "titulo": "Glaciar Agua mineral 1000 cc",
+   "marca": "Glaciar",
+   "categoria": "Bebidas",
+   "precio_regular": 4562.9,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/glaciar-agua-mineral-1000-cc-alm-00230",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00231",
+   "titulo": "Shampoo Head & Shoulders x 500 ml",
+   "marca": "Head & Shoulders",
+   "categoria": "Higiene personal",
+   "precio_regular": 6332.57,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/shampoo-head-shoulders-x-500-ml-alm-00231",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00232",
+   "titulo": "Aceite de girasol Natura 1500 gr",
+   "marca": "Natura",
+   "categoria": "Alimentos",
+   "precio_regular": 19015.66,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/aceite-de-girasol-natura-1500-gr-alm-00232",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00233",
+   "titulo": "Shampoo sensitive Sedal x 750 cc",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 8853.54,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/shampoo-sensitive-sedal-x-750-cc-alm-00233",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00234",
+   "titulo": "Jugo de naranja Cepita x 2,5 litros",
+   "marca": "Cepita",
+   "categoria": "Bebidas",
+   "precio_regular": 30743.71,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/jugo-de-naranja-cepita-x-2-5-litros-alm-00234",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00235",
+   "titulo": "Papel higienico Scott x 90 ml",
+   "marca": "Scott",
+   "categoria": "Higiene personal",
+   "precio_regular": 1194.93,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/papel-higienico-scott-x-90-ml-alm-00235",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00236",
+   "titulo": "Papel higienico Scott x 400 cc",
+   "marca": "Scott",
+   "categoria": "Higiene personal",
+   "precio_regular": 5181.63,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/papel-higienico-scott-x-400-cc-alm-00236",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00237",
+   "titulo": "Querubin Lavandina 900 ml",
+   "marca": "Querubin",
+   "categoria": "Limpieza",
+   "precio_regular": 2693.78,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/querubin-lavandina-900-ml-alm-00237",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00238",
+   "titulo": "Desinfectante Lysoform 900 cc",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 13884.89,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/desinfectante-lysoform-900-cc-alm-00238",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00239",
+   "titulo": "Aceite de girasol Cañuelas x 2000 g",
+   "marca": "Cañuelas",
+   "categoria": "Alimentos",
+   "precio_regular": 20256.74,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/aceite-de-girasol-canuelas-x-2000-g-alm-00239",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00240",
+   "titulo": "Jugo de naranja Baggio 3 litros",
+   "marca": "Baggio",
+   "categoria": "Bebidas",
+   "precio_regular": 28658.14,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/jugo-de-naranja-baggio-3-litros-alm-00240",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00241",
+   "titulo": "Bebida energizante Red Bull 2 litros",
+   "marca": "Red Bull",
+   "categoria": "Bebidas",
+   "precio_regular": 10316.44,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "segunda_unidad",
+    "porcentaje": 70,
+    "descripcion": "70% off en la segunda unidad",
+    "vigencia_hasta": "2026-11-12"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/bebida-energizante-red-bull-2-litros-alm-00241",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00242",
+   "titulo": "Jabon liquido para ropa Drive 900 cc",
+   "marca": "Drive",
+   "categoria": "Limpieza",
+   "precio_regular": 8036.24,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/jabon-liquido-para-ropa-drive-900-cc-alm-00242",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00243",
+   "titulo": "Pureza Harina de trigo 250 grs",
+   "marca": "Pureza",
+   "categoria": "Alimentos",
+   "precio_regular": 432.22,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/pureza-harina-de-trigo-250-grs-alm-00243",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00244",
+   "titulo": "Baggio Jugo de naranja 2500 cc",
+   "marca": "Baggio",
+   "categoria": "Bebidas",
+   "precio_regular": 26651.65,
+   "precio_promocional": 21321.32,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "20% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/baggio-jugo-de-naranja-2500-cc-alm-00244",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00245",
+   "titulo": "Bebida energizante Monster 1,5 litros",
+   "marca": "Monster",
+   "categoria": "Bebidas",
+   "precio_regular": 11893.85,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/bebida-energizante-monster-1-5-litros-alm-00245",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00246",
+   "titulo": "Papel higienico Higienol 1 L",
+   "marca": "Higienol",
+   "categoria": "Higiene personal",
+   "precio_regular": 10450.24,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/papel-higienico-higienol-1-l-alm-00246",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00247",
+   "titulo": "Aceite de girasol Natura 500 grs",
+   "marca": "Natura",
+   "categoria": "Alimentos",
+   "precio_regular": 3174.96,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/aceite-de-girasol-natura-500-grs-alm-00247",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00248",
+   "titulo": "Papel higienico Scott x 200 ml",
+   "marca": "Scott",
+   "categoria": "Higiene personal",
+   "precio_regular": 3839.75,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/papel-higienico-scott-x-200-ml-alm-00248",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00249",
+   "titulo": "Yerba mate Playadito x 500 grs",
+   "marca": "Playadito",
+   "categoria": "Alimentos",
+   "precio_regular": 2753.53,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/yerba-mate-playadito-x-500-grs-alm-00249",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00250",
+   "titulo": "La Serenísima Leche entera sin TACC 1 kg",
+   "marca": "La Serenísima",
+   "categoria": "Alimentos",
+   "precio_regular": 6184.52,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "segunda_unidad",
+    "porcentaje": 70,
+    "descripcion": "70% off en la segunda unidad",
+    "vigencia_hasta": "2026-11-12"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/la-serenisima-leche-entera-sin-tacc-1-kg-alm-00250",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00251",
+   "titulo": "Jabon liquido para ropa Ala 1 lt",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 10500.77,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/jabon-liquido-para-ropa-ala-1-lt-alm-00251",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00252",
+   "titulo": "Colgate Pasta dental aroma lavanda 90 ml",
+   "marca": "Colgate",
+   "categoria": "Higiene personal",
+   "precio_regular": 1477.55,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/colgate-pasta-dental-aroma-lavanda-90-ml-alm-00252",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00253",
+   "titulo": "Sedal Shampoo 1 lt",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 13582.24,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/sedal-shampoo-1-lt-alm-00253",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "ALM-00254",
+   "titulo": "Lysoform Desinfectante 1000 ml",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 2427.04,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "Córdoba",
+    "Rosario",
+    "Mendoza"
+   ],
+   "url": "https://almacenpampa.example/p/lysoform-desinfectante-1000-ml-alm-00254",
+   "publicado": "2026-11-02"
+  }
+ ]
+}
