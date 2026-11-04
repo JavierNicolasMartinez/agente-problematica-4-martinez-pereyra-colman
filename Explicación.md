@@ -45,6 +45,9 @@ agente/                        Agente ADK
       datos.py                 Lectura del CSV y de los JSON
       analisis.py              Clasificación contra la mediana
       investigacion.py         Búsqueda, verificación y comparación de un producto
+  guardrails/                  Controles de entrada, herramientas, salida y documentos
+    reglas.py                  Reglas como funciones puras
+    plugin.py                  Conecta las reglas con ADK y registra cada bloqueo
   rag/                         RAG por capas
     infrastructure/            Embeddings y base vectorial Chroma
     schemas/                   Datos de entrada del servicio
@@ -74,8 +77,8 @@ Ejemplo: "Productos de limpieza más caros que la competencia en AMBA".
 4. La herramienta selecciona los productos, decide qué competidores consultar, busca publicaciones, verifica
    cada una, compara precios, clasifica y arma el informe.
 5. La herramienta deja el informe listo y le devuelve al modelo un resumen sin precios.
-6. Gemma comenta el resultado en dos o tres frases. La API descarta el comentario si cita un número que no
-   figura en esos datos, y entrega el informe igual si el comentario falla.
+6. Gemma comenta el resultado en dos o tres frases. El guardrail de salida bloquea el comentario si cita un
+   número sin respaldo, y el informe se entrega igual si el comentario falla.
 7. La API retira el informe, lo guarda en la sesión y lo devuelve al frontend.
 
 Si el pedido no es de precios o falta información, el modelo responde en texto y el frontend lo muestra como
@@ -216,7 +219,28 @@ Decisiones importantes:
 
 ---
 
-## 9. Seguridad
+## 9. Guardrails
+
+Son controles por código alrededor del modelo, reunidos en `GuardrailsPlugin`. Se registra en el `Runner` de la
+API y lo hereda `investigador`, porque `AgentTool` propaga los plugins.
+
+| Guardrail | Mecanismo de ADK | Qué hace |
+|---|---|---|
+| Entrada | `before_model_callback` | Bloquea inyecciones, pedidos de código y de datos falsos sin llamar al modelo |
+| Herramientas | `before_tool_callback` | Valida identificadores, competidores, regiones, categorías, límites y hasta 15 llamadas por consulta |
+| Salida | `after_model_callback` | Bloquea código, identificadores internos, frases de las instrucciones y números sin respaldo |
+| Documentos | `after_tool_callback` | Retira de los fragmentos las oraciones que intentan darle órdenes al modelo |
+
+Un número tiene respaldo si salió de una herramienta en la sesión o del pedido. No se controlan los enteros de
+hasta 31, para no bloquear listas numeradas ni plazos. Cada bloqueo queda en `agente/data/guardrails.log`.
+
+**Límites:** los patrones de entrada y de documentos se pueden esquivar reformulando el texto, y por eso también
+se conserva la regla en las instrucciones. El control de números detecta valores inventados, no malas
+interpretaciones. El plugin no se aplica en `adk web`, porque se registra en el `Runner` de la API.
+
+---
+
+## 10. Seguridad
 
 - La API escucha solo en `127.0.0.1` por defecto.
 - Se validan cuerpo, parámetros y largo del mensaje. El cuerpo admite hasta 10 kB.
@@ -225,13 +249,13 @@ Decisiones importantes:
 - Un informe solo se puede leer desde la sesión que lo generó.
 - En CSV se neutralizan las celdas que empiezan con `=`, `+`, `-` o `@`, para evitar inyección de fórmulas.
 - Las fuentes externas son datos: el agente no ejecuta nada de lo que contienen.
-- El texto de un PDF es información, no instrucciones. Una prueba con una inyección escrita en un PDF no tuvo
-  efecto, pero esa defensa depende del modelo: un documento malicioso podría alterar una respuesta en texto.
+- El texto de un PDF es información, no instrucciones. El guardrail de documentos retira las órdenes que detecta,
+  pero una inyección reformulada podría pasar y alterar una respuesta en texto.
 - La carga acepta solo PDF válidos, y usa únicamente el nombre del archivo, sin rutas.
 
 ---
 
-## 10. Ejemplos de pedidos
+## 11. Ejemplos de pedidos
 
 - "Compará la yerba mate en todos los competidores"
 - "Productos de limpieza más caros que la competencia en AMBA"
