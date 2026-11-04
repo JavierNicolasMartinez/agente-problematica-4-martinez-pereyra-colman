@@ -1,8 +1,6 @@
 """Ejecuta el agente ADK y traduce su resultado a la respuesta que espera el frontend."""
 import asyncio
-import json
 import logging
-import re
 from time import perf_counter
 
 from google.adk.runners import Runner
@@ -10,7 +8,8 @@ from google.adk.sessions import InMemorySessionService
 from google.genai import types
 
 from agente.agent import root_agent
-from agente.tools.generar_informe import datos_para_comentar, retirar_informe
+from agente.guardrails import MENSAJE_SALIDA_BLOQUEADA, GuardrailsPlugin
+from agente.tools.generar_informe import retirar_informe
 
 from .sesiones import Sesion
 
@@ -29,7 +28,7 @@ SUGERENCIAS = [
 ]
 
 _sesiones_adk = InMemorySessionService()
-_runner = Runner(app_name=NOMBRE_APP, agent=root_agent, session_service=_sesiones_adk)
+_runner = Runner(app_name=NOMBRE_APP, agent=root_agent, session_service=_sesiones_adk, plugins=[GuardrailsPlugin()])
 
 
 class ModeloNoDisponible(Exception):
@@ -70,22 +69,6 @@ async def _correr_agente(sesion: Sesion, mensaje: str) -> tuple:
     return informe_id, texto
 
 
-def _numeros(texto: str) -> set:
-    return {float(n.replace(".", "").replace(",", ".")) if "," in n else float(n)
-            for n in re.findall(r"\d+(?:[.,]\d+)?", texto)}
-
-
-def _comentario_seguro(texto: str, informe: dict, mensaje: str) -> str | None:
-    """Descarta el comentario si cita un número que no salió de los datos calculados."""
-    if not texto:
-        return None
-    permitidos = _numeros(json.dumps(datos_para_comentar(informe), ensure_ascii=False) + mensaje)
-    if _numeros(texto) <= permitidos:
-        return texto
-    logger.warning("Se descartó un comentario con números que no figuran en el informe")
-    return None
-
-
 async def ejecutar_consulta(mensaje: str, sesion: Sesion, nuevo_analisis: bool) -> dict:
     async with sesion.bloqueo:
         await _preparar_sesion_adk(sesion, nuevo_analisis)
@@ -103,7 +86,8 @@ async def ejecutar_consulta(mensaje: str, sesion: Sesion, nuevo_analisis: bool) 
         # La interpretación es la llamada al modelo: es casi todo el tiempo de la consulta.
         pasos = informe["pasos"]
         pasos[0]["duracionMs"] = max(duracion_total - sum(p["duracionMs"] for p in pasos[1:]), 0)
-        informe["comentarioAgente"] = _comentario_seguro(texto, informe, mensaje)
+        # Si el guardrail de salida bloqueó el comentario, el informe se muestra sin él.
+        informe["comentarioAgente"] = texto if texto and texto != MENSAJE_SALIDA_BLOQUEADA else None
         sesion.guardar_informe(informe)
         return {"tipo": "informe", "interpretacion": informe["interpretacion"], "informe": informe}
 
