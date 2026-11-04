@@ -1,0 +1,4835 @@
+{
+ "aviso": "FUENTE SIMULADA con fines académicos. Competidor, dominio y precios ficticios.",
+ "competidor": {
+  "id": "mercado-austral",
+  "nombre": "Mercado Austral",
+  "sitio": "https://mercado-austral.example",
+  "pais": "Argentina",
+  "moneda": "ARS",
+  "regiones": [
+   "AMBA",
+   "Córdoba"
+  ],
+  "permite_consulta_automatizada": true,
+  "condiciones": "Consulta automatizada permitida (simulado)."
+ },
+ "generado": "2026-11-02",
+ "productos": [
+  {
+   "sku": "MER-00001",
+   "titulo": "Galletitas dulces Terrabusi 900 grs",
+   "marca": "Terrabusi",
+   "categoria": "Alimentos",
+   "precio_regular": 11887.66,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/galletitas-dulces-terrabusi-900-grs-mer-00001",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00002",
+   "titulo": "Leche entera La Serenísima x 250 g",
+   "marca": "La Serenísima",
+   "categoria": "Alimentos",
+   "precio_regular": 3400.56,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "segunda_unidad",
+    "porcentaje": 70,
+    "descripcion": "70% off en la segunda unidad",
+    "vigencia_hasta": "2026-11-12"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/leche-entera-la-serenisima-x-250-g-mer-00002",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00003",
+   "titulo": "Desodorante Dove 750 ml",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 3000.03,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/desodorante-dove-750-ml-mer-00003",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00004",
+   "titulo": "Bolsa de residuos Bolsapel x 4 un",
+   "marca": "Bolsapel",
+   "categoria": "Hogar",
+   "precio_regular": 36602.12,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/bolsa-de-residuos-bolsapel-x-4-un-mer-00004",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00005",
+   "titulo": "Pasta dental Oral-B x 750 ml",
+   "marca": "Oral-B",
+   "categoria": "Higiene personal",
+   "precio_regular": 9241.52,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/pasta-dental-oral-b-x-750-ml-mer-00005",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00006",
+   "titulo": "Ayudin Lavandina 500 cc",
+   "marca": "Ayudin",
+   "categoria": "Limpieza",
+   "precio_regular": 1362.98,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/ayudin-lavandina-500-cc-mer-00006",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00007",
+   "titulo": "Servilletas Elite 6 u",
+   "marca": "Elite",
+   "categoria": "Hogar",
+   "precio_regular": 55307.93,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/servilletas-elite-6-u-mer-00007",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00008",
+   "titulo": "Jabon de tocador Dove 2000 ml",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 48750.27,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/jabon-de-tocador-dove-2000-ml-mer-00008",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00009",
+   "titulo": "Detergente Ala x 750 ml",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 10495.94,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/detergente-ala-x-750-ml-mer-00009",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00010",
+   "titulo": "Sussex Rollo de cocina 24 un",
+   "marca": "Sussex",
+   "categoria": "Hogar",
+   "precio_regular": 102868.45,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/sussex-rollo-de-cocina-24-un-mer-00010",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00011",
+   "titulo": "Consul Bolsa de residuos 4 unidades",
+   "marca": "Consul",
+   "categoria": "Hogar",
+   "precio_regular": 11288.05,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/consul-bolsa-de-residuos-4-unidades-mer-00011",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00012",
+   "titulo": "Lysoform Limpiador de pisos 1 L",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 15119.29,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/lysoform-limpiador-de-pisos-1-l-mer-00012",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00013",
+   "titulo": "Limpiador de pisos Lysoform x 900 ml",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 6106.27,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/limpiador-de-pisos-lysoform-x-900-ml-mer-00013",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00014",
+   "titulo": "Agua saborizada Aquarius 350 cc",
+   "marca": "Aquarius",
+   "categoria": "Bebidas",
+   "precio_regular": 1028.58,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/agua-saborizada-aquarius-350-cc-mer-00014",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00015",
+   "titulo": "Esponja de cocina Mortimer x 12 unidades",
+   "marca": "Mortimer",
+   "categoria": "Hogar",
+   "precio_regular": 87532.45,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "segunda_unidad",
+    "porcentaje": 70,
+    "descripcion": "70% off en la segunda unidad",
+    "vigencia_hasta": "2026-11-12"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/esponja-de-cocina-mortimer-x-12-unidades-mer-00015",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00016",
+   "titulo": "Limpiador de pisos Poett x 2 lt",
+   "marca": "Poett",
+   "categoria": "Limpieza",
+   "precio_regular": 17645.27,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/limpiador-de-pisos-poett-x-2-lt-mer-00016",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00017",
+   "titulo": "Suavizante para ropa Vivere 500 ml",
+   "marca": "Vivere",
+   "categoria": "Limpieza",
+   "precio_regular": 1671.06,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/suavizante-para-ropa-vivere-500-ml-mer-00017",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00018",
+   "titulo": "Limpiador de pisos Cif x 1000 ml",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 10607.28,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/limpiador-de-pisos-cif-x-1000-ml-mer-00018",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00019",
+   "titulo": "Terrabusi Galletitas dulces 2 kg",
+   "marca": "Terrabusi",
+   "categoria": "Alimentos",
+   "precio_regular": 15138.12,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/terrabusi-galletitas-dulces-2-kg-mer-00019",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00020",
+   "titulo": "Yerba mate Amanda 750 gr",
+   "marca": "Amanda",
+   "categoria": "Alimentos",
+   "precio_regular": 1050.03,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/yerba-mate-amanda-750-gr-mer-00020",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00021",
+   "titulo": "Jugo de naranja null x 500 ml",
+   "marca": null,
+   "categoria": "Bebidas",
+   "precio_regular": 2824.1,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/jugo-de-naranja-null-x-500-ml-mer-00021",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00022",
+   "titulo": "Elite Servilletas 1 unidades",
+   "marca": "Elite",
+   "categoria": "Hogar",
+   "precio_regular": 1666.61,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/elite-servilletas-1-unidades-mer-00022",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00023",
+   "titulo": "Bolsa de residuos Higienol 2 u",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 15746.96,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/bolsa-de-residuos-higienol-2-u-mer-00023",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00024",
+   "titulo": "Yerba mate 1,5 kg",
+   "marca": null,
+   "categoria": "Alimentos",
+   "precio_regular": 15299.52,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/yerba-mate-1-5-kg-mer-00024",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00025",
+   "titulo": "Jabon liquido para ropa Ala 4000 ml",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 17892.65,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/jabon-liquido-para-ropa-ala-4000-ml-mer-00025",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00026",
+   "titulo": "Gaseosa cola Coca-Cola sabor pomelo 350 ml",
+   "marca": "Coca-Cola",
+   "categoria": "Bebidas",
+   "precio_regular": 2828.51,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/gaseosa-cola-coca-cola-sabor-pomelo-350-ml-mer-00026",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00027",
+   "titulo": "Jabon de tocador Lux x 90 cc",
+   "marca": "Lux",
+   "categoria": "Higiene personal",
+   "precio_regular": 1140.66,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/jabon-de-tocador-lux-x-90-cc-mer-00027",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00028",
+   "titulo": "Esponja de cocina Scotch-Brite x 12 u",
+   "marca": "Scotch-Brite",
+   "categoria": "Hogar",
+   "precio_regular": 72860.44,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/esponja-de-cocina-scotch-brite-x-12-u-mer-00028",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00029",
+   "titulo": "Harina de trigo Pureza 750 gr",
+   "marca": "Pureza",
+   "categoria": "Alimentos",
+   "precio_regular": 7774.39,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/harina-de-trigo-pureza-750-gr-mer-00029",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00030",
+   "titulo": "Bebida energizante Red Bull x 2,5 litros",
+   "marca": "Red Bull",
+   "categoria": "Bebidas",
+   "precio_regular": 20420.77,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/bebida-energizante-red-bull-x-2-5-litros-mer-00030",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00031",
+   "titulo": "Lavandina Clorox x 3 L",
+   "marca": "Clorox",
+   "categoria": "Limpieza",
+   "precio_regular": 54147.32,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/lavandina-clorox-x-3-l-mer-00031",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00032",
+   "titulo": "H2OH Agua saborizada 3 litros",
+   "marca": "H2OH",
+   "categoria": "Bebidas",
+   "precio_regular": 13621.4,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/h2oh-agua-saborizada-3-litros-mer-00032",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00033",
+   "titulo": "Aceite de girasol Natura x 2000 g",
+   "marca": "Natura",
+   "categoria": "Alimentos",
+   "precio_regular": 14759.57,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/aceite-de-girasol-natura-x-2000-g-mer-00033",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00034",
+   "titulo": "Acondicionador Dove 100 ml",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 1538.1,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/acondicionador-dove-100-ml-mer-00034",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00035",
+   "titulo": "Lavandina Querubin x 2000 cc",
+   "marca": "Querubin",
+   "categoria": "Limpieza",
+   "precio_regular": 31920.38,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/lavandina-querubin-x-2000-cc-mer-00035",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00036",
+   "titulo": "Harina de trigo Morixe x 1000 gr",
+   "marca": "Morixe",
+   "categoria": "Alimentos",
+   "precio_regular": 2215.85,
+   "precio_promocional": 1883.47,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "15% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/harina-de-trigo-morixe-x-1000-gr-mer-00036",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00037",
+   "titulo": "Amanda Yerba mate 250 gr",
+   "marca": "Amanda",
+   "categoria": "Alimentos",
+   "precio_regular": 3256.86,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/amanda-yerba-mate-250-gr-mer-00037",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00038",
+   "titulo": "Rollo de cocina Sussex x 4 u",
+   "marca": "Sussex",
+   "categoria": "Hogar",
+   "precio_regular": 31387.64,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/rollo-de-cocina-sussex-x-4-u-mer-00038",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00039",
+   "titulo": "Drive Jabon liquido para ropa 750 ml",
+   "marca": "Drive",
+   "categoria": "Limpieza",
+   "precio_regular": 4896.76,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/drive-jabon-liquido-para-ropa-750-ml-mer-00039",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00040",
+   "titulo": "Monster Bebida energizante 2,5 L",
+   "marca": "Monster",
+   "categoria": "Bebidas",
+   "precio_regular": 5998.12,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/monster-bebida-energizante-2-5-l-mer-00040",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00041",
+   "titulo": "Cepita Jugo de naranja 350 cc",
+   "marca": "Cepita",
+   "categoria": "Bebidas",
+   "precio_regular": 2878.99,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/cepita-jugo-de-naranja-350-cc-mer-00041",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00042",
+   "titulo": "Fideos spaghetti Matarazzo x 1 kg",
+   "marca": "Matarazzo",
+   "categoria": "Alimentos",
+   "precio_regular": 12644.46,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/fideos-spaghetti-matarazzo-x-1-kg-mer-00042",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00043",
+   "titulo": "Servilletas Elite x 1 unidades",
+   "marca": "Elite",
+   "categoria": "Hogar",
+   "precio_regular": 9749.3,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/servilletas-elite-x-1-unidades-mer-00043",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00044",
+   "titulo": "Esponja de cocina Virulana x 1 u",
+   "marca": "Virulana",
+   "categoria": "Hogar",
+   "precio_regular": 7558.19,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/esponja-de-cocina-virulana-x-1-u-mer-00044",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00045",
+   "titulo": "Skip Jabon liquido para ropa 2000 cc",
+   "marca": "Skip",
+   "categoria": "Limpieza",
+   "precio_regular": 34761.1,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/skip-jabon-liquido-para-ropa-2000-cc-mer-00045",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00046",
+   "titulo": "Bolsa de residuos Consul 24 u",
+   "marca": "Consul",
+   "categoria": "Hogar",
+   "precio_regular": 97182.57,
+   "precio_promocional": 68027.8,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "30% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/bolsa-de-residuos-consul-24-u-mer-00046",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00047",
+   "titulo": "Arroz largo fino Dos Hermanos 250 g",
+   "marca": "Dos Hermanos",
+   "categoria": "Alimentos",
+   "precio_regular": 1873.97,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/arroz-largo-fino-dos-hermanos-250-g-mer-00047",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00048",
+   "titulo": "Servilletas Elite 24 u",
+   "marca": "Elite",
+   "categoria": "Hogar",
+   "precio_regular": 232822.71,
+   "precio_promocional": 174617.03,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "25% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/servilletas-elite-24-u-mer-00048",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00049",
+   "titulo": "Lavandina Ayudin 2 L",
+   "marca": "Ayudin",
+   "categoria": "Limpieza",
+   "precio_regular": 29268.87,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/lavandina-ayudin-2-l-mer-00049",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00050",
+   "titulo": "Jabon liquido para ropa Drive x 500 ml",
+   "marca": "Drive",
+   "categoria": "Limpieza",
+   "precio_regular": 7992.26,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/jabon-liquido-para-ropa-drive-x-500-ml-mer-00050",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00051",
+   "titulo": "Agua mineral Villavicencio x 2,5 lt",
+   "marca": "Villavicencio",
+   "categoria": "Bebidas",
+   "precio_regular": 8353.24,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/agua-mineral-villavicencio-x-2-5-lt-mer-00051",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00052",
+   "titulo": "Arroz largo fino Gallo 1,5 kg",
+   "marca": "Gallo",
+   "categoria": "Alimentos",
+   "precio_regular": 4525.59,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/arroz-largo-fino-gallo-1-5-kg-mer-00052",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00053",
+   "titulo": "Acondicionador Sedal 400 cc",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 8751.56,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/acondicionador-sedal-400-cc-mer-00053",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00054",
+   "titulo": "Arroz largo fino Gallo 750 gr",
+   "marca": "Gallo",
+   "categoria": "Alimentos",
+   "precio_regular": 9270.6,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/arroz-largo-fino-gallo-750-gr-mer-00054",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00055",
+   "titulo": "Esponja de cocina Virulana x 2 un",
+   "marca": "Virulana",
+   "categoria": "Hogar",
+   "precio_regular": 4244.34,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/esponja-de-cocina-virulana-x-2-un-mer-00055",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00056",
+   "titulo": "Leche entera Ilolay 250 g",
+   "marca": "Ilolay",
+   "categoria": "Alimentos",
+   "precio_regular": 2095.47,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/leche-entera-ilolay-250-g-mer-00056",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00057",
+   "titulo": "Rollo de cocina Higienol x 6 u",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 21026.88,
+   "precio_promocional": 14718.82,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "30% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/rollo-de-cocina-higienol-x-6-u-mer-00057",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00058",
+   "titulo": "Servilletas Elite 12 u",
+   "marca": "Elite",
+   "categoria": "Hogar",
+   "precio_regular": 105804.34,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/servilletas-elite-12-u-mer-00058",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00059",
+   "titulo": "Suavizante para ropa Vivere 3000 ml",
+   "marca": "Vivere",
+   "categoria": "Limpieza",
+   "precio_regular": 19038.38,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/suavizante-para-ropa-vivere-3000-ml-mer-00059",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00060",
+   "titulo": "Sussex Servilletas 1 unidades",
+   "marca": "Sussex",
+   "categoria": "Hogar",
+   "precio_regular": 7588.07,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/sussex-servilletas-1-unidades-mer-00060",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00061",
+   "titulo": "Mayonesa Fanacoa 1500 g",
+   "marca": "Fanacoa",
+   "categoria": "Alimentos",
+   "precio_regular": 11688,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/mayonesa-fanacoa-1500-g-mer-00061",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00062",
+   "titulo": "Dove Desodorante 50 ml",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 201.05,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/dove-desodorante-50-ml-mer-00062",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00063",
+   "titulo": "Bebida energizante Monster x 2250 cc",
+   "marca": "Monster",
+   "categoria": "Bebidas",
+   "precio_regular": 6284.1,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/bebida-energizante-monster-x-2250-cc-mer-00063",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00064",
+   "titulo": "Bolsa de residuos Consul 6 un",
+   "marca": "Consul",
+   "categoria": "Hogar",
+   "precio_regular": 67358.02,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/bolsa-de-residuos-consul-6-un-mer-00064",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00065",
+   "titulo": "Jugo de naranja Baggio 500 cc",
+   "marca": "Baggio",
+   "categoria": "Bebidas",
+   "precio_regular": 1750.15,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/jugo-de-naranja-baggio-500-cc-mer-00065",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00066",
+   "titulo": "Rollo de cocina Higienol 12 u",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 24425.61,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/rollo-de-cocina-higienol-12-u-mer-00066",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00067",
+   "titulo": "Esponja de cocina Scotch-Brite 3 un",
+   "marca": "Scotch-Brite",
+   "categoria": "Hogar",
+   "precio_regular": 6681.04,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/esponja-de-cocina-scotch-brite-3-un-mer-00067",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00068",
+   "titulo": "Detergente Ala x 500 ml",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 943.03,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/detergente-ala-x-500-ml-mer-00068",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00069",
+   "titulo": "Pantene Shampoo 45 ml",
+   "marca": "Pantene",
+   "categoria": "Higiene personal",
+   "precio_regular": 106.42,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/pantene-shampoo-45-ml-mer-00069",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00070",
+   "titulo": "Suavizante para ropa Comfort 1,5 litros",
+   "marca": "Comfort",
+   "categoria": "Limpieza",
+   "precio_regular": 14113.87,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/suavizante-para-ropa-comfort-1-5-litros-mer-00070",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00071",
+   "titulo": "Papel higienico Higienol 50 ml",
+   "marca": "Higienol",
+   "categoria": "Higiene personal",
+   "precio_regular": 252.56,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/papel-higienico-higienol-50-ml-mer-00071",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00072",
+   "titulo": "Bolsa de residuos Consul x 1 u",
+   "marca": "Consul",
+   "categoria": "Hogar",
+   "precio_regular": 5475.61,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/bolsa-de-residuos-consul-x-1-u-mer-00072",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00073",
+   "titulo": "Rollo de cocina Higienol reforzada 1 unidades",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 10324.76,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/rollo-de-cocina-higienol-reforzada-1-unidades-mer-00073",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00074",
+   "titulo": "Servilletas Campanita 24 u",
+   "marca": "Campanita",
+   "categoria": "Hogar",
+   "precio_regular": 257047.74,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/servilletas-campanita-24-u-mer-00074",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00075",
+   "titulo": "Bebida energizante Red Bull x 2250 cc",
+   "marca": "Red Bull",
+   "categoria": "Bebidas",
+   "precio_regular": 16730.82,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/bebida-energizante-red-bull-x-2250-cc-mer-00075",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00076",
+   "titulo": "Jugo de naranja Citric x 2500 cc",
+   "marca": "Citric",
+   "categoria": "Bebidas",
+   "precio_regular": 14313.47,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/jugo-de-naranja-citric-x-2500-cc-mer-00076",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00077",
+   "titulo": "Lux Jabon de tocador 500 ml",
+   "marca": "Lux",
+   "categoria": "Higiene personal",
+   "precio_regular": 3528.54,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/lux-jabon-de-tocador-500-ml-mer-00077",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00078",
+   "titulo": "Acondicionador Sedal x 100 cc",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 997.98,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/acondicionador-sedal-x-100-cc-mer-00078",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00079",
+   "titulo": "Acondicionador Sedal 400 cc",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 7389.33,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/acondicionador-sedal-400-cc-mer-00079",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00080",
+   "titulo": "Agua mineral Glaciar 2500 ml",
+   "marca": "Glaciar",
+   "categoria": "Bebidas",
+   "precio_regular": 29960.44,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/agua-mineral-glaciar-2500-ml-mer-00080",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00081",
+   "titulo": "Suavizante para ropa Ala 1,5 lt",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 10098.77,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/suavizante-para-ropa-ala-1-5-lt-mer-00081",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00082",
+   "titulo": "Galletitas dulces Oreo 250 g",
+   "marca": "Oreo",
+   "categoria": "Alimentos",
+   "precio_regular": 2496.63,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/galletitas-dulces-oreo-250-g-mer-00082",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00083",
+   "titulo": "Desinfectante Procenex x 500 cc",
+   "marca": "Procenex",
+   "categoria": "Limpieza",
+   "precio_regular": 6090.99,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/desinfectante-procenex-x-500-cc-mer-00083",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00084",
+   "titulo": "Shampoo Sedal 1000 ml",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 3713.47,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/shampoo-sedal-1000-ml-mer-00084",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00085",
+   "titulo": "Bonafide Cafe molido 1 kg",
+   "marca": "Bonafide",
+   "categoria": "Alimentos",
+   "precio_regular": 10692.58,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/bonafide-cafe-molido-1-kg-mer-00085",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00086",
+   "titulo": "Pasta dental Colgate 100 ml",
+   "marca": "Colgate",
+   "categoria": "Higiene personal",
+   "precio_regular": 1543.07,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/pasta-dental-colgate-100-ml-mer-00086",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00087",
+   "titulo": "Arroz largo fino Gallo 1800 gr",
+   "marca": "Gallo",
+   "categoria": "Alimentos",
+   "precio_regular": 14768.49,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/arroz-largo-fino-gallo-1800-gr-mer-00087",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00088",
+   "titulo": "Drive Jabon liquido para ropa 1000 ml",
+   "marca": "Drive",
+   "categoria": "Limpieza",
+   "precio_regular": 15215.19,
+   "precio_promocional": 10650.63,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "30% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/drive-jabon-liquido-para-ropa-1000-ml-mer-00088",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00089",
+   "titulo": "Papel higienico Scott x 750 ml",
+   "marca": "Scott",
+   "categoria": "Higiene personal",
+   "precio_regular": 6189.95,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/papel-higienico-scott-x-750-ml-mer-00089",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00090",
+   "titulo": "Jabon de tocador Rexona 50 ml",
+   "marca": "Rexona",
+   "categoria": "Higiene personal",
+   "precio_regular": 208.31,
+   "precio_promocional": 145.82,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "30% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/jabon-de-tocador-rexona-50-ml-mer-00090",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00091",
+   "titulo": "Esponja de cocina Virulana x 12 un",
+   "marca": "Virulana",
+   "categoria": "Hogar",
+   "precio_regular": 61081.82,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/esponja-de-cocina-virulana-x-12-un-mer-00091",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00092",
+   "titulo": "Servilletas Sussex 24 unidades",
+   "marca": "Sussex",
+   "categoria": "Hogar",
+   "precio_regular": 153990.81,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/servilletas-sussex-24-unidades-mer-00092",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00093",
+   "titulo": "Rollo de cocina Elite 1 un",
+   "marca": "Elite",
+   "categoria": "Hogar",
+   "precio_regular": 8007.46,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/rollo-de-cocina-elite-1-un-mer-00093",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00094",
+   "titulo": "Leche entera Sancor 250 gr",
+   "marca": "Sancor",
+   "categoria": "Alimentos",
+   "precio_regular": 1902.23,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/leche-entera-sancor-250-gr-mer-00094",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00095",
+   "titulo": "Desodorante Nivea 50 ml",
+   "marca": "Nivea",
+   "categoria": "Higiene personal",
+   "precio_regular": 590.91,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/desodorante-nivea-50-ml-mer-00095",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00096",
+   "titulo": "Jugo de naranja Cepita x 1000 ml",
+   "marca": "Cepita",
+   "categoria": "Bebidas",
+   "precio_regular": 11343.41,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/jugo-de-naranja-cepita-x-1000-ml-mer-00096",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00097",
+   "titulo": "Desodorante 50 ml",
+   "marca": null,
+   "categoria": "Higiene personal",
+   "precio_regular": 1175.75,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/desodorante-50-ml-mer-00097",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00098",
+   "titulo": "Cafe molido Nescafé x 500 g",
+   "marca": "Nescafé",
+   "categoria": "Alimentos",
+   "precio_regular": 5576.07,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/cafe-molido-nescafe-x-500-g-mer-00098",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00099",
+   "titulo": "Servilletas Campanita x 2 u",
+   "marca": "Campanita",
+   "categoria": "Hogar",
+   "precio_regular": 21494.87,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/servilletas-campanita-x-2-u-mer-00099",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00100",
+   "titulo": "Agua saborizada H2OH 350 cc",
+   "marca": "H2OH",
+   "categoria": "Bebidas",
+   "precio_regular": 381.72,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/agua-saborizada-h2oh-350-cc-mer-00100",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00101",
+   "titulo": "Aceite de girasol Cañuelas 1000 gr",
+   "marca": "Cañuelas",
+   "categoria": "Alimentos",
+   "precio_regular": 11412.26,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/aceite-de-girasol-canuelas-1000-gr-mer-00101",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00102",
+   "titulo": "Desodorante Dove 1 litros",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 17585.17,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/desodorante-dove-1-litros-mer-00102",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00103",
+   "titulo": "Rollo de cocina Higienol x 24 unidades",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 36727.28,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/rollo-de-cocina-higienol-x-24-unidades-mer-00103",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00104",
+   "titulo": "Ayudin Lavandina aroma lavanda 500 cc",
+   "marca": "Ayudin",
+   "categoria": "Limpieza",
+   "precio_regular": 4808.16,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/ayudin-lavandina-aroma-lavanda-500-cc-mer-00104",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00105",
+   "titulo": "Cif Limpiador de pisos 1,5 lt",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 23729.96,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/cif-limpiador-de-pisos-1-5-lt-mer-00105",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00106",
+   "titulo": "Detergente Cif 1 litros",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 4996.76,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/detergente-cif-1-litros-mer-00106",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00107",
+   "titulo": "Cocinero Aceite de girasol 4000 grs",
+   "marca": "Cocinero",
+   "categoria": "Alimentos",
+   "precio_regular": 35761.04,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/cocinero-aceite-de-girasol-4000-grs-mer-00107",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00108",
+   "titulo": "Lavandina Querubin x 500 cc",
+   "marca": "Querubin",
+   "categoria": "Limpieza",
+   "precio_regular": 2182.48,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/lavandina-querubin-x-500-cc-mer-00108",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00109",
+   "titulo": "H2OH Agua saborizada 1000 ml",
+   "marca": "H2OH",
+   "categoria": "Bebidas",
+   "precio_regular": 2540.74,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/h2oh-agua-saborizada-1000-ml-mer-00109",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00110",
+   "titulo": "Bebida energizante Red Bull 1 lt",
+   "marca": "Red Bull",
+   "categoria": "Bebidas",
+   "precio_regular": 7645.27,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/bebida-energizante-red-bull-1-lt-mer-00110",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00111",
+   "titulo": "Limpiador de pisos Poett x 1,5 litros",
+   "marca": "Poett",
+   "categoria": "Limpieza",
+   "precio_regular": 28091.31,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/limpiador-de-pisos-poett-x-1-5-litros-mer-00111",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00112",
+   "titulo": "Bolsa de residuos Consul x 2 un",
+   "marca": "Consul",
+   "categoria": "Hogar",
+   "precio_regular": 10807.63,
+   "precio_promocional": 9186.49,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "15% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/bolsa-de-residuos-consul-x-2-un-mer-00112",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00113",
+   "titulo": "Pasta dental Oral-B x 500 ml",
+   "marca": "Oral-B",
+   "categoria": "Higiene personal",
+   "precio_regular": 6063.48,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/pasta-dental-oral-b-x-500-ml-mer-00113",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00114",
+   "titulo": "Acondicionador Dove x 50 ml",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 611.75,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/acondicionador-dove-x-50-ml-mer-00114",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00115",
+   "titulo": "Jabon liquido para ropa Skip 750 cc",
+   "marca": "Skip",
+   "categoria": "Limpieza",
+   "precio_regular": 8815.9,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/jabon-liquido-para-ropa-skip-750-cc-mer-00115",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00116",
+   "titulo": "Baggio Jugo de naranja 2000 ml",
+   "marca": "Baggio",
+   "categoria": "Bebidas",
+   "precio_regular": 16992.08,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/baggio-jugo-de-naranja-2000-ml-mer-00116",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00117",
+   "titulo": "Suavizante para ropa Comfort x 900 cc",
+   "marca": "Comfort",
+   "categoria": "Limpieza",
+   "precio_regular": 15632.07,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/suavizante-para-ropa-comfort-x-900-cc-mer-00117",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00118",
+   "titulo": "Desinfectante Lysoform 3 L",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 27826.57,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/desinfectante-lysoform-3-l-mer-00118",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00119",
+   "titulo": "Pasta dental Colgate 375 cc",
+   "marca": "Colgate",
+   "categoria": "Higiene personal",
+   "precio_regular": 3163.14,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/pasta-dental-colgate-375-cc-mer-00119",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00120",
+   "titulo": "Desinfectante Cif 1000 ml",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 3560.12,
+   "precio_promocional": 2848.1,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "20% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/desinfectante-cif-1000-ml-mer-00120",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00121",
+   "titulo": "Lucchetti Fideos spaghetti 750 gr",
+   "marca": "Lucchetti",
+   "categoria": "Alimentos",
+   "precio_regular": 2190.6,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/lucchetti-fideos-spaghetti-750-gr-mer-00121",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00122",
+   "titulo": "Acondicionador Pantene 500 cc",
+   "marca": "Pantene",
+   "categoria": "Higiene personal",
+   "precio_regular": 1011.93,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/acondicionador-pantene-500-cc-mer-00122",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00123",
+   "titulo": "Limpiador de pisos Lysoform x 2 lt",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 16167.3,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/limpiador-de-pisos-lysoform-x-2-lt-mer-00123",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00124",
+   "titulo": "Pantene Shampoo 200 ml",
+   "marca": "Pantene",
+   "categoria": "Higiene personal",
+   "precio_regular": 886.37,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/pantene-shampoo-200-ml-mer-00124",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00125",
+   "titulo": "Limpiador de pisos Cif 900 ml",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 11580.88,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/limpiador-de-pisos-cif-900-ml-mer-00125",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00126",
+   "titulo": "Bagley Galletitas dulces 750 gr",
+   "marca": "Bagley",
+   "categoria": "Alimentos",
+   "precio_regular": 7625.16,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/bagley-galletitas-dulces-750-gr-mer-00126",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00127",
+   "titulo": "Detergente Cif x 750 cc",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 13914.07,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/detergente-cif-x-750-cc-mer-00127",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00128",
+   "titulo": "Servilletas Campanita x 6 un",
+   "marca": "Campanita",
+   "categoria": "Hogar",
+   "precio_regular": 50886.46,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/servilletas-campanita-x-6-un-mer-00128",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00129",
+   "titulo": "Azucar refinada Chango 900 grs",
+   "marca": "Chango",
+   "categoria": "Alimentos",
+   "precio_regular": 3278.66,
+   "precio_promocional": 2295.06,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "30% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/azucar-refinada-chango-900-grs-mer-00129",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00130",
+   "titulo": "Acondicionador Pantene 100 ml",
+   "marca": "Pantene",
+   "categoria": "Higiene personal",
+   "precio_regular": 1261.28,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/acondicionador-pantene-100-ml-mer-00130",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00131",
+   "titulo": "Rollo de cocina Higienol x 4 u",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 7249.84,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/rollo-de-cocina-higienol-x-4-u-mer-00131",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00132",
+   "titulo": "Shampoo Head & Shoulders 100 cc",
+   "marca": "Head & Shoulders",
+   "categoria": "Higiene personal",
+   "precio_regular": 1424.13,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/shampoo-head-shoulders-100-cc-mer-00132",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00133",
+   "titulo": "Desinfectante Lysoform x 1500 cc",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 22424.44,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/desinfectante-lysoform-x-1500-cc-mer-00133",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00134",
+   "titulo": "Eco de los Andes Agua mineral 1,5 lt",
+   "marca": "Eco de los Andes",
+   "categoria": "Bebidas",
+   "precio_regular": 10224.37,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/eco-de-los-andes-agua-mineral-1-5-lt-mer-00134",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00135",
+   "titulo": "Detergente Magistral x 900 ml",
+   "marca": "Magistral",
+   "categoria": "Limpieza",
+   "precio_regular": 17170.67,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/detergente-magistral-x-900-ml-mer-00135",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00136",
+   "titulo": "Pasta dental Oral-B 90 ml",
+   "marca": "Oral-B",
+   "categoria": "Higiene personal",
+   "precio_regular": 886.73,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/pasta-dental-oral-b-90-ml-mer-00136",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00137",
+   "titulo": "Ala Suavizante para ropa 3000 ml",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 38530.07,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/ala-suavizante-para-ropa-3000-ml-mer-00137",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00138",
+   "titulo": "Bolsa de residuos Higienol 12 un",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 143119.12,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/bolsa-de-residuos-higienol-12-un-mer-00138",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00139",
+   "titulo": "Limpiador de pisos Poett x 3 litros",
+   "marca": "Poett",
+   "categoria": "Limpieza",
+   "precio_regular": 53259.88,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "segunda_unidad",
+    "porcentaje": 70,
+    "descripcion": "70% off en la segunda unidad",
+    "vigencia_hasta": "2026-11-12"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/limpiador-de-pisos-poett-x-3-litros-mer-00139",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00140",
+   "titulo": "Desinfectante Lysoform 500 cc",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 6572.27,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/desinfectante-lysoform-500-cc-mer-00140",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00141",
+   "titulo": "Gallo Arroz largo fino 250 g",
+   "marca": "Gallo",
+   "categoria": "Alimentos",
+   "precio_regular": 2670.29,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/gallo-arroz-largo-fino-250-g-mer-00141",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00142",
+   "titulo": "Bebida energizante Monster 1 litros",
+   "marca": "Monster",
+   "categoria": "Bebidas",
+   "precio_regular": 8558.61,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/bebida-energizante-monster-1-litros-mer-00142",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00143",
+   "titulo": "Harina de trigo Favorita 250 gr",
+   "marca": "Favorita",
+   "categoria": "Alimentos",
+   "precio_regular": 489.43,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/harina-de-trigo-favorita-250-gr-mer-00143",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00144",
+   "titulo": "Cafe molido Nescafé x 1,5 kg",
+   "marca": "Nescafé",
+   "categoria": "Alimentos",
+   "precio_regular": 19153,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/cafe-molido-nescafe-x-1-5-kg-mer-00144",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00145",
+   "titulo": "Bebida energizante Red Bull x 350 cc",
+   "marca": "Red Bull",
+   "categoria": "Bebidas",
+   "precio_regular": 2446.95,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/bebida-energizante-red-bull-x-350-cc-mer-00145",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00146",
+   "titulo": "Papel higienico Higienol x 1 litros",
+   "marca": "Higienol",
+   "categoria": "Higiene personal",
+   "precio_regular": 7069.06,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/papel-higienico-higienol-x-1-litros-mer-00146",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00147",
+   "titulo": "Desinfectante Cif x 1,8 L",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 33324.29,
+   "precio_promocional": 29991.86,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "10% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/desinfectante-cif-x-1-8-l-mer-00147",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00148",
+   "titulo": "Jabon de tocador Rexona 90 cc",
+   "marca": "Rexona",
+   "categoria": "Higiene personal",
+   "precio_regular": 1204.78,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/jabon-de-tocador-rexona-90-cc-mer-00148",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00149",
+   "titulo": "Gaseosa cola Coca-Cola 2 litros",
+   "marca": "Coca-Cola",
+   "categoria": "Bebidas",
+   "precio_regular": 3500.39,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/gaseosa-cola-coca-cola-2-litros-mer-00149",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00150",
+   "titulo": "Agua mineral Eco de los Andes 700 cc",
+   "marca": "Eco de los Andes",
+   "categoria": "Bebidas",
+   "precio_regular": 3896.54,
+   "precio_promocional": 2922.41,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "25% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/agua-mineral-eco-de-los-andes-700-cc-mer-00150",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00151",
+   "titulo": "Bolsapel Bolsa de residuos 24 unidades",
+   "marca": "Bolsapel",
+   "categoria": "Hogar",
+   "precio_regular": 82349.74,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/bolsapel-bolsa-de-residuos-24-unidades-mer-00151",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00152",
+   "titulo": "Fideos spaghetti Favorita light 500 gr",
+   "marca": "Favorita",
+   "categoria": "Alimentos",
+   "precio_regular": 3059.15,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/fideos-spaghetti-favorita-light-500-gr-mer-00152",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00153",
+   "titulo": "Yerba mate null x 1,5 kg",
+   "marca": null,
+   "categoria": "Alimentos",
+   "precio_regular": 17882.18,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/yerba-mate-null-x-1-5-kg-mer-00153",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00154",
+   "titulo": "Jabon de tocador Lux 400 cc",
+   "marca": "Lux",
+   "categoria": "Higiene personal",
+   "precio_regular": 10123.96,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/jabon-de-tocador-lux-400-cc-mer-00154",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00155",
+   "titulo": "Agua saborizada Aquarius 500 cc",
+   "marca": "Aquarius",
+   "categoria": "Bebidas",
+   "precio_regular": 3628.29,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/agua-saborizada-aquarius-500-cc-mer-00155",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00156",
+   "titulo": "Gaseosa cola Pepsi x 2 lt",
+   "marca": "Pepsi",
+   "categoria": "Bebidas",
+   "precio_regular": 22729.21,
+   "precio_promocional": 19319.83,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "15% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/gaseosa-cola-pepsi-x-2-lt-mer-00156",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00157",
+   "titulo": "Pasta dental Sensodyne x 100 ml",
+   "marca": "Sensodyne",
+   "categoria": "Higiene personal",
+   "precio_regular": 188.63,
+   "precio_promocional": 160.34,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "15% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/pasta-dental-sensodyne-x-100-ml-mer-00157",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00158",
+   "titulo": "Servilletas Campanita x 1 unidades",
+   "marca": "Campanita",
+   "categoria": "Hogar",
+   "precio_regular": 1536.62,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/servilletas-campanita-x-1-unidades-mer-00158",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00159",
+   "titulo": "Jugo de naranja Citric 1000 ml",
+   "marca": "Citric",
+   "categoria": "Bebidas",
+   "precio_regular": 1388.1,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/jugo-de-naranja-citric-1000-ml-mer-00159",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00160",
+   "titulo": "Esponja de cocina Scotch-Brite x 4 un",
+   "marca": "Scotch-Brite",
+   "categoria": "Hogar",
+   "precio_regular": 6183.65,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/esponja-de-cocina-scotch-brite-x-4-un-mer-00160",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00161",
+   "titulo": "Sussex Rollo de cocina perfumado 2 unidades",
+   "marca": "Sussex",
+   "categoria": "Hogar",
+   "precio_regular": 6748.92,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/sussex-rollo-de-cocina-perfumado-2-unidades-mer-00161",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00162",
+   "titulo": "Jabon liquido para ropa Skip x 900 ml",
+   "marca": "Skip",
+   "categoria": "Limpieza",
+   "precio_regular": 1322.9,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/jabon-liquido-para-ropa-skip-x-900-ml-mer-00162",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00163",
+   "titulo": "Gaseosa cola Pepsi 2500 cc",
+   "marca": "Pepsi",
+   "categoria": "Bebidas",
+   "precio_regular": 2090.64,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/gaseosa-cola-pepsi-2500-cc-mer-00163",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00164",
+   "titulo": "Yerba mate Taragüi x 900 grs",
+   "marca": "Taragüi",
+   "categoria": "Alimentos",
+   "precio_regular": 4619.81,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/yerba-mate-taragui-x-900-grs-mer-00164",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00165",
+   "titulo": "Lavandina Ayudin 900 cc",
+   "marca": "Ayudin",
+   "categoria": "Limpieza",
+   "precio_regular": 5536.17,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/lavandina-ayudin-900-cc-mer-00165",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00166",
+   "titulo": "Aceite de girasol Cañuelas 500 g",
+   "marca": "Cañuelas",
+   "categoria": "Alimentos",
+   "precio_regular": 684.57,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "segunda_unidad",
+    "porcentaje": 70,
+    "descripcion": "70% off en la segunda unidad",
+    "vigencia_hasta": "2026-11-12"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/aceite-de-girasol-canuelas-500-g-mer-00166",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00167",
+   "titulo": "Arroz largo fino Molinos x 1 kg",
+   "marca": "Molinos",
+   "categoria": "Alimentos",
+   "precio_regular": 4039.24,
+   "precio_promocional": 3433.35,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "15% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/arroz-largo-fino-molinos-x-1-kg-mer-00167",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00168",
+   "titulo": "Detergente Magistral x 2000 cc",
+   "marca": "Magistral",
+   "categoria": "Limpieza",
+   "precio_regular": 23171.46,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/detergente-magistral-x-2000-cc-mer-00168",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00169",
+   "titulo": "La Serenísima Leche entera orgánico 500 g",
+   "marca": "La Serenísima",
+   "categoria": "Alimentos",
+   "precio_regular": 2727.78,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/la-serenisima-leche-entera-organico-500-g-mer-00169",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00170",
+   "titulo": "Jabon de tocador Rexona x 50 ml",
+   "marca": "Rexona",
+   "categoria": "Higiene personal",
+   "precio_regular": 301.06,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/jabon-de-tocador-rexona-x-50-ml-mer-00170",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00171",
+   "titulo": "Desodorante Dove x 500 ml",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 9595.74,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/desodorante-dove-x-500-ml-mer-00171",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00172",
+   "titulo": "Suavizante para ropa 500 cc",
+   "marca": null,
+   "categoria": "Limpieza",
+   "precio_regular": 9606.24,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/suavizante-para-ropa-500-cc-mer-00172",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00173",
+   "titulo": "Cafe molido Bonafide 900 g",
+   "marca": "Bonafide",
+   "categoria": "Alimentos",
+   "precio_regular": 8477.59,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/cafe-molido-bonafide-900-g-mer-00173",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00174",
+   "titulo": "Fideos spaghetti Lucchetti x 1000 g",
+   "marca": "Lucchetti",
+   "categoria": "Alimentos",
+   "precio_regular": 12114.08,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/fideos-spaghetti-lucchetti-x-1000-g-mer-00174",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00175",
+   "titulo": "Aceite de girasol Cocinero x 1 kg",
+   "marca": "Cocinero",
+   "categoria": "Alimentos",
+   "precio_regular": 4483.19,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/aceite-de-girasol-cocinero-x-1-kg-mer-00175",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00176",
+   "titulo": "Papel higienico Elite 200 cc",
+   "marca": "Elite",
+   "categoria": "Higiene personal",
+   "precio_regular": 2849.4,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/papel-higienico-elite-200-cc-mer-00176",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00177",
+   "titulo": "Esponja de cocina Virulana 12 u",
+   "marca": "Virulana",
+   "categoria": "Hogar",
+   "precio_regular": 74410.17,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/esponja-de-cocina-virulana-12-u-mer-00177",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00178",
+   "titulo": "Jugo de naranja Citric 2,25 L",
+   "marca": "Citric",
+   "categoria": "Bebidas",
+   "precio_regular": 22783.07,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/jugo-de-naranja-citric-2-25-l-mer-00178",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00179",
+   "titulo": "Desodorante Nivea 750 cc",
+   "marca": "Nivea",
+   "categoria": "Higiene personal",
+   "precio_regular": 12848.48,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/desodorante-nivea-750-cc-mer-00179",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00180",
+   "titulo": "Detergente Cif 3000 ml",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 54768.8,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/detergente-cif-3000-ml-mer-00180",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00181",
+   "titulo": "Limpiador de pisos 500 ml",
+   "marca": null,
+   "categoria": "Limpieza",
+   "precio_regular": 8941.12,
+   "precio_promocional": 6258.78,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "30% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/limpiador-de-pisos-500-ml-mer-00181",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00182",
+   "titulo": "Agua mineral Eco de los Andes x 1000 cc",
+   "marca": "Eco de los Andes",
+   "categoria": "Bebidas",
+   "precio_regular": 1777.06,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/agua-mineral-eco-de-los-andes-x-1000-cc-mer-00182",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00183",
+   "titulo": "Coca-Cola Gaseosa cola 2000 cc",
+   "marca": "Coca-Cola",
+   "categoria": "Bebidas",
+   "precio_regular": 9262.2,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/coca-cola-gaseosa-cola-2000-cc-mer-00183",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00184",
+   "titulo": "Lavandina Clorox 750 cc",
+   "marca": "Clorox",
+   "categoria": "Limpieza",
+   "precio_regular": 8033.43,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/lavandina-clorox-750-cc-mer-00184",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00185",
+   "titulo": "Azucar refinada Chango 500 g",
+   "marca": "Chango",
+   "categoria": "Alimentos",
+   "precio_regular": 777.32,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/azucar-refinada-chango-500-g-mer-00185",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00186",
+   "titulo": "Azucar refinada Ledesma x 2 kg",
+   "marca": "Ledesma",
+   "categoria": "Alimentos",
+   "precio_regular": 23676.72,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/azucar-refinada-ledesma-x-2-kg-mer-00186",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00187",
+   "titulo": "Fideos spaghetti Matarazzo x 1500 gr",
+   "marca": "Matarazzo",
+   "categoria": "Alimentos",
+   "precio_regular": 18925.42,
+   "precio_promocional": 17032.88,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "10% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/fideos-spaghetti-matarazzo-x-1500-gr-mer-00187",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00188",
+   "titulo": "Elite Papel higienico 1 lt",
+   "marca": "Elite",
+   "categoria": "Higiene personal",
+   "precio_regular": 21794.29,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/elite-papel-higienico-1-lt-mer-00188",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00189",
+   "titulo": "Magistral Detergente gel 750 ml",
+   "marca": "Magistral",
+   "categoria": "Limpieza",
+   "precio_regular": 3569.79,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/magistral-detergente-gel-750-ml-mer-00189",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00190",
+   "titulo": "Galletitas dulces descremada Oreo x 1,5 kg",
+   "marca": "Oreo",
+   "categoria": "Alimentos",
+   "precio_regular": 6609.81,
+   "precio_promocional": 5287.85,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "20% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/galletitas-dulces-descremada-oreo-x-1-5-kg-mer-00190",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00191",
+   "titulo": "Sedal Shampoo for men 100 ml",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 2342.17,
+   "precio_promocional": 1639.52,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "30% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/sedal-shampoo-for-men-100-ml-mer-00191",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00192",
+   "titulo": "Fideos spaghetti Favorita 1000 grs",
+   "marca": "Favorita",
+   "categoria": "Alimentos",
+   "precio_regular": 10986.81,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/fideos-spaghetti-favorita-1000-grs-mer-00192",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00193",
+   "titulo": "Procenex Desinfectante 900 cc",
+   "marca": "Procenex",
+   "categoria": "Limpieza",
+   "precio_regular": 10057.34,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/procenex-desinfectante-900-cc-mer-00193",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00194",
+   "titulo": "Mayonesa Hellmann's 2000 gr",
+   "marca": "Hellmann's",
+   "categoria": "Alimentos",
+   "precio_regular": 20889.63,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/mayonesa-hellmann-s-2000-gr-mer-00194",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00195",
+   "titulo": "Rollo de cocina Elite 8 u",
+   "marca": "Elite",
+   "categoria": "Hogar",
+   "precio_regular": 44985.11,
+   "precio_promocional": 35988.09,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "20% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/rollo-de-cocina-elite-8-u-mer-00195",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00196",
+   "titulo": "Suavizante para ropa Comfort 750 ml",
+   "marca": "Comfort",
+   "categoria": "Limpieza",
+   "precio_regular": 15204.23,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/suavizante-para-ropa-comfort-750-ml-mer-00196",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00197",
+   "titulo": "Esponja de cocina Mortimer 24 u",
+   "marca": "Mortimer",
+   "categoria": "Hogar",
+   "precio_regular": 98405.1,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/esponja-de-cocina-mortimer-24-u-mer-00197",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00198",
+   "titulo": "Agua mineral Glaciar 175 cc",
+   "marca": "Glaciar",
+   "categoria": "Bebidas",
+   "precio_regular": 1027.85,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/agua-mineral-glaciar-175-cc-mer-00198",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00199",
+   "titulo": "Shampoo Sedal 90 cc",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 1191.86,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/shampoo-sedal-90-cc-mer-00199",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00200",
+   "titulo": "Jabon liquido para ropa Ala 750 ml",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 10888.08,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/jabon-liquido-para-ropa-ala-750-ml-mer-00200",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00201",
+   "titulo": "Bebida energizante Speed 1,125 lt",
+   "marca": "Speed",
+   "categoria": "Bebidas",
+   "precio_regular": 12413.82,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/bebida-energizante-speed-1-125-lt-mer-00201",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00202",
+   "titulo": "Bebida energizante Speed x 500 cc",
+   "marca": "Speed",
+   "categoria": "Bebidas",
+   "precio_regular": 5345.52,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/bebida-energizante-speed-x-500-cc-mer-00202",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00203",
+   "titulo": "Leche entera Sancor x 750 grs",
+   "marca": "Sancor",
+   "categoria": "Alimentos",
+   "precio_regular": 4412.3,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "segunda_unidad",
+    "porcentaje": 70,
+    "descripcion": "70% off en la segunda unidad",
+    "vigencia_hasta": "2026-11-12"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/leche-entera-sancor-x-750-grs-mer-00203",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00204",
+   "titulo": "Agua saborizada Levité x 1 lt",
+   "marca": "Levité",
+   "categoria": "Bebidas",
+   "precio_regular": 8169.06,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/agua-saborizada-levite-x-1-lt-mer-00204",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00205",
+   "titulo": "Gaseosa cola Manaos 1 L",
+   "marca": "Manaos",
+   "categoria": "Bebidas",
+   "precio_regular": 3013.49,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/gaseosa-cola-manaos-1-l-mer-00205",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00206",
+   "titulo": "Galletitas dulces Bagley sin TACC 2 kg",
+   "marca": "Bagley",
+   "categoria": "Alimentos",
+   "precio_regular": 7321.61,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/galletitas-dulces-bagley-sin-tacc-2-kg-mer-00206",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00207",
+   "titulo": "Shampoo Pantene x 100 ml",
+   "marca": "Pantene",
+   "categoria": "Higiene personal",
+   "precio_regular": 1687.74,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/shampoo-pantene-x-100-ml-mer-00207",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00208",
+   "titulo": "Lysoform Limpiador de pisos 3000 cc",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 43481.57,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/lysoform-limpiador-de-pisos-3000-cc-mer-00208",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00209",
+   "titulo": "Higienol Papel higienico 200 cc",
+   "marca": "Higienol",
+   "categoria": "Higiene personal",
+   "precio_regular": 3365.66,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/higienol-papel-higienico-200-cc-mer-00209",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00210",
+   "titulo": "Detergente concentrado Ala x 900 ml",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 18332.16,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/detergente-concentrado-ala-x-900-ml-mer-00210",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00211",
+   "titulo": "Jabon de tocador Rexona x 500 cc",
+   "marca": "Rexona",
+   "categoria": "Higiene personal",
+   "precio_regular": 4407.12,
+   "precio_promocional": 3525.7,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "20% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/jabon-de-tocador-rexona-x-500-cc-mer-00211",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00212",
+   "titulo": "Esponja de cocina Scotch-Brite x 24 un",
+   "marca": "Scotch-Brite",
+   "categoria": "Hogar",
+   "precio_regular": 295448.39,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/esponja-de-cocina-scotch-brite-x-24-un-mer-00212",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00213",
+   "titulo": "Speed Bebida energizante 2,5 lt",
+   "marca": "Speed",
+   "categoria": "Bebidas",
+   "precio_regular": 26698.65,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/speed-bebida-energizante-2-5-lt-mer-00213",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00214",
+   "titulo": "Cepita Jugo de naranja 500 ml",
+   "marca": "Cepita",
+   "categoria": "Bebidas",
+   "precio_regular": 4897.28,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/cepita-jugo-de-naranja-500-ml-mer-00214",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00215",
+   "titulo": "Gaseosa cola Manaos 2,25 litros",
+   "marca": "Manaos",
+   "categoria": "Bebidas",
+   "precio_regular": 4959.14,
+   "precio_promocional": 4463.23,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "10% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/gaseosa-cola-manaos-2-25-litros-mer-00215",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00216",
+   "titulo": "Virulana Esponja de cocina 8 u",
+   "marca": "Virulana",
+   "categoria": "Hogar",
+   "precio_regular": 66933.14,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/virulana-esponja-de-cocina-8-u-mer-00216",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00217",
+   "titulo": "Desodorante Nivea x 90 ml",
+   "marca": "Nivea",
+   "categoria": "Higiene personal",
+   "precio_regular": 1000.66,
+   "precio_promocional": 750.5,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "25% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/desodorante-nivea-x-90-ml-mer-00217",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00218",
+   "titulo": "Suavizante para ropa Vivere x 1000 ml",
+   "marca": "Vivere",
+   "categoria": "Limpieza",
+   "precio_regular": 13213.09,
+   "precio_promocional": 9909.82,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "25% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/suavizante-para-ropa-vivere-x-1000-ml-mer-00218",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00219",
+   "titulo": "Pasta dental null x 1000 ml",
+   "marca": null,
+   "categoria": "Higiene personal",
+   "precio_regular": 26042.88,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/pasta-dental-null-x-1000-ml-mer-00219",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00220",
+   "titulo": "Yerba mate orgánico Taragüi x 250 gr",
+   "marca": "Taragüi",
+   "categoria": "Alimentos",
+   "precio_regular": 2285.32,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/yerba-mate-organico-taragui-x-250-gr-mer-00220",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00221",
+   "titulo": "Hellmann's Mayonesa 750 grs",
+   "marca": "Hellmann's",
+   "categoria": "Alimentos",
+   "precio_regular": 4946.32,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/hellmann-s-mayonesa-750-grs-mer-00221",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00222",
+   "titulo": "Jabon de tocador 750 cc",
+   "marca": null,
+   "categoria": "Higiene personal",
+   "precio_regular": 16346.36,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/jabon-de-tocador-750-cc-mer-00222",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00223",
+   "titulo": "Campanita Servilletas doble hoja 4 unidades",
+   "marca": "Campanita",
+   "categoria": "Hogar",
+   "precio_regular": 19789.77,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/campanita-servilletas-doble-hoja-4-unidades-mer-00223",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00224",
+   "titulo": "Pepsi Gaseosa cola 350 cc",
+   "marca": "Pepsi",
+   "categoria": "Bebidas",
+   "precio_regular": 380.12,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/pepsi-gaseosa-cola-350-cc-mer-00224",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00225",
+   "titulo": "Arroz largo fino Gallo 2 kg",
+   "marca": "Gallo",
+   "categoria": "Alimentos",
+   "precio_regular": 22482.73,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/arroz-largo-fino-gallo-2-kg-mer-00225",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00226",
+   "titulo": "Levité Agua saborizada 750 ml",
+   "marca": "Levité",
+   "categoria": "Bebidas",
+   "precio_regular": 6974.76,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/levite-agua-saborizada-750-ml-mer-00226",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00227",
+   "titulo": "Dove Jabon de tocador 100 cc",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 770.15,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/dove-jabon-de-tocador-100-cc-mer-00227",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00228",
+   "titulo": "Sedal Acondicionador 750 ml",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 2926.15,
+   "precio_promocional": 2633.54,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "10% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/sedal-acondicionador-750-ml-mer-00228",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00229",
+   "titulo": "Mortimer Esponja de cocina 6 un",
+   "marca": "Mortimer",
+   "categoria": "Hogar",
+   "precio_regular": 36477.83,
+   "precio_promocional": 29182.26,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "20% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/mortimer-esponja-de-cocina-6-un-mer-00229",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00230",
+   "titulo": "Servilletas null x 2 un",
+   "marca": null,
+   "categoria": "Hogar",
+   "precio_regular": 6988.36,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "segunda_unidad",
+    "porcentaje": 70,
+    "descripcion": "70% off en la segunda unidad",
+    "vigencia_hasta": "2026-11-12"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/servilletas-null-x-2-un-mer-00230",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00231",
+   "titulo": "Yerba mate Amanda x 900 grs",
+   "marca": "Amanda",
+   "categoria": "Alimentos",
+   "precio_regular": 10893.82,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/yerba-mate-amanda-x-900-grs-mer-00231",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00232",
+   "titulo": "Cepita Jugo de naranja 2250 ml",
+   "marca": "Cepita",
+   "categoria": "Bebidas",
+   "precio_regular": 20635.32,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/cepita-jugo-de-naranja-2250-ml-mer-00232",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00233",
+   "titulo": "Yerba mate Taragüi 375 g",
+   "marca": "Taragüi",
+   "categoria": "Alimentos",
+   "precio_regular": 3636.62,
+   "precio_promocional": 3091.13,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "15% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/yerba-mate-taragui-375-g-mer-00233",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00234",
+   "titulo": "Acondicionador Dove x 1 L",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 10700.85,
+   "precio_promocional": 9630.77,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "10% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/acondicionador-dove-x-1-l-mer-00234",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00235",
+   "titulo": "Eco de los Andes Agua mineral 2 litros",
+   "marca": "Eco de los Andes",
+   "categoria": "Bebidas",
+   "precio_regular": 5516.37,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/eco-de-los-andes-agua-mineral-2-litros-mer-00235",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00236",
+   "titulo": "Levité Agua saborizada 500 cc",
+   "marca": "Levité",
+   "categoria": "Bebidas",
+   "precio_regular": 1055.16,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/levite-agua-saborizada-500-cc-mer-00236",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00237",
+   "titulo": "Agua mineral Glaciar 2000 ml",
+   "marca": "Glaciar",
+   "categoria": "Bebidas",
+   "precio_regular": 6328.66,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/agua-mineral-glaciar-2000-ml-mer-00237",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00238",
+   "titulo": "Nescafé Cafe molido 900 gr",
+   "marca": "Nescafé",
+   "categoria": "Alimentos",
+   "precio_regular": 11354.83,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/nescafe-cafe-molido-900-gr-mer-00238",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00239",
+   "titulo": "Jabon de tocador Rexona 200 ml",
+   "marca": "Rexona",
+   "categoria": "Higiene personal",
+   "precio_regular": 3604.51,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/jabon-de-tocador-rexona-200-ml-mer-00239",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00240",
+   "titulo": "Pantene Acondicionador 200 ml",
+   "marca": "Pantene",
+   "categoria": "Higiene personal",
+   "precio_regular": 2602.81,
+   "precio_promocional": 1821.97,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "30% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/pantene-acondicionador-200-ml-mer-00240",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00241",
+   "titulo": "Jugo de naranja Cepita x 2 litros",
+   "marca": "Cepita",
+   "categoria": "Bebidas",
+   "precio_regular": 12596.19,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/jugo-de-naranja-cepita-x-2-litros-mer-00241",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00242",
+   "titulo": "Agua mineral Glaciar 1 lt",
+   "marca": "Glaciar",
+   "categoria": "Bebidas",
+   "precio_regular": 5133.96,
+   "precio_promocional": 3850.47,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "25% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/agua-mineral-glaciar-1-lt-mer-00242",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00243",
+   "titulo": "Shampoo Head & Shoulders x 500 cc",
+   "marca": "Head & Shoulders",
+   "categoria": "Higiene personal",
+   "precio_regular": 7041.05,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/shampoo-head-shoulders-x-500-cc-mer-00243",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00244",
+   "titulo": "Aceite de girasol 1500 g",
+   "marca": null,
+   "categoria": "Alimentos",
+   "precio_regular": 19107.64,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/aceite-de-girasol-1500-g-mer-00244",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00245",
+   "titulo": "Sedal Shampoo 750 ml",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 9521.94,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/sedal-shampoo-750-ml-mer-00245",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00246",
+   "titulo": "Jugo de naranja Cepita 2,5 lt",
+   "marca": "Cepita",
+   "categoria": "Bebidas",
+   "precio_regular": 25898.16,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/jugo-de-naranja-cepita-2-5-lt-mer-00246",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00247",
+   "titulo": "Papel higienico Scott x 90 cc",
+   "marca": "Scott",
+   "categoria": "Higiene personal",
+   "precio_regular": 1104.66,
+   "precio_promocional": 994.19,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "10% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/papel-higienico-scott-x-90-cc-mer-00247",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00248",
+   "titulo": "Papel higienico Scott 400 cc",
+   "marca": "Scott",
+   "categoria": "Higiene personal",
+   "precio_regular": 4538.51,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/papel-higienico-scott-400-cc-mer-00248",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00249",
+   "titulo": "Dove Acondicionador 375 cc",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 866.22,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/dove-acondicionador-375-cc-mer-00249",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00250",
+   "titulo": "Detergente Ala 1,5 litros",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 11901.98,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/detergente-ala-1-5-litros-mer-00250",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00251",
+   "titulo": "Rollo de cocina null x 2 u",
+   "marca": null,
+   "categoria": "Hogar",
+   "precio_regular": 5255.39,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/rollo-de-cocina-null-x-2-u-mer-00251",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00252",
+   "titulo": "Lavandina Querubin x 900 ml",
+   "marca": "Querubin",
+   "categoria": "Limpieza",
+   "precio_regular": 3048.67,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/lavandina-querubin-x-900-ml-mer-00252",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00253",
+   "titulo": "Desinfectante Lysoform x 900 cc",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 14724.5,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/desinfectante-lysoform-x-900-cc-mer-00253",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00254",
+   "titulo": "Azucar refinada Chango 250 gr",
+   "marca": "Chango",
+   "categoria": "Alimentos",
+   "precio_regular": 1996.97,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/azucar-refinada-chango-250-gr-mer-00254",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00255",
+   "titulo": "Aquarius Agua saborizada 1 lt",
+   "marca": "Aquarius",
+   "categoria": "Bebidas",
+   "precio_regular": 9505.8,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/aquarius-agua-saborizada-1-lt-mer-00255",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00256",
+   "titulo": "Aceite de girasol Cañuelas 2 kg",
+   "marca": "Cañuelas",
+   "categoria": "Alimentos",
+   "precio_regular": 23728.41,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/aceite-de-girasol-canuelas-2-kg-mer-00256",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00257",
+   "titulo": "Baggio Jugo de naranja 1,5 litros",
+   "marca": "Baggio",
+   "categoria": "Bebidas",
+   "precio_regular": 16889.5,
+   "precio_promocional": 11822.65,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "30% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/baggio-jugo-de-naranja-1-5-litros-mer-00257",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00258",
+   "titulo": "Harina de trigo Pureza 250 g",
+   "marca": "Pureza",
+   "categoria": "Alimentos",
+   "precio_regular": 532.77,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/harina-de-trigo-pureza-250-g-mer-00258",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00259",
+   "titulo": "Jugo de naranja Baggio zero 2,5 L",
+   "marca": "Baggio",
+   "categoria": "Bebidas",
+   "precio_regular": 26327.57,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/jugo-de-naranja-baggio-zero-2-5-l-mer-00259",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00260",
+   "titulo": "Bebida energizante Monster 1,5 L",
+   "marca": "Monster",
+   "categoria": "Bebidas",
+   "precio_regular": 13013.26,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/bebida-energizante-monster-1-5-l-mer-00260",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00261",
+   "titulo": "Papel higienico null x 1 L",
+   "marca": null,
+   "categoria": "Higiene personal",
+   "precio_regular": 8087.14,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/papel-higienico-null-x-1-l-mer-00261",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00262",
+   "titulo": "Natura Aceite de girasol 500 gr",
+   "marca": "Natura",
+   "categoria": "Alimentos",
+   "precio_regular": 3647.01,
+   "precio_promocional": 2917.61,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "20% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/natura-aceite-de-girasol-500-gr-mer-00262",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00263",
+   "titulo": "Papel higienico Scott 200 ml",
+   "marca": "Scott",
+   "categoria": "Higiene personal",
+   "precio_regular": 3913.17,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/papel-higienico-scott-200-ml-mer-00263",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00264",
+   "titulo": "Yerba mate Playadito x 500 g",
+   "marca": "Playadito",
+   "categoria": "Alimentos",
+   "precio_regular": 2839.49,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/yerba-mate-playadito-x-500-g-mer-00264",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00265",
+   "titulo": "Leche entera La Serenísima 1 kg",
+   "marca": "La Serenísima",
+   "categoria": "Alimentos",
+   "precio_regular": 5867.92,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/leche-entera-la-serenisima-1-kg-mer-00265",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00266",
+   "titulo": "Colgate Pasta dental 90 cc",
+   "marca": "Colgate",
+   "categoria": "Higiene personal",
+   "precio_regular": 1486.36,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/colgate-pasta-dental-90-cc-mer-00266",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00267",
+   "titulo": "Sedal Shampoo 1000 cc",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 11375.99,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/sedal-shampoo-1000-cc-mer-00267",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "MER-00268",
+   "titulo": "Colgate Pasta dental 100 ml",
+   "marca": "Colgate",
+   "categoria": "Higiene personal",
+   "precio_regular": 1665.87,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Córdoba"
+   ],
+   "url": "https://mercado-austral.example/p/colgate-pasta-dental-100-ml-mer-00268",
+   "publicado": "2026-11-02"
+  }
+ ]
+}

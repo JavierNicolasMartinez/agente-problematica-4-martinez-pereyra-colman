@@ -1,0 +1,4466 @@
+{
+ "aviso": "FUENTE SIMULADA con fines académicos. Competidor, dominio y precios ficticios.",
+ "competidor": {
+  "id": "tienda-oriental",
+  "nombre": "Tienda Oriental",
+  "sitio": "https://tiendaoriental.example",
+  "pais": "Uruguay",
+  "moneda": "UYU",
+  "regiones": [
+   "Montevideo"
+  ],
+  "permite_consulta_automatizada": true,
+  "condiciones": "Consulta automatizada permitida (simulado)."
+ },
+ "generado": "2026-11-02",
+ "productos": [
+  {
+   "sku": "TIE-00001",
+   "titulo": "Galletitas dulces Terrabusi x 1800 grs",
+   "marca": "Terrabusi",
+   "categoria": "Alimentos",
+   "precio_regular": 935.67,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "segunda_unidad",
+    "porcentaje": 70,
+    "descripcion": "70% off en la segunda unidad",
+    "vigencia_hasta": "2026-11-12"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/galletitas-dulces-terrabusi-x-1800-grs-tie-00001",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00002",
+   "titulo": "Desodorante 750 ml",
+   "marca": null,
+   "categoria": "Higiene personal",
+   "precio_regular": 99.92,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/desodorante-750-ml-tie-00002",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00003",
+   "titulo": "Bolsa de residuos Bolsapel 4 un",
+   "marca": "Bolsapel",
+   "categoria": "Hogar",
+   "precio_regular": 1513.59,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/bolsa-de-residuos-bolsapel-4-un-tie-00003",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00004",
+   "titulo": "Pasta dental Oral-B x 750 ml",
+   "marca": "Oral-B",
+   "categoria": "Higiene personal",
+   "precio_regular": 314.5,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/pasta-dental-oral-b-x-750-ml-tie-00004",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00005",
+   "titulo": "Lavandina Ayudin 1 L",
+   "marca": "Ayudin",
+   "categoria": "Limpieza",
+   "precio_regular": 98.93,
+   "precio_promocional": 74.2,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "25% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/lavandina-ayudin-1-l-tie-00005",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00006",
+   "titulo": "Servilletas Elite x 6 unidades",
+   "marca": "Elite",
+   "categoria": "Hogar",
+   "precio_regular": 2272.97,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "segunda_unidad",
+    "porcentaje": 70,
+    "descripcion": "70% off en la segunda unidad",
+    "vigencia_hasta": "2026-11-12"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/servilletas-elite-x-6-unidades-tie-00006",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00007",
+   "titulo": "Jabon de tocador aroma lavanda Dove x 1000 ml",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 914.64,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/jabon-de-tocador-aroma-lavanda-dove-x-1000-ml-tie-00007",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00008",
+   "titulo": "Desodorante Dove x 90 cc",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 36.87,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/desodorante-dove-x-90-cc-tie-00008",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00009",
+   "titulo": "Ala Detergente 1500 ml",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 779.48,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/ala-detergente-1500-ml-tie-00009",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00010",
+   "titulo": "Bolsa de residuos null x 4 u",
+   "marca": null,
+   "categoria": "Hogar",
+   "precio_regular": 377.6,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/bolsa-de-residuos-null-x-4-u-tie-00010",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00011",
+   "titulo": "Cif Detergente 2000 ml",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 393.87,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/cif-detergente-2000-ml-tie-00011",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00012",
+   "titulo": "Limpiador de pisos Lysoform 500 ml",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 284.04,
+   "precio_promocional": 227.23,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "20% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "UYU",
+   "disponible": false,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/limpiador-de-pisos-lysoform-500-ml-tie-00012",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00013",
+   "titulo": "Limpiador de pisos Lysoform x 900 cc",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 218.52,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/limpiador-de-pisos-lysoform-x-900-cc-tie-00013",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00014",
+   "titulo": "Aquarius Agua saborizada 350 ml",
+   "marca": "Aquarius",
+   "categoria": "Bebidas",
+   "precio_regular": 42.85,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/aquarius-agua-saborizada-350-ml-tie-00014",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00015",
+   "titulo": "Esponja de cocina Mortimer x 12 un",
+   "marca": "Mortimer",
+   "categoria": "Hogar",
+   "precio_regular": 4103.34,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "segunda_unidad",
+    "porcentaje": 70,
+    "descripcion": "70% off en la segunda unidad",
+    "vigencia_hasta": "2026-11-12"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/esponja-de-cocina-mortimer-x-12-un-tie-00015",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00016",
+   "titulo": "Suavizante para ropa Vivere 500 ml",
+   "marca": "Vivere",
+   "categoria": "Limpieza",
+   "precio_regular": 59.87,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/suavizante-para-ropa-vivere-500-ml-tie-00016",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00017",
+   "titulo": "Cif Limpiador de pisos 1 L",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 431.47,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/cif-limpiador-de-pisos-1-l-tie-00017",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00018",
+   "titulo": "Galletitas dulces Terrabusi 1000 g",
+   "marca": "Terrabusi",
+   "categoria": "Alimentos",
+   "precio_regular": 329.33,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/galletitas-dulces-terrabusi-1000-g-tie-00018",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00019",
+   "titulo": "Amanda Yerba mate 750 grs",
+   "marca": "Amanda",
+   "categoria": "Alimentos",
+   "precio_regular": 35.16,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/amanda-yerba-mate-750-grs-tie-00019",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00020",
+   "titulo": "Jugo de naranja Citric 500 cc",
+   "marca": "Citric",
+   "categoria": "Bebidas",
+   "precio_regular": 97.22,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/jugo-de-naranja-citric-500-cc-tie-00020",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00021",
+   "titulo": "Servilletas Elite x 2 u",
+   "marca": "Elite",
+   "categoria": "Hogar",
+   "precio_regular": 124.38,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/servilletas-elite-x-2-u-tie-00021",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00022",
+   "titulo": "Bolsa de residuos Higienol 2 un",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 627.17,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/bolsa-de-residuos-higienol-2-un-tie-00022",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00023",
+   "titulo": "Yerba mate Playadito x 1500 gr",
+   "marca": "Playadito",
+   "categoria": "Alimentos",
+   "precio_regular": 549.53,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/yerba-mate-playadito-x-1500-gr-tie-00023",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00024",
+   "titulo": "Jabon liquido para ropa null x 2 litros",
+   "marca": null,
+   "categoria": "Limpieza",
+   "precio_regular": 315.88,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/jabon-liquido-para-ropa-null-x-2-litros-tie-00024",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00025",
+   "titulo": "Gaseosa cola Coca-Cola 700 ml",
+   "marca": "Coca-Cola",
+   "categoria": "Bebidas",
+   "precio_regular": 236.07,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/gaseosa-cola-coca-cola-700-ml-tie-00025",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00026",
+   "titulo": "Lux Jabon de tocador 90 cc",
+   "marca": "Lux",
+   "categoria": "Higiene personal",
+   "precio_regular": 44.83,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/lux-jabon-de-tocador-90-cc-tie-00026",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00027",
+   "titulo": "Harina de trigo Pureza 750 g",
+   "marca": "Pureza",
+   "categoria": "Alimentos",
+   "precio_regular": 232.46,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/harina-de-trigo-pureza-750-g-tie-00027",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00028",
+   "titulo": "Agua saborizada H2OH x 1500 cc",
+   "marca": "H2OH",
+   "categoria": "Bebidas",
+   "precio_regular": 182.99,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/agua-saborizada-h2oh-x-1500-cc-tie-00028",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00029",
+   "titulo": "Natura Aceite de girasol descremada 2 kg",
+   "marca": "Natura",
+   "categoria": "Alimentos",
+   "precio_regular": 565.65,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/natura-aceite-de-girasol-descremada-2-kg-tie-00029",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00030",
+   "titulo": "Acondicionador Dove x 100 ml",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 52.44,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/acondicionador-dove-x-100-ml-tie-00030",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00031",
+   "titulo": "Taragüi Yerba mate 1 kg",
+   "marca": "Taragüi",
+   "categoria": "Alimentos",
+   "precio_regular": 85.87,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/taragui-yerba-mate-1-kg-tie-00031",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00032",
+   "titulo": "Harina de trigo Morixe 250 grs",
+   "marca": "Morixe",
+   "categoria": "Alimentos",
+   "precio_regular": 24.16,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/harina-de-trigo-morixe-250-grs-tie-00032",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00033",
+   "titulo": "Sussex Rollo de cocina 4 u",
+   "marca": "Sussex",
+   "categoria": "Hogar",
+   "precio_regular": 1187.67,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/sussex-rollo-de-cocina-4-u-tie-00033",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00034",
+   "titulo": "Gaseosa cola Coca-Cola 2,5 litros",
+   "marca": "Coca-Cola",
+   "categoria": "Bebidas",
+   "precio_regular": 543.34,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": false,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/gaseosa-cola-coca-cola-2-5-litros-tie-00034",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00035",
+   "titulo": "Jabon liquido para ropa Drive 1,5 litros",
+   "marca": "Drive",
+   "categoria": "Limpieza",
+   "precio_regular": 361.08,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/jabon-liquido-para-ropa-drive-1-5-litros-tie-00035",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00036",
+   "titulo": "Suavizante para ropa Ala x 1 litros",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 66.8,
+   "precio_promocional": 60.12,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "10% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/suavizante-para-ropa-ala-x-1-litros-tie-00036",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00037",
+   "titulo": "Bebida energizante Monster x 2500 ml",
+   "marca": "Monster",
+   "categoria": "Bebidas",
+   "precio_regular": 231.74,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/bebida-energizante-monster-x-2500-ml-tie-00037",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00038",
+   "titulo": "Jugo de naranja Cepita 350 cc",
+   "marca": "Cepita",
+   "categoria": "Bebidas",
+   "precio_regular": 106.54,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/jugo-de-naranja-cepita-350-cc-tie-00038",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00039",
+   "titulo": "Servilletas 1 un",
+   "marca": null,
+   "categoria": "Hogar",
+   "precio_regular": 359.51,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/servilletas-1-un-tie-00039",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00040",
+   "titulo": "Esponja de cocina Virulana x 2 unidades",
+   "marca": "Virulana",
+   "categoria": "Hogar",
+   "precio_regular": 566.45,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/esponja-de-cocina-virulana-x-2-unidades-tie-00040",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00041",
+   "titulo": "Skip Jabon liquido para ropa 2000 cc",
+   "marca": "Skip",
+   "categoria": "Limpieza",
+   "precio_regular": 1454.02,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/skip-jabon-liquido-para-ropa-2000-cc-tie-00041",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00042",
+   "titulo": "Pasta dental Sensodyne x 100 cc",
+   "marca": "Sensodyne",
+   "categoria": "Higiene personal",
+   "precio_regular": 81.9,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/pasta-dental-sensodyne-x-100-cc-tie-00042",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00043",
+   "titulo": "Arroz largo fino Dos Hermanos 250 gr",
+   "marca": "Dos Hermanos",
+   "categoria": "Alimentos",
+   "precio_regular": 57.22,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/arroz-largo-fino-dos-hermanos-250-gr-tie-00043",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00044",
+   "titulo": "Lavandina Ayudin 2 lt",
+   "marca": "Ayudin",
+   "categoria": "Limpieza",
+   "precio_regular": 1048.97,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/lavandina-ayudin-2-lt-tie-00044",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00045",
+   "titulo": "Drive Jabon liquido para ropa 500 ml",
+   "marca": "Drive",
+   "categoria": "Limpieza",
+   "precio_regular": 225.6,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/drive-jabon-liquido-para-ropa-500-ml-tie-00045",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00046",
+   "titulo": "Agua mineral Villavicencio 2,5 lt",
+   "marca": "Villavicencio",
+   "categoria": "Bebidas",
+   "precio_regular": 298.66,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/agua-mineral-villavicencio-2-5-lt-tie-00046",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00047",
+   "titulo": "Arroz largo fino Gallo x 1,5 kg",
+   "marca": "Gallo",
+   "categoria": "Alimentos",
+   "precio_regular": 163.48,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/arroz-largo-fino-gallo-x-1-5-kg-tie-00047",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00048",
+   "titulo": "Acondicionador Sedal x 400 cc",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 330.01,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/acondicionador-sedal-x-400-cc-tie-00048",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00049",
+   "titulo": "Gallo Arroz largo fino sin TACC 750 gr",
+   "marca": "Gallo",
+   "categoria": "Alimentos",
+   "precio_regular": 341.58,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/gallo-arroz-largo-fino-sin-tacc-750-gr-tie-00049",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00050",
+   "titulo": "Bebida energizante Red Bull x 1500 ml",
+   "marca": "Red Bull",
+   "categoria": "Bebidas",
+   "precio_regular": 142.21,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/bebida-energizante-red-bull-x-1500-ml-tie-00050",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00051",
+   "titulo": "Esponja de cocina Virulana x 2 u",
+   "marca": "Virulana",
+   "categoria": "Hogar",
+   "precio_regular": 175.62,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/esponja-de-cocina-virulana-x-2-u-tie-00051",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00052",
+   "titulo": "Leche entera Ilolay 250 g",
+   "marca": "Ilolay",
+   "categoria": "Alimentos",
+   "precio_regular": 74.7,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/leche-entera-ilolay-250-g-tie-00052",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00053",
+   "titulo": "Rollo de cocina Higienol x 12 unidades",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 1269.53,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/rollo-de-cocina-higienol-x-12-unidades-tie-00053",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00054",
+   "titulo": "Esponja de cocina Scotch-Brite 1 u",
+   "marca": "Scotch-Brite",
+   "categoria": "Hogar",
+   "precio_regular": 339.59,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/esponja-de-cocina-scotch-brite-1-u-tie-00054",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00055",
+   "titulo": "Harina de trigo Favorita x 750 g",
+   "marca": "Favorita",
+   "categoria": "Alimentos",
+   "precio_regular": 231.7,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/harina-de-trigo-favorita-x-750-g-tie-00055",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00056",
+   "titulo": "Suavizante para ropa Vivere x 3000 ml",
+   "marca": "Vivere",
+   "categoria": "Limpieza",
+   "precio_regular": 689.07,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/suavizante-para-ropa-vivere-x-3000-ml-tie-00056",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00057",
+   "titulo": "Servilletas Sussex 1 unidades",
+   "marca": "Sussex",
+   "categoria": "Hogar",
+   "precio_regular": 239.47,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/servilletas-sussex-1-unidades-tie-00057",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00058",
+   "titulo": "Mayonesa Fanacoa x 1,5 kg",
+   "marca": "Fanacoa",
+   "categoria": "Alimentos",
+   "precio_regular": 427.71,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/mayonesa-fanacoa-x-1-5-kg-tie-00058",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00059",
+   "titulo": "Desodorante null x 50 ml",
+   "marca": null,
+   "categoria": "Higiene personal",
+   "precio_regular": 7.7,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/desodorante-null-x-50-ml-tie-00059",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00060",
+   "titulo": "Monster Bebida energizante 2,25 L",
+   "marca": "Monster",
+   "categoria": "Bebidas",
+   "precio_regular": 249.29,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/monster-bebida-energizante-2-25-l-tie-00060",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00061",
+   "titulo": "Pasta dental Colgate 200 cc",
+   "marca": "Colgate",
+   "categoria": "Higiene personal",
+   "precio_regular": 75.03,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/pasta-dental-colgate-200-cc-tie-00061",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00062",
+   "titulo": "Rollo de cocina Higienol 12 u",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 1076.23,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/rollo-de-cocina-higienol-12-u-tie-00062",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00063",
+   "titulo": "Esponja de cocina Scotch-Brite 6 u",
+   "marca": "Scotch-Brite",
+   "categoria": "Hogar",
+   "precio_regular": 514.37,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/esponja-de-cocina-scotch-brite-6-u-tie-00063",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00064",
+   "titulo": "Cabrales Cafe molido 750 gr",
+   "marca": "Cabrales",
+   "categoria": "Alimentos",
+   "precio_regular": 75.83,
+   "precio_promocional": 64.46,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "15% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/cabrales-cafe-molido-750-gr-tie-00064",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00065",
+   "titulo": "Ala Detergente 500 ml",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 29.45,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/ala-detergente-500-ml-tie-00065",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00066",
+   "titulo": "Comfort Suavizante para ropa 1,5 litros",
+   "marca": "Comfort",
+   "categoria": "Limpieza",
+   "precio_regular": 448.43,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": false,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/comfort-suavizante-para-ropa-1-5-litros-tie-00066",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00067",
+   "titulo": "Higienol Bolsa de residuos 6 unidades",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 2296.61,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/higienol-bolsa-de-residuos-6-unidades-tie-00067",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00068",
+   "titulo": "Bolsa de residuos Consul x 1 unidades",
+   "marca": "Consul",
+   "categoria": "Hogar",
+   "precio_regular": 174.63,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/bolsa-de-residuos-consul-x-1-unidades-tie-00068",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00069",
+   "titulo": "Rollo de cocina Higienol 1 u",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 367.61,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/rollo-de-cocina-higienol-1-u-tie-00069",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00070",
+   "titulo": "Bebida energizante Red Bull x 2250 ml",
+   "marca": "Red Bull",
+   "categoria": "Bebidas",
+   "precio_regular": 602.3,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/bebida-energizante-red-bull-x-2250-ml-tie-00070",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00071",
+   "titulo": "Acondicionador Sedal 200 cc",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 133.78,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/acondicionador-sedal-200-cc-tie-00071",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00072",
+   "titulo": "Agua mineral Glaciar x 2500 cc",
+   "marca": "Glaciar",
+   "categoria": "Bebidas",
+   "precio_regular": 1107.89,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/agua-mineral-glaciar-x-2500-cc-tie-00072",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00073",
+   "titulo": "Servilletas Sussex 6 un",
+   "marca": "Sussex",
+   "categoria": "Hogar",
+   "precio_regular": 2167.87,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/servilletas-sussex-6-un-tie-00073",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00074",
+   "titulo": "Ala Suavizante para ropa 1500 cc",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 349.02,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/ala-suavizante-para-ropa-1500-cc-tie-00074",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00075",
+   "titulo": "Galletitas dulces Oreo 500 gr",
+   "marca": "Oreo",
+   "categoria": "Alimentos",
+   "precio_regular": 198.71,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/galletitas-dulces-oreo-500-gr-tie-00075",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00076",
+   "titulo": "Procenex Desinfectante 500 cc",
+   "marca": "Procenex",
+   "categoria": "Limpieza",
+   "precio_regular": 224.97,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/procenex-desinfectante-500-cc-tie-00076",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00077",
+   "titulo": "Shampoo sensitive Sedal x 500 cc",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 65.91,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/shampoo-sensitive-sedal-x-500-cc-tie-00077",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00078",
+   "titulo": "Cafe molido Bonafide x 1 kg",
+   "marca": "Bonafide",
+   "categoria": "Alimentos",
+   "precio_regular": 437.51,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/cafe-molido-bonafide-x-1-kg-tie-00078",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00079",
+   "titulo": "Pasta dental Colgate x 50 ml",
+   "marca": "Colgate",
+   "categoria": "Higiene personal",
+   "precio_regular": 31.95,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/pasta-dental-colgate-x-50-ml-tie-00079",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00080",
+   "titulo": "Drive Jabon liquido para ropa 500 ml",
+   "marca": "Drive",
+   "categoria": "Limpieza",
+   "precio_regular": 303.89,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/drive-jabon-liquido-para-ropa-500-ml-tie-00080",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00081",
+   "titulo": "Servilletas Sussex x 8 u",
+   "marca": "Sussex",
+   "categoria": "Hogar",
+   "precio_regular": 2360.51,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/servilletas-sussex-x-8-u-tie-00081",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00082",
+   "titulo": "Fanacoa Mayonesa 250 grs",
+   "marca": "Fanacoa",
+   "categoria": "Alimentos",
+   "precio_regular": 23.91,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/fanacoa-mayonesa-250-grs-tie-00082",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00083",
+   "titulo": "Papel higienico Scott 750 cc",
+   "marca": "Scott",
+   "categoria": "Higiene personal",
+   "precio_regular": 237.86,
+   "precio_promocional": 202.18,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "15% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/papel-higienico-scott-750-cc-tie-00083",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00084",
+   "titulo": "Rexona Jabon de tocador repuesto 100 cc",
+   "marca": "Rexona",
+   "categoria": "Higiene personal",
+   "precio_regular": 19.96,
+   "precio_promocional": 15.97,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "20% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/rexona-jabon-de-tocador-repuesto-100-cc-tie-00084",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00085",
+   "titulo": "Esponja de cocina Virulana 24 unidades",
+   "marca": "Virulana",
+   "categoria": "Hogar",
+   "precio_regular": 5459.29,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/esponja-de-cocina-virulana-24-unidades-tie-00085",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00086",
+   "titulo": "Jabon de tocador 500 ml",
+   "marca": null,
+   "categoria": "Higiene personal",
+   "precio_regular": 227.4,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/jabon-de-tocador-500-ml-tie-00086",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00087",
+   "titulo": "Sussex Servilletas 12 u",
+   "marca": "Sussex",
+   "categoria": "Hogar",
+   "precio_regular": 2656.89,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/sussex-servilletas-12-u-tie-00087",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00088",
+   "titulo": "Morixe Harina de trigo 2000 g",
+   "marca": "Morixe",
+   "categoria": "Alimentos",
+   "precio_regular": 791.94,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": false,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/morixe-harina-de-trigo-2000-g-tie-00088",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00089",
+   "titulo": "Rollo de cocina Elite x 1 unidades",
+   "marca": "Elite",
+   "categoria": "Hogar",
+   "precio_regular": 302.97,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "segunda_unidad",
+    "porcentaje": 70,
+    "descripcion": "70% off en la segunda unidad",
+    "vigencia_hasta": "2026-11-12"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/rollo-de-cocina-elite-x-1-unidades-tie-00089",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00090",
+   "titulo": "Leche entera Sancor x 250 gr",
+   "marca": "Sancor",
+   "categoria": "Alimentos",
+   "precio_regular": 65.89,
+   "precio_promocional": 59.3,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "10% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/leche-entera-sancor-x-250-gr-tie-00090",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00091",
+   "titulo": "Nivea Desodorante 50 cc",
+   "marca": "Nivea",
+   "categoria": "Higiene personal",
+   "precio_regular": 43.95,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/nivea-desodorante-50-cc-tie-00091",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00092",
+   "titulo": "Nescafé Cafe molido 250 g",
+   "marca": "Nescafé",
+   "categoria": "Alimentos",
+   "precio_regular": 132.72,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/nescafe-cafe-molido-250-g-tie-00092",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00093",
+   "titulo": "Arroz largo fino Dos Hermanos x 2000 g",
+   "marca": "Dos Hermanos",
+   "categoria": "Alimentos",
+   "precio_regular": 760.3,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/arroz-largo-fino-dos-hermanos-x-2000-g-tie-00093",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00094",
+   "titulo": "H2OH Agua saborizada 350 cc",
+   "marca": "H2OH",
+   "categoria": "Bebidas",
+   "precio_regular": 12.98,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "segunda_unidad",
+    "porcentaje": 70,
+    "descripcion": "70% off en la segunda unidad",
+    "vigencia_hasta": "2026-11-12"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/h2oh-agua-saborizada-350-cc-tie-00094",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00095",
+   "titulo": "Aceite de girasol Cañuelas x 2000 g",
+   "marca": "Cañuelas",
+   "categoria": "Alimentos",
+   "precio_regular": 762.62,
+   "precio_promocional": 648.23,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "15% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/aceite-de-girasol-canuelas-x-2000-g-tie-00095",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00096",
+   "titulo": "Desodorante null x 1 L",
+   "marca": null,
+   "categoria": "Higiene personal",
+   "precio_regular": 692.96,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/desodorante-null-x-1-l-tie-00096",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00097",
+   "titulo": "Higienol Rollo de cocina 48 unidades",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 2575.27,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/higienol-rollo-de-cocina-48-unidades-tie-00097",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00098",
+   "titulo": "Ayudin Lavandina gel 500 cc",
+   "marca": "Ayudin",
+   "categoria": "Limpieza",
+   "precio_regular": 207.08,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/ayudin-lavandina-gel-500-cc-tie-00098",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00099",
+   "titulo": "Limpiador de pisos Cif 1,5 lt",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 823.21,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/limpiador-de-pisos-cif-1-5-lt-tie-00099",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00100",
+   "titulo": "Cif Detergente 2 lt",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 386.87,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "segunda_unidad",
+    "porcentaje": 70,
+    "descripcion": "70% off en la segunda unidad",
+    "vigencia_hasta": "2026-11-12"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/cif-detergente-2-lt-tie-00100",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00101",
+   "titulo": "Pasta dental Oral-B x 50 ml",
+   "marca": "Oral-B",
+   "categoria": "Higiene personal",
+   "precio_regular": 27.2,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/pasta-dental-oral-b-x-50-ml-tie-00101",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00102",
+   "titulo": "Aceite de girasol Cocinero x 2 kg",
+   "marca": "Cocinero",
+   "categoria": "Alimentos",
+   "precio_regular": 821.86,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/aceite-de-girasol-cocinero-x-2-kg-tie-00102",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00103",
+   "titulo": "Lavandina null x 500 cc",
+   "marca": null,
+   "categoria": "Limpieza",
+   "precio_regular": 97.37,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/lavandina-null-x-500-cc-tie-00103",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00104",
+   "titulo": "Bebida energizante Red Bull light 1000 ml",
+   "marca": "Red Bull",
+   "categoria": "Bebidas",
+   "precio_regular": 249.07,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/bebida-energizante-red-bull-light-1000-ml-tie-00104",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00105",
+   "titulo": "Limpiador de pisos Poett 1,5 litros",
+   "marca": "Poett",
+   "categoria": "Limpieza",
+   "precio_regular": 1062.73,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "segunda_unidad",
+    "porcentaje": 70,
+    "descripcion": "70% off en la segunda unidad",
+    "vigencia_hasta": "2026-11-12"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/limpiador-de-pisos-poett-1-5-litros-tie-00105",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00106",
+   "titulo": "Pasta dental Oral-B x 500 cc",
+   "marca": "Oral-B",
+   "categoria": "Higiene personal",
+   "precio_regular": 192.33,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/pasta-dental-oral-b-x-500-cc-tie-00106",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00107",
+   "titulo": "Dominó Azucar refinada 500 grs",
+   "marca": "Dominó",
+   "categoria": "Alimentos",
+   "precio_regular": 164.71,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/domino-azucar-refinada-500-grs-tie-00107",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00108",
+   "titulo": "Jabon liquido para ropa null x 750 ml",
+   "marca": null,
+   "categoria": "Limpieza",
+   "precio_regular": 332.55,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/jabon-liquido-para-ropa-null-x-750-ml-tie-00108",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00109",
+   "titulo": "Jugo de naranja zero Baggio x 2 litros",
+   "marca": "Baggio",
+   "categoria": "Bebidas",
+   "precio_regular": 531.3,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/jugo-de-naranja-zero-baggio-x-2-litros-tie-00109",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00110",
+   "titulo": "Jugo de naranja Cepita 3 lt",
+   "marca": "Cepita",
+   "categoria": "Bebidas",
+   "precio_regular": 853.36,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/jugo-de-naranja-cepita-3-lt-tie-00110",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00111",
+   "titulo": "Desinfectante Lysoform 3 L",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 1233.92,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/desinfectante-lysoform-3-l-tie-00111",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00112",
+   "titulo": "Colgate Pasta dental 750 ml",
+   "marca": "Colgate",
+   "categoria": "Higiene personal",
+   "precio_regular": 267.99,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/colgate-pasta-dental-750-ml-tie-00112",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00113",
+   "titulo": "Desinfectante Cif 1000 ml",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 126.43,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/desinfectante-cif-1000-ml-tie-00113",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00114",
+   "titulo": "Aceite de girasol Cañuelas x 1500 g",
+   "marca": "Cañuelas",
+   "categoria": "Alimentos",
+   "precio_regular": 103.38,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/aceite-de-girasol-canuelas-x-1500-g-tie-00114",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00115",
+   "titulo": "Lucchetti Fideos spaghetti 750 grs",
+   "marca": "Lucchetti",
+   "categoria": "Alimentos",
+   "precio_regular": 92.06,
+   "precio_promocional": 78.25,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "15% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/lucchetti-fideos-spaghetti-750-grs-tie-00115",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00116",
+   "titulo": "Acondicionador Pantene x 500 ml",
+   "marca": "Pantene",
+   "categoria": "Higiene personal",
+   "precio_regular": 34.42,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/acondicionador-pantene-x-500-ml-tie-00116",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00117",
+   "titulo": "Lysoform Limpiador de pisos 2000 ml",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 606.77,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/lysoform-limpiador-de-pisos-2000-ml-tie-00117",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00118",
+   "titulo": "Shampoo Pantene 400 cc",
+   "marca": "Pantene",
+   "categoria": "Higiene personal",
+   "precio_regular": 57.32,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/shampoo-pantene-400-cc-tie-00118",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00119",
+   "titulo": "Manaos Gaseosa cola sabor pomelo 500 cc",
+   "marca": "Manaos",
+   "categoria": "Bebidas",
+   "precio_regular": 128.13,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/manaos-gaseosa-cola-sabor-pomelo-500-cc-tie-00119",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00120",
+   "titulo": "Detergente aroma lavanda Cif x 750 ml",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 444.69,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/detergente-aroma-lavanda-cif-x-750-ml-tie-00120",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00121",
+   "titulo": "Servilletas Campanita 12 u",
+   "marca": "Campanita",
+   "categoria": "Hogar",
+   "precio_regular": 5017.57,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/servilletas-campanita-12-u-tie-00121",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00122",
+   "titulo": "Chango Azucar refinada 900 g",
+   "marca": "Chango",
+   "categoria": "Alimentos",
+   "precio_regular": 103.98,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/chango-azucar-refinada-900-g-tie-00122",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00123",
+   "titulo": "Pantene Acondicionador 100 cc",
+   "marca": "Pantene",
+   "categoria": "Higiene personal",
+   "precio_regular": 49.89,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/pantene-acondicionador-100-cc-tie-00123",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00124",
+   "titulo": "Rollo de cocina Higienol 4 u",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 302.77,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/rollo-de-cocina-higienol-4-u-tie-00124",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00125",
+   "titulo": "Agua mineral Glaciar 2,25 litros",
+   "marca": "Glaciar",
+   "categoria": "Bebidas",
+   "precio_regular": 677.83,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/agua-mineral-glaciar-2-25-litros-tie-00125",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00126",
+   "titulo": "Head & Shoulders Shampoo 100 ml",
+   "marca": "Head & Shoulders",
+   "categoria": "Higiene personal",
+   "precio_regular": 44.48,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/head-shoulders-shampoo-100-ml-tie-00126",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00127",
+   "titulo": "Bolsa de residuos Higienol 24 un",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 4308.63,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/bolsa-de-residuos-higienol-24-un-tie-00127",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00128",
+   "titulo": "Lysoform Desinfectante 1,5 lt",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 871.56,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/lysoform-desinfectante-1-5-lt-tie-00128",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00129",
+   "titulo": "Agua mineral Eco de los Andes x 1,5 litros",
+   "marca": "Eco de los Andes",
+   "categoria": "Bebidas",
+   "precio_regular": 374.81,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/agua-mineral-eco-de-los-andes-x-1-5-litros-tie-00129",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00130",
+   "titulo": "Magistral Detergente 900 ml",
+   "marca": "Magistral",
+   "categoria": "Limpieza",
+   "precio_regular": 630.58,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/magistral-detergente-900-ml-tie-00130",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00131",
+   "titulo": "Pasta dental Oral-B x 90 ml",
+   "marca": "Oral-B",
+   "categoria": "Higiene personal",
+   "precio_regular": 28.62,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/pasta-dental-oral-b-x-90-ml-tie-00131",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00132",
+   "titulo": "Suavizante para ropa Ala x 3 lt",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 1425.54,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/suavizante-para-ropa-ala-x-3-lt-tie-00132",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00133",
+   "titulo": "Bolsa de residuos Higienol x 12 u",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 4647.39,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/bolsa-de-residuos-higienol-x-12-u-tie-00133",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00134",
+   "titulo": "Limpiador de pisos Poett 6 L",
+   "marca": "Poett",
+   "categoria": "Limpieza",
+   "precio_regular": 3386.27,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/limpiador-de-pisos-poett-6-l-tie-00134",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00135",
+   "titulo": "Bolsa de residuos Bolsapel x 6 u",
+   "marca": "Bolsapel",
+   "categoria": "Hogar",
+   "precio_regular": 1598.79,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/bolsa-de-residuos-bolsapel-x-6-u-tie-00135",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00136",
+   "titulo": "Arroz largo fino Gallo 250 grs",
+   "marca": "Gallo",
+   "categoria": "Alimentos",
+   "precio_regular": 113.21,
+   "precio_promocional": 90.57,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "20% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/arroz-largo-fino-gallo-250-grs-tie-00136",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00137",
+   "titulo": "Bebida energizante Monster x 1000 ml",
+   "marca": "Monster",
+   "categoria": "Bebidas",
+   "precio_regular": 311.63,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/bebida-energizante-monster-x-1000-ml-tie-00137",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00138",
+   "titulo": "Cafe molido Nescafé x 1,5 kg",
+   "marca": "Nescafé",
+   "categoria": "Alimentos",
+   "precio_regular": 628.7,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/cafe-molido-nescafe-x-1-5-kg-tie-00138",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00139",
+   "titulo": "Bebida energizante Red Bull 350 ml",
+   "marca": "Red Bull",
+   "categoria": "Bebidas",
+   "precio_regular": 73.41,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/bebida-energizante-red-bull-350-ml-tie-00139",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00140",
+   "titulo": "Fideos spaghetti Lucchetti x 2000 grs",
+   "marca": "Lucchetti",
+   "categoria": "Alimentos",
+   "precio_regular": 268.84,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/fideos-spaghetti-lucchetti-x-2000-grs-tie-00140",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00141",
+   "titulo": "Limpiador de pisos Cif 3 litros",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 730.95,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/limpiador-de-pisos-cif-3-litros-tie-00141",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00142",
+   "titulo": "Rexona Jabon de tocador 90 ml",
+   "marca": "Rexona",
+   "categoria": "Higiene personal",
+   "precio_regular": 52.3,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/rexona-jabon-de-tocador-90-ml-tie-00142",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00143",
+   "titulo": "Mayonesa Fanacoa 1000 grs",
+   "marca": "Fanacoa",
+   "categoria": "Alimentos",
+   "precio_regular": 354.56,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/mayonesa-fanacoa-1000-grs-tie-00143",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00144",
+   "titulo": "Campanita Servilletas jumbo 12 u",
+   "marca": "Campanita",
+   "categoria": "Hogar",
+   "precio_regular": 3271.78,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/campanita-servilletas-jumbo-12-u-tie-00144",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00145",
+   "titulo": "Bolsa de residuos Bolsapel 48 un",
+   "marca": "Bolsapel",
+   "categoria": "Hogar",
+   "precio_regular": 5944.79,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/bolsa-de-residuos-bolsapel-48-un-tie-00145",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00146",
+   "titulo": "Fideos spaghetti Favorita x 1 kg",
+   "marca": "Favorita",
+   "categoria": "Alimentos",
+   "precio_regular": 203.76,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "segunda_unidad",
+    "porcentaje": 70,
+    "descripcion": "70% off en la segunda unidad",
+    "vigencia_hasta": "2026-11-12"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/fideos-spaghetti-favorita-x-1-kg-tie-00146",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00147",
+   "titulo": "Taragüi Yerba mate 1,5 kg",
+   "marca": "Taragüi",
+   "categoria": "Alimentos",
+   "precio_regular": 672.55,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/taragui-yerba-mate-1-5-kg-tie-00147",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00148",
+   "titulo": "Jabon de tocador Lux x 200 cc",
+   "marca": "Lux",
+   "categoria": "Higiene personal",
+   "precio_regular": 174.35,
+   "precio_promocional": 139.48,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "20% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/jabon-de-tocador-lux-x-200-cc-tie-00148",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00149",
+   "titulo": "Agua saborizada Aquarius 500 cc",
+   "marca": "Aquarius",
+   "categoria": "Bebidas",
+   "precio_regular": 150.65,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/agua-saborizada-aquarius-500-cc-tie-00149",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00150",
+   "titulo": "Gaseosa cola zero Pepsi x 2000 cc",
+   "marca": "Pepsi",
+   "categoria": "Bebidas",
+   "precio_regular": 874.75,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/gaseosa-cola-zero-pepsi-x-2000-cc-tie-00150",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00151",
+   "titulo": "Pasta dental Sensodyne x 200 ml",
+   "marca": "Sensodyne",
+   "categoria": "Higiene personal",
+   "precio_regular": 16.48,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/pasta-dental-sensodyne-x-200-ml-tie-00151",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00152",
+   "titulo": "Servilletas Campanita 1 un",
+   "marca": "Campanita",
+   "categoria": "Hogar",
+   "precio_regular": 51.86,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/servilletas-campanita-1-un-tie-00152",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00153",
+   "titulo": "Fideos spaghetti Lucchetti 250 g",
+   "marca": "Lucchetti",
+   "categoria": "Alimentos",
+   "precio_regular": 56.41,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/fideos-spaghetti-lucchetti-250-g-tie-00153",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00154",
+   "titulo": "Esponja de cocina Scotch-Brite 4 unidades",
+   "marca": "Scotch-Brite",
+   "categoria": "Hogar",
+   "precio_regular": 245.33,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/esponja-de-cocina-scotch-brite-4-unidades-tie-00154",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00155",
+   "titulo": "Sussex Rollo de cocina 2 u",
+   "marca": "Sussex",
+   "categoria": "Hogar",
+   "precio_regular": 320.56,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/sussex-rollo-de-cocina-2-u-tie-00155",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00156",
+   "titulo": "Jabon liquido para ropa Skip x 1,8 litros",
+   "marca": "Skip",
+   "categoria": "Limpieza",
+   "precio_regular": 116.32,
+   "precio_promocional": 104.69,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "10% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/jabon-liquido-para-ropa-skip-x-1-8-litros-tie-00156",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00157",
+   "titulo": "Gaseosa cola Pepsi 2,5 lt",
+   "marca": "Pepsi",
+   "categoria": "Bebidas",
+   "precio_regular": 92.61,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/gaseosa-cola-pepsi-2-5-lt-tie-00157",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00158",
+   "titulo": "Yerba mate Taragüi 900 g",
+   "marca": "Taragüi",
+   "categoria": "Alimentos",
+   "precio_regular": 183.8,
+   "precio_promocional": 165.42,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "10% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/yerba-mate-taragui-900-g-tie-00158",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00159",
+   "titulo": "Lavandina Ayudin 450 ml",
+   "marca": "Ayudin",
+   "categoria": "Limpieza",
+   "precio_regular": 101.55,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/lavandina-ayudin-450-ml-tie-00159",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00160",
+   "titulo": "Acondicionador Pantene x 1 lt",
+   "marca": "Pantene",
+   "categoria": "Higiene personal",
+   "precio_regular": 106.36,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/acondicionador-pantene-x-1-lt-tie-00160",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00161",
+   "titulo": "Jabon liquido para ropa Drive 1,5 lt",
+   "marca": "Drive",
+   "categoria": "Limpieza",
+   "precio_regular": 215.12,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/jabon-liquido-para-ropa-drive-1-5-lt-tie-00161",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00162",
+   "titulo": "Cañuelas Aceite de girasol 500 g",
+   "marca": "Cañuelas",
+   "categoria": "Alimentos",
+   "precio_regular": 22.92,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": false,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/canuelas-aceite-de-girasol-500-g-tie-00162",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00163",
+   "titulo": "Molinos Arroz largo fino 1 kg",
+   "marca": "Molinos",
+   "categoria": "Alimentos",
+   "precio_regular": 162.59,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": false,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/molinos-arroz-largo-fino-1-kg-tie-00163",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00164",
+   "titulo": "Leche entera La Serenísima 500 g",
+   "marca": "La Serenísima",
+   "categoria": "Alimentos",
+   "precio_regular": 118.88,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/leche-entera-la-serenisima-500-g-tie-00164",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00165",
+   "titulo": "Jabon de tocador Rexona x 50 cc",
+   "marca": "Rexona",
+   "categoria": "Higiene personal",
+   "precio_regular": 9.92,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/jabon-de-tocador-rexona-x-50-cc-tie-00165",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00166",
+   "titulo": "Desodorante Dove x 500 ml",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 347.88,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/desodorante-dove-x-500-ml-tie-00166",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00167",
+   "titulo": "Arroz largo fino Molinos 900 g",
+   "marca": "Molinos",
+   "categoria": "Alimentos",
+   "precio_regular": 501.63,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/arroz-largo-fino-molinos-900-g-tie-00167",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00168",
+   "titulo": "Cafe molido Bonafide x 900 grs",
+   "marca": "Bonafide",
+   "categoria": "Alimentos",
+   "precio_regular": 302.13,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/cafe-molido-bonafide-x-900-grs-tie-00168",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00169",
+   "titulo": "Favorita Fideos spaghetti 250 grs",
+   "marca": "Favorita",
+   "categoria": "Alimentos",
+   "precio_regular": 88.2,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/favorita-fideos-spaghetti-250-grs-tie-00169",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00170",
+   "titulo": "Fideos spaghetti Lucchetti x 1 kg",
+   "marca": "Lucchetti",
+   "categoria": "Alimentos",
+   "precio_regular": 512.63,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/fideos-spaghetti-lucchetti-x-1-kg-tie-00170",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00171",
+   "titulo": "Aceite de girasol Cocinero 1000 grs",
+   "marca": "Cocinero",
+   "categoria": "Alimentos",
+   "precio_regular": 135.44,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/aceite-de-girasol-cocinero-1000-grs-tie-00171",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00172",
+   "titulo": "Yerba mate Playadito 750 grs",
+   "marca": "Playadito",
+   "categoria": "Alimentos",
+   "precio_regular": 274.38,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/yerba-mate-playadito-750-grs-tie-00172",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00173",
+   "titulo": "Esponja de cocina Virulana x 24 un",
+   "marca": "Virulana",
+   "categoria": "Hogar",
+   "precio_regular": 6452.93,
+   "precio_promocional": 5484.99,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "15% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/esponja-de-cocina-virulana-x-24-un-tie-00173",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00174",
+   "titulo": "Bebida energizante sabor pomelo Monster x 500 ml",
+   "marca": "Monster",
+   "categoria": "Bebidas",
+   "precio_regular": 47.66,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/bebida-energizante-sabor-pomelo-monster-x-500-ml-tie-00174",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00175",
+   "titulo": "Jabon de tocador Rexona 200 ml",
+   "marca": "Rexona",
+   "categoria": "Higiene personal",
+   "precio_regular": 115.4,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/jabon-de-tocador-rexona-200-ml-tie-00175",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00176",
+   "titulo": "Desodorante Nivea 750 cc",
+   "marca": "Nivea",
+   "categoria": "Higiene personal",
+   "precio_regular": 472.35,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/desodorante-nivea-750-cc-tie-00176",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00177",
+   "titulo": "Detergente Cif 3 L",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 1847.76,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/detergente-cif-3-l-tie-00177",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00178",
+   "titulo": "Limpiador de pisos Cif x 500 cc",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 358.97,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/limpiador-de-pisos-cif-x-500-cc-tie-00178",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00179",
+   "titulo": "Agua mineral Eco de los Andes x 1 lt",
+   "marca": "Eco de los Andes",
+   "categoria": "Bebidas",
+   "precio_regular": 84.95,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/agua-mineral-eco-de-los-andes-x-1-lt-tie-00179",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00180",
+   "titulo": "Gaseosa cola Coca-Cola x 2000 ml",
+   "marca": "Coca-Cola",
+   "categoria": "Bebidas",
+   "precio_regular": 338.97,
+   "precio_promocional": 305.07,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "10% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/gaseosa-cola-coca-cola-x-2000-ml-tie-00180",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00181",
+   "titulo": "Mayonesa Fanacoa 250 g",
+   "marca": "Fanacoa",
+   "categoria": "Alimentos",
+   "precio_regular": 21.02,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/mayonesa-fanacoa-250-g-tie-00181",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00182",
+   "titulo": "Clorox Lavandina 750 ml",
+   "marca": "Clorox",
+   "categoria": "Limpieza",
+   "precio_regular": 318.7,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/clorox-lavandina-750-ml-tie-00182",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00183",
+   "titulo": "Azucar refinada Ledesma 2 kg",
+   "marca": "Ledesma",
+   "categoria": "Alimentos",
+   "precio_regular": 710.81,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/azucar-refinada-ledesma-2-kg-tie-00183",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00184",
+   "titulo": "Fideos spaghetti Matarazzo 1,5 kg",
+   "marca": "Matarazzo",
+   "categoria": "Alimentos",
+   "precio_regular": 613.12,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/fideos-spaghetti-matarazzo-1-5-kg-tie-00184",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00185",
+   "titulo": "Galletitas dulces Oreo x 1500 grs",
+   "marca": "Oreo",
+   "categoria": "Alimentos",
+   "precio_regular": 205.4,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/galletitas-dulces-oreo-x-1500-grs-tie-00185",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00186",
+   "titulo": "Shampoo Sedal x 100 cc",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 77.71,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/shampoo-sedal-x-100-cc-tie-00186",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00187",
+   "titulo": "Fideos spaghetti Favorita 1 kg",
+   "marca": "Favorita",
+   "categoria": "Alimentos",
+   "precio_regular": 486.98,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/fideos-spaghetti-favorita-1-kg-tie-00187",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00188",
+   "titulo": "Procenex Desinfectante 900 ml",
+   "marca": "Procenex",
+   "categoria": "Limpieza",
+   "precio_regular": 386.1,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/procenex-desinfectante-900-ml-tie-00188",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00189",
+   "titulo": "Pantene Acondicionador 90 ml",
+   "marca": "Pantene",
+   "categoria": "Higiene personal",
+   "precio_regular": 16.46,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/pantene-acondicionador-90-ml-tie-00189",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00190",
+   "titulo": "Hellmann's Mayonesa 2 kg",
+   "marca": "Hellmann's",
+   "categoria": "Alimentos",
+   "precio_regular": 849.89,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/hellmann-s-mayonesa-2-kg-tie-00190",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00191",
+   "titulo": "Jugo de naranja zero Citric x 1,5 L",
+   "marca": "Citric",
+   "categoria": "Bebidas",
+   "precio_regular": 133.82,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/jugo-de-naranja-zero-citric-x-1-5-l-tie-00191",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00192",
+   "titulo": "Suavizante para ropa Comfort x 750 cc",
+   "marca": "Comfort",
+   "categoria": "Limpieza",
+   "precio_regular": 488.42,
+   "precio_promocional": 390.74,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "20% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/suavizante-para-ropa-comfort-x-750-cc-tie-00192",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00193",
+   "titulo": "Esponja de cocina Mortimer x 24 unidades",
+   "marca": "Mortimer",
+   "categoria": "Hogar",
+   "precio_regular": 3925.76,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/esponja-de-cocina-mortimer-x-24-unidades-tie-00193",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00194",
+   "titulo": "Detergente Cif x 900 ml",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 560.58,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "segunda_unidad",
+    "porcentaje": 70,
+    "descripcion": "70% off en la segunda unidad",
+    "vigencia_hasta": "2026-11-12"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/detergente-cif-x-900-ml-tie-00194",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00195",
+   "titulo": "Agua mineral Glaciar x 350 ml",
+   "marca": "Glaciar",
+   "categoria": "Bebidas",
+   "precio_regular": 70.93,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/agua-mineral-glaciar-x-350-ml-tie-00195",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00196",
+   "titulo": "Sedal Shampoo 90 ml",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 54.5,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/sedal-shampoo-90-ml-tie-00196",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00197",
+   "titulo": "Jabon liquido para ropa Skip 3 lt",
+   "marca": "Skip",
+   "categoria": "Limpieza",
+   "precio_regular": 807.46,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/jabon-liquido-para-ropa-skip-3-lt-tie-00197",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00198",
+   "titulo": "Jabon liquido para ropa 750 ml",
+   "marca": null,
+   "categoria": "Limpieza",
+   "precio_regular": 317.15,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/jabon-liquido-para-ropa-750-ml-tie-00198",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00199",
+   "titulo": "Bebida energizante Speed 2,25 litros",
+   "marca": "Speed",
+   "categoria": "Bebidas",
+   "precio_regular": 1054.48,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/bebida-energizante-speed-2-25-litros-tie-00199",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00200",
+   "titulo": "Bebida energizante Speed 1 lt",
+   "marca": "Speed",
+   "categoria": "Bebidas",
+   "precio_regular": 338.42,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/bebida-energizante-speed-1-lt-tie-00200",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00201",
+   "titulo": "Sancor Leche entera 750 g",
+   "marca": "Sancor",
+   "categoria": "Alimentos",
+   "precio_regular": 188.24,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/sancor-leche-entera-750-g-tie-00201",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00202",
+   "titulo": "Jabon liquido para ropa Skip 500 cc",
+   "marca": "Skip",
+   "categoria": "Limpieza",
+   "precio_regular": 66.42,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": false,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/jabon-liquido-para-ropa-skip-500-cc-tie-00202",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00203",
+   "titulo": "Levité Agua saborizada 4000 ml",
+   "marca": "Levité",
+   "categoria": "Bebidas",
+   "precio_regular": 1047.06,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/levite-agua-saborizada-4000-ml-tie-00203",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00204",
+   "titulo": "Gaseosa cola Manaos x 1 lt",
+   "marca": "Manaos",
+   "categoria": "Bebidas",
+   "precio_regular": 91.86,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/gaseosa-cola-manaos-x-1-lt-tie-00204",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00205",
+   "titulo": "Galletitas dulces Bagley 2 kg",
+   "marca": "Bagley",
+   "categoria": "Alimentos",
+   "precio_regular": 352.91,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/galletitas-dulces-bagley-2-kg-tie-00205",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00206",
+   "titulo": "Shampoo Pantene x 100 cc",
+   "marca": "Pantene",
+   "categoria": "Higiene personal",
+   "precio_regular": 64.32,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/shampoo-pantene-x-100-cc-tie-00206",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00207",
+   "titulo": "Lysoform Limpiador de pisos 6000 cc",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 2687.63,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/lysoform-limpiador-de-pisos-6000-cc-tie-00207",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00208",
+   "titulo": "Papel higienico Higienol 200 cc",
+   "marca": "Higienol",
+   "categoria": "Higiene personal",
+   "precio_regular": 139.75,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/papel-higienico-higienol-200-cc-tie-00208",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00209",
+   "titulo": "Detergente Ala 900 ml",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 576.06,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/detergente-ala-900-ml-tie-00209",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00210",
+   "titulo": "Jabon de tocador Rexona 500 ml",
+   "marca": "Rexona",
+   "categoria": "Higiene personal",
+   "precio_regular": 138.26,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/jabon-de-tocador-rexona-500-ml-tie-00210",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00211",
+   "titulo": "Esponja de cocina Scotch-Brite x 24 u",
+   "marca": "Scotch-Brite",
+   "categoria": "Hogar",
+   "precio_regular": 9187.26,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/esponja-de-cocina-scotch-brite-x-24-u-tie-00211",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00212",
+   "titulo": "Jugo de naranja Cepita 500 cc",
+   "marca": "Cepita",
+   "categoria": "Bebidas",
+   "precio_regular": 184.33,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/jugo-de-naranja-cepita-500-cc-tie-00212",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00213",
+   "titulo": "Red Bull Bebida energizante 500 cc",
+   "marca": "Red Bull",
+   "categoria": "Bebidas",
+   "precio_regular": 20.1,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/red-bull-bebida-energizante-500-cc-tie-00213",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00214",
+   "titulo": "Harina de trigo Morixe 750 grs",
+   "marca": "Morixe",
+   "categoria": "Alimentos",
+   "precio_regular": 367.9,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/harina-de-trigo-morixe-750-grs-tie-00214",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00215",
+   "titulo": "Gaseosa cola Manaos 2,25 litros",
+   "marca": "Manaos",
+   "categoria": "Bebidas",
+   "precio_regular": 187.89,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "segunda_unidad",
+    "porcentaje": 70,
+    "descripcion": "70% off en la segunda unidad",
+    "vigencia_hasta": "2026-11-12"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/gaseosa-cola-manaos-2-25-litros-tie-00215",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00216",
+   "titulo": "Esponja de cocina 4 unidades",
+   "marca": null,
+   "categoria": "Hogar",
+   "precio_regular": 1062.08,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/esponja-de-cocina-4-unidades-tie-00216",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00217",
+   "titulo": "Vivere Suavizante para ropa 1 L",
+   "marca": "Vivere",
+   "categoria": "Limpieza",
+   "precio_regular": 517.76,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/vivere-suavizante-para-ropa-1-l-tie-00217",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00218",
+   "titulo": "Yerba mate Taragüi x 250 grs",
+   "marca": "Taragüi",
+   "categoria": "Alimentos",
+   "precio_regular": 100.26,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/yerba-mate-taragui-x-250-grs-tie-00218",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00219",
+   "titulo": "Mayonesa Hellmann's 375 gr",
+   "marca": "Hellmann's",
+   "categoria": "Alimentos",
+   "precio_regular": 99.89,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/mayonesa-hellmann-s-375-gr-tie-00219",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00220",
+   "titulo": "Azucar refinada Ledesma sin TACC 250 grs",
+   "marca": "Ledesma",
+   "categoria": "Alimentos",
+   "precio_regular": 99.37,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/azucar-refinada-ledesma-sin-tacc-250-grs-tie-00220",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00221",
+   "titulo": "Dove Jabon de tocador 750 ml",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 586.06,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/dove-jabon-de-tocador-750-ml-tie-00221",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00222",
+   "titulo": "Campanita Servilletas 4 u",
+   "marca": "Campanita",
+   "categoria": "Hogar",
+   "precio_regular": 649.48,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/campanita-servilletas-4-u-tie-00222",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00223",
+   "titulo": "Agua saborizada H2OH 2,25 L",
+   "marca": "H2OH",
+   "categoria": "Bebidas",
+   "precio_regular": 537.84,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/agua-saborizada-h2oh-2-25-l-tie-00223",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00224",
+   "titulo": "Gaseosa cola Pepsi x 350 cc",
+   "marca": "Pepsi",
+   "categoria": "Bebidas",
+   "precio_regular": 11.03,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/gaseosa-cola-pepsi-x-350-cc-tie-00224",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00225",
+   "titulo": "Arroz largo fino Gallo x 1 kg",
+   "marca": "Gallo",
+   "categoria": "Alimentos",
+   "precio_regular": 434.01,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/arroz-largo-fino-gallo-x-1-kg-tie-00225",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00226",
+   "titulo": "Suavizante para ropa Comfort x 2 lt",
+   "marca": "Comfort",
+   "categoria": "Limpieza",
+   "precio_regular": 239.27,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/suavizante-para-ropa-comfort-x-2-lt-tie-00226",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00227",
+   "titulo": "Acondicionador Sedal x 375 cc",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 51.76,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/acondicionador-sedal-x-375-cc-tie-00227",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00228",
+   "titulo": "Esponja de cocina Mortimer x 6 un",
+   "marca": "Mortimer",
+   "categoria": "Hogar",
+   "precio_regular": 1224.86,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/esponja-de-cocina-mortimer-x-6-un-tie-00228",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00229",
+   "titulo": "Suavizante para ropa 900 ml",
+   "marca": null,
+   "categoria": "Limpieza",
+   "precio_regular": 512.76,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/suavizante-para-ropa-900-ml-tie-00229",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00230",
+   "titulo": "Yerba mate Amanda x 1800 grs",
+   "marca": "Amanda",
+   "categoria": "Alimentos",
+   "precio_regular": 908.89,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/yerba-mate-amanda-x-1800-grs-tie-00230",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00231",
+   "titulo": "Cepita Jugo de naranja 2,25 litros",
+   "marca": "Cepita",
+   "categoria": "Bebidas",
+   "precio_regular": 794.7,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/cepita-jugo-de-naranja-2-25-litros-tie-00231",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00232",
+   "titulo": "Taragüi Yerba mate 375 g",
+   "marca": "Taragüi",
+   "categoria": "Alimentos",
+   "precio_regular": 134.38,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/taragui-yerba-mate-375-g-tie-00232",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00233",
+   "titulo": "Agua saborizada Levité 500 ml",
+   "marca": "Levité",
+   "categoria": "Bebidas",
+   "precio_regular": 42.11,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/agua-saborizada-levite-500-ml-tie-00233",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00234",
+   "titulo": "Villavicencio Agua mineral 175 ml",
+   "marca": "Villavicencio",
+   "categoria": "Bebidas",
+   "precio_regular": 30.65,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/villavicencio-agua-mineral-175-ml-tie-00234",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00235",
+   "titulo": "Agua mineral Glaciar x 2000 ml",
+   "marca": "Glaciar",
+   "categoria": "Bebidas",
+   "precio_regular": 212.11,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/agua-mineral-glaciar-x-2000-ml-tie-00235",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00236",
+   "titulo": "Pantene Shampoo 50 cc",
+   "marca": "Pantene",
+   "categoria": "Higiene personal",
+   "precio_regular": 27.4,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": false,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/pantene-shampoo-50-cc-tie-00236",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00237",
+   "titulo": "Cafe molido Nescafé 900 grs",
+   "marca": "Nescafé",
+   "categoria": "Alimentos",
+   "precio_regular": 424.81,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": false,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/cafe-molido-nescafe-900-grs-tie-00237",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00238",
+   "titulo": "Papel higienico Elite 400 cc",
+   "marca": "Elite",
+   "categoria": "Higiene personal",
+   "precio_regular": 149.75,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/papel-higienico-elite-400-cc-tie-00238",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00239",
+   "titulo": "Pantene Acondicionador 200 cc",
+   "marca": "Pantene",
+   "categoria": "Higiene personal",
+   "precio_regular": 105.88,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/pantene-acondicionador-200-cc-tie-00239",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00240",
+   "titulo": "Jugo de naranja Cepita 2 L",
+   "marca": "Cepita",
+   "categoria": "Bebidas",
+   "precio_regular": 547.2,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/jugo-de-naranja-cepita-2-l-tie-00240",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00241",
+   "titulo": "Agua mineral Glaciar 1000 cc",
+   "marca": "Glaciar",
+   "categoria": "Bebidas",
+   "precio_regular": 171.53,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/agua-mineral-glaciar-1000-cc-tie-00241",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00242",
+   "titulo": "Shampoo Head & Shoulders 500 cc",
+   "marca": "Head & Shoulders",
+   "categoria": "Higiene personal",
+   "precio_regular": 258.92,
+   "precio_promocional": 207.14,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "20% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/shampoo-head-shoulders-500-cc-tie-00242",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00243",
+   "titulo": "Shampoo Sedal x 750 ml",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 345.49,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/shampoo-sedal-x-750-ml-tie-00243",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00244",
+   "titulo": "Papel higienico Scott x 90 cc",
+   "marca": "Scott",
+   "categoria": "Higiene personal",
+   "precio_regular": 45.42,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/papel-higienico-scott-x-90-cc-tie-00244",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00245",
+   "titulo": "Papel higienico Scott 800 cc",
+   "marca": "Scott",
+   "categoria": "Higiene personal",
+   "precio_regular": 357.48,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/papel-higienico-scott-800-cc-tie-00245",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00246",
+   "titulo": "Detergente 1,5 lt",
+   "marca": null,
+   "categoria": "Limpieza",
+   "precio_regular": 441.34,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/detergente-1-5-lt-tie-00246",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00247",
+   "titulo": "Rollo de cocina perfumado Higienol x 2 u",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 154.51,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/rollo-de-cocina-perfumado-higienol-x-2-u-tie-00247",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00248",
+   "titulo": "Querubin Lavandina 900 ml",
+   "marca": "Querubin",
+   "categoria": "Limpieza",
+   "precio_regular": 107.58,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/querubin-lavandina-900-ml-tie-00248",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00249",
+   "titulo": "Desinfectante Lysoform 900 cc",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 466.74,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/desinfectante-lysoform-900-cc-tie-00249",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00250",
+   "titulo": "Azucar refinada Chango 250 g",
+   "marca": "Chango",
+   "categoria": "Alimentos",
+   "precio_regular": 78.48,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/azucar-refinada-chango-250-g-tie-00250",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00251",
+   "titulo": "Aquarius Agua saborizada 1 L",
+   "marca": "Aquarius",
+   "categoria": "Bebidas",
+   "precio_regular": 453.91,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/aquarius-agua-saborizada-1-l-tie-00251",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00252",
+   "titulo": "Aceite de girasol 2 kg",
+   "marca": null,
+   "categoria": "Alimentos",
+   "precio_regular": 862.34,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/aceite-de-girasol-2-kg-tie-00252",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00253",
+   "titulo": "Jugo de naranja Baggio sabor pomelo 1,5 lt",
+   "marca": "Baggio",
+   "categoria": "Bebidas",
+   "precio_regular": 626.76,
+   "precio_promocional": 470.07,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "25% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/jugo-de-naranja-baggio-sabor-pomelo-1-5-lt-tie-00253",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00254",
+   "titulo": "Bebida energizante Red Bull sabor pomelo 2 litros",
+   "marca": "Red Bull",
+   "categoria": "Bebidas",
+   "precio_regular": 469.83,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/bebida-energizante-red-bull-sabor-pomelo-2-litros-tie-00254",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00255",
+   "titulo": "Harina de trigo Pureza 250 g",
+   "marca": "Pureza",
+   "categoria": "Alimentos",
+   "precio_regular": 16.89,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/harina-de-trigo-pureza-250-g-tie-00255",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00256",
+   "titulo": "Baggio Jugo de naranja 2500 cc",
+   "marca": "Baggio",
+   "categoria": "Bebidas",
+   "precio_regular": 1007.88,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/baggio-jugo-de-naranja-2500-cc-tie-00256",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00257",
+   "titulo": "Aceite de girasol Natura 500 grs",
+   "marca": "Natura",
+   "categoria": "Alimentos",
+   "precio_regular": 121,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/aceite-de-girasol-natura-500-grs-tie-00257",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00258",
+   "titulo": "Leche entera La Serenísima 1000 g",
+   "marca": "La Serenísima",
+   "categoria": "Alimentos",
+   "precio_regular": 236.39,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/leche-entera-la-serenisima-1000-g-tie-00258",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00259",
+   "titulo": "Jabon liquido para ropa Ala x 1000 ml",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 430.63,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/jabon-liquido-para-ropa-ala-x-1000-ml-tie-00259",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00260",
+   "titulo": "Shampoo Sedal x 1000 ml",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 483.74,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/shampoo-sedal-x-1000-ml-tie-00260",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "TIE-00261",
+   "titulo": "Lysoform Desinfectante 1 L",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 97.48,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "UYU",
+   "disponible": true,
+   "regiones": [
+    "Montevideo"
+   ],
+   "url": "https://tiendaoriental.example/p/lysoform-desinfectante-1-l-tie-00261",
+   "publicado": "2026-11-02"
+  }
+ ]
+}

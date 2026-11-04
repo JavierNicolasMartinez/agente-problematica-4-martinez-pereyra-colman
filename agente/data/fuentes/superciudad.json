@@ -1,0 +1,4776 @@
+{
+ "aviso": "FUENTE SIMULADA con fines académicos. Competidor, dominio y precios ficticios.",
+ "competidor": {
+  "id": "superciudad",
+  "nombre": "SuperCiudad",
+  "sitio": "https://superciudad.example",
+  "pais": "Argentina",
+  "moneda": "ARS",
+  "regiones": [
+   "AMBA",
+   "Mendoza"
+  ],
+  "permite_consulta_automatizada": true,
+  "condiciones": "Consulta automatizada permitida (simulado)."
+ },
+ "generado": "2026-11-02",
+ "productos": [
+  {
+   "sku": "SUP-00001",
+   "titulo": "Galletitas dulces Terrabusi x 900 grs",
+   "marca": "Terrabusi",
+   "categoria": "Alimentos",
+   "precio_regular": 12790.89,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/galletitas-dulces-terrabusi-x-900-grs-sup-00001",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00002",
+   "titulo": "Leche entera 250 grs",
+   "marca": null,
+   "categoria": "Alimentos",
+   "precio_regular": 3973.7,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/leche-entera-250-grs-sup-00002",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00003",
+   "titulo": "Bolsa de residuos Bolsapel 4 unidades",
+   "marca": "Bolsapel",
+   "categoria": "Hogar",
+   "precio_regular": 43085.37,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/bolsa-de-residuos-bolsapel-4-unidades-sup-00003",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00004",
+   "titulo": "Pasta dental Oral-B x 375 cc",
+   "marca": "Oral-B",
+   "categoria": "Higiene personal",
+   "precio_regular": 4436.75,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/pasta-dental-oral-b-x-375-cc-sup-00004",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00005",
+   "titulo": "Ayudin Lavandina 1000 cc",
+   "marca": "Ayudin",
+   "categoria": "Limpieza",
+   "precio_regular": 2293.73,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/ayudin-lavandina-1000-cc-sup-00005",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00006",
+   "titulo": "Servilletas Elite 6 un",
+   "marca": "Elite",
+   "categoria": "Hogar",
+   "precio_regular": 61515.94,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/servilletas-elite-6-un-sup-00006",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00007",
+   "titulo": "Dove Jabon de tocador 1000 ml",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 25228.67,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/dove-jabon-de-tocador-1000-ml-sup-00007",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00008",
+   "titulo": "Dove Desodorante 90 ml",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 1223.18,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/dove-desodorante-90-ml-sup-00008",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00009",
+   "titulo": "Ala Detergente 750 cc",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 10853.75,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/ala-detergente-750-cc-sup-00009",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00010",
+   "titulo": "Rollo de cocina Sussex x 24 un",
+   "marca": "Sussex",
+   "categoria": "Hogar",
+   "precio_regular": 96576.99,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/rollo-de-cocina-sussex-x-24-un-sup-00010",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00011",
+   "titulo": "Bolsa de residuos Consul 4 un",
+   "marca": "Consul",
+   "categoria": "Hogar",
+   "precio_regular": 11587.5,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/bolsa-de-residuos-consul-4-un-sup-00011",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00012",
+   "titulo": "Desodorante Rexona x 100 cc",
+   "marca": "Rexona",
+   "categoria": "Higiene personal",
+   "precio_regular": 2220.24,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/desodorante-rexona-x-100-cc-sup-00012",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00013",
+   "titulo": "Limpiador de pisos Lysoform x 900 cc",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 7072.75,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/limpiador-de-pisos-lysoform-x-900-cc-sup-00013",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00014",
+   "titulo": "Agua saborizada Aquarius 350 cc",
+   "marca": "Aquarius",
+   "categoria": "Bebidas",
+   "precio_regular": 1253.14,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/agua-saborizada-aquarius-350-cc-sup-00014",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00015",
+   "titulo": "Mortimer Esponja de cocina 12 un",
+   "marca": "Mortimer",
+   "categoria": "Hogar",
+   "precio_regular": 95682.27,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/mortimer-esponja-de-cocina-12-un-sup-00015",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00016",
+   "titulo": "Limpiador de pisos Poett 2000 ml",
+   "marca": "Poett",
+   "categoria": "Limpieza",
+   "precio_regular": 19607.91,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/limpiador-de-pisos-poett-2000-ml-sup-00016",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00017",
+   "titulo": "Suavizante para ropa Vivere 500 cc",
+   "marca": "Vivere",
+   "categoria": "Limpieza",
+   "precio_regular": 2032.5,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/suavizante-para-ropa-vivere-500-cc-sup-00017",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00018",
+   "titulo": "Limpiador de pisos Cif x 1 lt",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 10619.41,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/limpiador-de-pisos-cif-x-1-lt-sup-00018",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00019",
+   "titulo": "Galletitas dulces Terrabusi x 1 kg",
+   "marca": "Terrabusi",
+   "categoria": "Alimentos",
+   "precio_regular": 9201.63,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/galletitas-dulces-terrabusi-x-1-kg-sup-00019",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00020",
+   "titulo": "Jugo de naranja Citric x 500 cc",
+   "marca": "Citric",
+   "categoria": "Bebidas",
+   "precio_regular": 2915.41,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/jugo-de-naranja-citric-x-500-cc-sup-00020",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00021",
+   "titulo": "Higienol Bolsa de residuos 2 unidades",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 16645.58,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/higienol-bolsa-de-residuos-2-unidades-sup-00021",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00022",
+   "titulo": "Playadito Yerba mate 1,5 kg",
+   "marca": "Playadito",
+   "categoria": "Alimentos",
+   "precio_regular": 14797.52,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/playadito-yerba-mate-1-5-kg-sup-00022",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00023",
+   "titulo": "Gaseosa cola Coca-Cola x 350 ml",
+   "marca": "Coca-Cola",
+   "categoria": "Bebidas",
+   "precio_regular": 3383.94,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/gaseosa-cola-coca-cola-x-350-ml-sup-00023",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00024",
+   "titulo": "Esponja de cocina Scotch-Brite 12 unidades",
+   "marca": "Scotch-Brite",
+   "categoria": "Hogar",
+   "precio_regular": 75672.87,
+   "precio_promocional": 52971.01,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "30% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/esponja-de-cocina-scotch-brite-12-unidades-sup-00024",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00025",
+   "titulo": "Lux Jabon de tocador 100 cc",
+   "marca": "Lux",
+   "categoria": "Higiene personal",
+   "precio_regular": 369.52,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/lux-jabon-de-tocador-100-cc-sup-00025",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00026",
+   "titulo": "Agua saborizada H2OH x 1,5 litros",
+   "marca": "H2OH",
+   "categoria": "Bebidas",
+   "precio_regular": 7315.83,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/agua-saborizada-h2oh-x-1-5-litros-sup-00026",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00027",
+   "titulo": "Aceite de girasol Natura x 2 kg",
+   "marca": "Natura",
+   "categoria": "Alimentos",
+   "precio_regular": 14855.99,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/aceite-de-girasol-natura-x-2-kg-sup-00027",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00028",
+   "titulo": "Lavandina Querubin 2 L",
+   "marca": "Querubin",
+   "categoria": "Limpieza",
+   "precio_regular": 32896.35,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/lavandina-querubin-2-l-sup-00028",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00029",
+   "titulo": "Yerba mate Taragüi 1 kg",
+   "marca": "Taragüi",
+   "categoria": "Alimentos",
+   "precio_regular": 1944.16,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/yerba-mate-taragui-1-kg-sup-00029",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00030",
+   "titulo": "Yerba mate Amanda orgánico 500 gr",
+   "marca": "Amanda",
+   "categoria": "Alimentos",
+   "precio_regular": 7890.02,
+   "precio_promocional": 6312.02,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "20% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/yerba-mate-amanda-organico-500-gr-sup-00030",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00031",
+   "titulo": "Rollo de cocina Sussex x 4 u",
+   "marca": "Sussex",
+   "categoria": "Hogar",
+   "precio_regular": 31624.46,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/rollo-de-cocina-sussex-x-4-u-sup-00031",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00032",
+   "titulo": "Gaseosa cola Coca-Cola x 2500 ml",
+   "marca": "Coca-Cola",
+   "categoria": "Bebidas",
+   "precio_regular": 17129.48,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/gaseosa-cola-coca-cola-x-2500-ml-sup-00032",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00033",
+   "titulo": "Limpiador de pisos Poett x 500 cc",
+   "marca": "Poett",
+   "categoria": "Limpieza",
+   "precio_regular": 4838.23,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/limpiador-de-pisos-poett-x-500-cc-sup-00033",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00034",
+   "titulo": "Jabon de tocador Rexona x 1000 ml",
+   "marca": "Rexona",
+   "categoria": "Higiene personal",
+   "precio_regular": 15755.93,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/jabon-de-tocador-rexona-x-1000-ml-sup-00034",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00035",
+   "titulo": "Jabon liquido para ropa Drive x 750 cc",
+   "marca": "Drive",
+   "categoria": "Limpieza",
+   "precio_regular": 5378.23,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/jabon-liquido-para-ropa-drive-x-750-cc-sup-00035",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00036",
+   "titulo": "Bebida energizante Monster 1,25 litros",
+   "marca": "Monster",
+   "categoria": "Bebidas",
+   "precio_regular": 3592.31,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/bebida-energizante-monster-1-25-litros-sup-00036",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00037",
+   "titulo": "Cepita Jugo de naranja 175 ml",
+   "marca": "Cepita",
+   "categoria": "Bebidas",
+   "precio_regular": 1585.91,
+   "precio_promocional": 1348.02,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "15% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/cepita-jugo-de-naranja-175-ml-sup-00037",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00038",
+   "titulo": "Virulana Esponja de cocina 2 un",
+   "marca": "Virulana",
+   "categoria": "Hogar",
+   "precio_regular": 15672.43,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/virulana-esponja-de-cocina-2-un-sup-00038",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00039",
+   "titulo": "Bolsa de residuos Consul x 24 un",
+   "marca": "Consul",
+   "categoria": "Hogar",
+   "precio_regular": 101106.23,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/bolsa-de-residuos-consul-x-24-un-sup-00039",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00040",
+   "titulo": "Pasta dental Sensodyne x 100 cc",
+   "marca": "Sensodyne",
+   "categoria": "Higiene personal",
+   "precio_regular": 1977.08,
+   "precio_promocional": 1383.96,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "30% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/pasta-dental-sensodyne-x-100-cc-sup-00040",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00041",
+   "titulo": "Dos Hermanos Arroz largo fino 250 g",
+   "marca": "Dos Hermanos",
+   "categoria": "Alimentos",
+   "precio_regular": 1371.3,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/dos-hermanos-arroz-largo-fino-250-g-sup-00041",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00042",
+   "titulo": "Lavandina Ayudin 2 lt",
+   "marca": "Ayudin",
+   "categoria": "Limpieza",
+   "precio_regular": 24390.88,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/lavandina-ayudin-2-lt-sup-00042",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00043",
+   "titulo": "Jabon liquido para ropa Drive x 500 cc",
+   "marca": "Drive",
+   "categoria": "Limpieza",
+   "precio_regular": 7249.23,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/jabon-liquido-para-ropa-drive-x-500-cc-sup-00043",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00044",
+   "titulo": "Agua mineral Villavicencio 2,5 litros",
+   "marca": "Villavicencio",
+   "categoria": "Bebidas",
+   "precio_regular": 8356.94,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/agua-mineral-villavicencio-2-5-litros-sup-00044",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00045",
+   "titulo": "Bebida energizante Red Bull 1500 ml",
+   "marca": "Red Bull",
+   "categoria": "Bebidas",
+   "precio_regular": 4072.13,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/bebida-energizante-red-bull-1500-ml-sup-00045",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00046",
+   "titulo": "Esponja de cocina Virulana x 2 un",
+   "marca": "Virulana",
+   "categoria": "Hogar",
+   "precio_regular": 4296.5,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/esponja-de-cocina-virulana-x-2-un-sup-00046",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00047",
+   "titulo": "Ilolay Leche entera 250 grs",
+   "marca": "Ilolay",
+   "categoria": "Alimentos",
+   "precio_regular": 1984.27,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/ilolay-leche-entera-250-grs-sup-00047",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00048",
+   "titulo": "Rollo de cocina Higienol 6 unidades",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 20274.47,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/rollo-de-cocina-higienol-6-unidades-sup-00048",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00049",
+   "titulo": "Servilletas reforzada Elite x 12 unidades",
+   "marca": "Elite",
+   "categoria": "Hogar",
+   "precio_regular": 114344.59,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/servilletas-reforzada-elite-x-12-unidades-sup-00049",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00050",
+   "titulo": "Harina de trigo Favorita 750 gr",
+   "marca": "Favorita",
+   "categoria": "Alimentos",
+   "precio_regular": 6125,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "segunda_unidad",
+    "porcentaje": 70,
+    "descripcion": "70% off en la segunda unidad",
+    "vigencia_hasta": "2026-11-12"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/harina-de-trigo-favorita-750-gr-sup-00050",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00051",
+   "titulo": "Servilletas Sussex reforzada 1 un",
+   "marca": "Sussex",
+   "categoria": "Hogar",
+   "precio_regular": 7048.29,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/servilletas-sussex-reforzada-1-un-sup-00051",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00052",
+   "titulo": "Mayonesa Fanacoa 1,5 kg",
+   "marca": "Fanacoa",
+   "categoria": "Alimentos",
+   "precio_regular": 11066.63,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/mayonesa-fanacoa-1-5-kg-sup-00052",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00053",
+   "titulo": "Dove Desodorante 50 cc",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 201.07,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/dove-desodorante-50-cc-sup-00053",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00054",
+   "titulo": "Monster Bebida energizante 2250 cc",
+   "marca": "Monster",
+   "categoria": "Bebidas",
+   "precio_regular": 7684.79,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/monster-bebida-energizante-2250-cc-sup-00054",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00055",
+   "titulo": "Jugo de naranja Citric zero 2000 ml",
+   "marca": "Citric",
+   "categoria": "Bebidas",
+   "precio_regular": 20593.94,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/jugo-de-naranja-citric-zero-2000-ml-sup-00055",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00056",
+   "titulo": "Bolsa de residuos Consul 6 unidades",
+   "marca": "Consul",
+   "categoria": "Hogar",
+   "precio_regular": 69916.28,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/bolsa-de-residuos-consul-6-unidades-sup-00056",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00057",
+   "titulo": "Jugo de naranja Baggio 500 cc",
+   "marca": "Baggio",
+   "categoria": "Bebidas",
+   "precio_regular": 1631.98,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/jugo-de-naranja-baggio-500-cc-sup-00057",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00058",
+   "titulo": "Rollo de cocina Higienol 12 u",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 26342.34,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/rollo-de-cocina-higienol-12-u-sup-00058",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00059",
+   "titulo": "Esponja de cocina 6 un",
+   "marca": null,
+   "categoria": "Hogar",
+   "precio_regular": 15156.68,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/esponja-de-cocina-6-un-sup-00059",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00060",
+   "titulo": "Pantene Shampoo 90 cc",
+   "marca": "Pantene",
+   "categoria": "Higiene personal",
+   "precio_regular": 235.72,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/pantene-shampoo-90-cc-sup-00060",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00061",
+   "titulo": "Suavizante para ropa Comfort 1,5 lt",
+   "marca": "Comfort",
+   "categoria": "Limpieza",
+   "precio_regular": 13282.24,
+   "precio_promocional": 11289.9,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "15% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/suavizante-para-ropa-comfort-1-5-lt-sup-00061",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00062",
+   "titulo": "Bolsa de residuos Higienol 6 un",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 68433.94,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/bolsa-de-residuos-higienol-6-un-sup-00062",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00063",
+   "titulo": "Papel higienico Higienol 50 cc",
+   "marca": "Higienol",
+   "categoria": "Higiene personal",
+   "precio_regular": 276.75,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "segunda_unidad",
+    "porcentaje": 70,
+    "descripcion": "70% off en la segunda unidad",
+    "vigencia_hasta": "2026-11-12"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/papel-higienico-higienol-50-cc-sup-00063",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00064",
+   "titulo": "Consul Bolsa de residuos 1 un",
+   "marca": "Consul",
+   "categoria": "Hogar",
+   "precio_regular": 4850.04,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/consul-bolsa-de-residuos-1-un-sup-00064",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00065",
+   "titulo": "Higienol Rollo de cocina 1 un",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 9602.67,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/higienol-rollo-de-cocina-1-un-sup-00065",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00066",
+   "titulo": "Servilletas Campanita x 24 un",
+   "marca": "Campanita",
+   "categoria": "Hogar",
+   "precio_regular": 322465.45,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/servilletas-campanita-x-24-un-sup-00066",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00067",
+   "titulo": "Red Bull Bebida energizante 2,25 L",
+   "marca": "Red Bull",
+   "categoria": "Bebidas",
+   "precio_regular": 17129.3,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/red-bull-bebida-energizante-2-25-l-sup-00067",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00068",
+   "titulo": "Jabon de tocador Lux 500 ml",
+   "marca": "Lux",
+   "categoria": "Higiene personal",
+   "precio_regular": 4021.17,
+   "precio_promocional": 3417.99,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "15% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/jabon-de-tocador-lux-500-ml-sup-00068",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00069",
+   "titulo": "Dos Hermanos Arroz largo fino 900 grs",
+   "marca": "Dos Hermanos",
+   "categoria": "Alimentos",
+   "precio_regular": 5964.75,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/dos-hermanos-arroz-largo-fino-900-grs-sup-00069",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00070",
+   "titulo": "Acondicionador Sedal 100 ml",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 1008.36,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/acondicionador-sedal-100-ml-sup-00070",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00071",
+   "titulo": "Acondicionador Sedal x 200 ml",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 3525.29,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/acondicionador-sedal-x-200-ml-sup-00071",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00072",
+   "titulo": "Glaciar Agua mineral 2,5 L",
+   "marca": "Glaciar",
+   "categoria": "Bebidas",
+   "precio_regular": 28566.26,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/glaciar-agua-mineral-2-5-l-sup-00072",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00073",
+   "titulo": "Galletitas dulces Oreo 250 g",
+   "marca": "Oreo",
+   "categoria": "Alimentos",
+   "precio_regular": 2733.52,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/galletitas-dulces-oreo-250-g-sup-00073",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00074",
+   "titulo": "Shampoo Sedal x 1000 cc",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 3677.1,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/shampoo-sedal-x-1000-cc-sup-00074",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00075",
+   "titulo": "Colgate Pasta dental 50 ml",
+   "marca": "Colgate",
+   "categoria": "Higiene personal",
+   "precio_regular": 730.47,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/colgate-pasta-dental-50-ml-sup-00075",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00076",
+   "titulo": "Arroz largo fino Gallo 900 gr",
+   "marca": "Gallo",
+   "categoria": "Alimentos",
+   "precio_regular": 6561.43,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "segunda_unidad",
+    "porcentaje": 70,
+    "descripcion": "70% off en la segunda unidad",
+    "vigencia_hasta": "2026-11-12"
+   },
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/arroz-largo-fino-gallo-900-gr-sup-00076",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00077",
+   "titulo": "Jabon liquido para ropa Drive 1 lt",
+   "marca": "Drive",
+   "categoria": "Limpieza",
+   "precio_regular": 17479.29,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/jabon-liquido-para-ropa-drive-1-lt-sup-00077",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00078",
+   "titulo": "Servilletas Sussex 4 un",
+   "marca": "Sussex",
+   "categoria": "Hogar",
+   "precio_regular": 31196.73,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/servilletas-sussex-4-un-sup-00078",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00079",
+   "titulo": "Mayonesa Fanacoa 250 grs",
+   "marca": "Fanacoa",
+   "categoria": "Alimentos",
+   "precio_regular": 669.57,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/mayonesa-fanacoa-250-grs-sup-00079",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00080",
+   "titulo": "Scott Papel higienico 750 cc",
+   "marca": "Scott",
+   "categoria": "Higiene personal",
+   "precio_regular": 5055.13,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/scott-papel-higienico-750-cc-sup-00080",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00081",
+   "titulo": "Rexona Jabon de tocador 100 ml",
+   "marca": "Rexona",
+   "categoria": "Higiene personal",
+   "precio_regular": 518.94,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/rexona-jabon-de-tocador-100-ml-sup-00081",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00082",
+   "titulo": "Esponja de cocina Virulana x 12 un",
+   "marca": "Virulana",
+   "categoria": "Hogar",
+   "precio_regular": 77168.08,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/esponja-de-cocina-virulana-x-12-un-sup-00082",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00083",
+   "titulo": "Dove Jabon de tocador 250 ml",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 3659.11,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/dove-jabon-de-tocador-250-ml-sup-00083",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00084",
+   "titulo": "Servilletas Sussex jumbo 12 un",
+   "marca": "Sussex",
+   "categoria": "Hogar",
+   "precio_regular": 77254.05,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/servilletas-sussex-jumbo-12-un-sup-00084",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00085",
+   "titulo": "Morixe Harina de trigo 2000 gr",
+   "marca": "Morixe",
+   "categoria": "Alimentos",
+   "precio_regular": 21290.76,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/morixe-harina-de-trigo-2000-gr-sup-00085",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00086",
+   "titulo": "Rollo de cocina Elite x 1 unidades",
+   "marca": "Elite",
+   "categoria": "Hogar",
+   "precio_regular": 8385.24,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/rollo-de-cocina-elite-x-1-unidades-sup-00086",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00087",
+   "titulo": "Nivea Desodorante 100 ml",
+   "marca": "Nivea",
+   "categoria": "Higiene personal",
+   "precio_regular": 1168.38,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/nivea-desodorante-100-ml-sup-00087",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00088",
+   "titulo": "Jugo de naranja Cepita 1 lt",
+   "marca": "Cepita",
+   "categoria": "Bebidas",
+   "precio_regular": 11752.37,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/jugo-de-naranja-cepita-1-lt-sup-00088",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00089",
+   "titulo": "Desodorante Nivea 50 ml",
+   "marca": "Nivea",
+   "categoria": "Higiene personal",
+   "precio_regular": 1071.26,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/desodorante-nivea-50-ml-sup-00089",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00090",
+   "titulo": "Cafe molido Nescafé 500 gr",
+   "marca": "Nescafé",
+   "categoria": "Alimentos",
+   "precio_regular": 6993.91,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/cafe-molido-nescafe-500-gr-sup-00090",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00091",
+   "titulo": "Arroz largo fino Dos Hermanos 2 kg",
+   "marca": "Dos Hermanos",
+   "categoria": "Alimentos",
+   "precio_regular": 20910.93,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "segunda_unidad",
+    "porcentaje": 70,
+    "descripcion": "70% off en la segunda unidad",
+    "vigencia_hasta": "2026-11-12"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/arroz-largo-fino-dos-hermanos-2-kg-sup-00091",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00092",
+   "titulo": "Servilletas Campanita x 2 un",
+   "marca": "Campanita",
+   "categoria": "Hogar",
+   "precio_regular": 20862.49,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/servilletas-campanita-x-2-un-sup-00092",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00093",
+   "titulo": "Aceite de girasol Cañuelas x 1 kg",
+   "marca": "Cañuelas",
+   "categoria": "Alimentos",
+   "precio_regular": 10239.51,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/aceite-de-girasol-canuelas-x-1-kg-sup-00093",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00094",
+   "titulo": "Dove Desodorante 1000 ml",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 20994.14,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/dove-desodorante-1000-ml-sup-00094",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00095",
+   "titulo": "Higienol Rollo de cocina 24 un",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 37531.94,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/higienol-rollo-de-cocina-24-un-sup-00095",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00096",
+   "titulo": "Lavandina Ayudin 250 cc",
+   "marca": "Ayudin",
+   "categoria": "Limpieza",
+   "precio_regular": 2696.06,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/lavandina-ayudin-250-cc-sup-00096",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00097",
+   "titulo": "Cif Limpiador de pisos 1500 ml",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 26440.45,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/cif-limpiador-de-pisos-1500-ml-sup-00097",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00098",
+   "titulo": "Pasta dental Oral-B 50 ml",
+   "marca": "Oral-B",
+   "categoria": "Higiene personal",
+   "precio_regular": 764.11,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/pasta-dental-oral-b-50-ml-sup-00098",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00099",
+   "titulo": "Aceite de girasol Cocinero x 2 kg",
+   "marca": "Cocinero",
+   "categoria": "Alimentos",
+   "precio_regular": 23634.43,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/aceite-de-girasol-cocinero-x-2-kg-sup-00099",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00100",
+   "titulo": "Querubin Lavandina 500 ml",
+   "marca": "Querubin",
+   "categoria": "Limpieza",
+   "precio_regular": 2361.07,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/querubin-lavandina-500-ml-sup-00100",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00101",
+   "titulo": "Agua saborizada H2OH 2000 ml",
+   "marca": "H2OH",
+   "categoria": "Bebidas",
+   "precio_regular": 5320.87,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/agua-saborizada-h2oh-2000-ml-sup-00101",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00102",
+   "titulo": "Poett Limpiador de pisos 1500 ml",
+   "marca": "Poett",
+   "categoria": "Limpieza",
+   "precio_regular": 24668.34,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/poett-limpiador-de-pisos-1500-ml-sup-00102",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00103",
+   "titulo": "Bolsa de residuos Consul x 2 unidades",
+   "marca": "Consul",
+   "categoria": "Hogar",
+   "precio_regular": 12584.53,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/bolsa-de-residuos-consul-x-2-unidades-sup-00103",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00104",
+   "titulo": "Oral-B Pasta dental 250 cc",
+   "marca": "Oral-B",
+   "categoria": "Higiene personal",
+   "precio_regular": 2620.04,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/oral-b-pasta-dental-250-cc-sup-00104",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00105",
+   "titulo": "Azucar refinada null x 500 gr",
+   "marca": null,
+   "categoria": "Alimentos",
+   "precio_regular": 4246.65,
+   "precio_promocional": 3184.99,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "25% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/azucar-refinada-null-x-500-gr-sup-00105",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00106",
+   "titulo": "Dove Acondicionador 25 ml",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 263.03,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/dove-acondicionador-25-ml-sup-00106",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00107",
+   "titulo": "Jabon liquido para ropa Skip x 375 cc",
+   "marca": "Skip",
+   "categoria": "Limpieza",
+   "precio_regular": 4358.49,
+   "precio_promocional": 3704.72,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "15% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/jabon-liquido-para-ropa-skip-x-375-cc-sup-00107",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00108",
+   "titulo": "Jugo de naranja 2 L",
+   "marca": null,
+   "categoria": "Bebidas",
+   "precio_regular": 15720.82,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/jugo-de-naranja-2-l-sup-00108",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00109",
+   "titulo": "Suavizante para ropa Comfort 900 ml",
+   "marca": "Comfort",
+   "categoria": "Limpieza",
+   "precio_regular": 15087.05,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/suavizante-para-ropa-comfort-900-ml-sup-00109",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00110",
+   "titulo": "Cepita Jugo de naranja 1,5 L",
+   "marca": "Cepita",
+   "categoria": "Bebidas",
+   "precio_regular": 11249.46,
+   "precio_promocional": 7874.62,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "30% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/cepita-jugo-de-naranja-1-5-l-sup-00110",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00111",
+   "titulo": "Desinfectante concentrado Lysoform x 3000 ml",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 34477.58,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/desinfectante-concentrado-lysoform-x-3000-ml-sup-00111",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00112",
+   "titulo": "Pasta dental 750 ml",
+   "marca": null,
+   "categoria": "Higiene personal",
+   "precio_regular": 6196.5,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/pasta-dental-750-ml-sup-00112",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00113",
+   "titulo": "Desinfectante Cif x 1 L",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 4016.01,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/desinfectante-cif-x-1-l-sup-00113",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00114",
+   "titulo": "Aceite de girasol Cañuelas x 1,5 kg",
+   "marca": "Cañuelas",
+   "categoria": "Alimentos",
+   "precio_regular": 2704.66,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/aceite-de-girasol-canuelas-x-1-5-kg-sup-00114",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00115",
+   "titulo": "Acondicionador Pantene x 500 ml",
+   "marca": "Pantene",
+   "categoria": "Higiene personal",
+   "precio_regular": 902.55,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/acondicionador-pantene-x-500-ml-sup-00115",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00116",
+   "titulo": "Lysoform Limpiador de pisos 4000 ml",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 30139.12,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/lysoform-limpiador-de-pisos-4000-ml-sup-00116",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00117",
+   "titulo": "Pantene Shampoo 400 ml",
+   "marca": "Pantene",
+   "categoria": "Higiene personal",
+   "precio_regular": 1953.94,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/pantene-shampoo-400-ml-sup-00117",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00118",
+   "titulo": "Ala Jabon liquido para ropa 3000 cc",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 60699.04,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/ala-jabon-liquido-para-ropa-3000-cc-sup-00118",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00119",
+   "titulo": "Cif Limpiador de pisos 900 ml",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 12663.06,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/cif-limpiador-de-pisos-900-ml-sup-00119",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00120",
+   "titulo": "Galletitas dulces Bagley 750 gr",
+   "marca": "Bagley",
+   "categoria": "Alimentos",
+   "precio_regular": 6803.08,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/galletitas-dulces-bagley-750-gr-sup-00120",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00121",
+   "titulo": "Gaseosa cola Manaos 500 cc",
+   "marca": "Manaos",
+   "categoria": "Bebidas",
+   "precio_regular": 3593.39,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/gaseosa-cola-manaos-500-cc-sup-00121",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00122",
+   "titulo": "Detergente 750 ml",
+   "marca": null,
+   "categoria": "Limpieza",
+   "precio_regular": 12269.11,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/detergente-750-ml-sup-00122",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00123",
+   "titulo": "Servilletas Campanita x 6 unidades",
+   "marca": "Campanita",
+   "categoria": "Hogar",
+   "precio_regular": 62514.08,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/servilletas-campanita-x-6-unidades-sup-00123",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00124",
+   "titulo": "Azucar refinada Chango 900 gr",
+   "marca": "Chango",
+   "categoria": "Alimentos",
+   "precio_regular": 2517.7,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/azucar-refinada-chango-900-gr-sup-00124",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00125",
+   "titulo": "Acondicionador Pantene 100 cc",
+   "marca": "Pantene",
+   "categoria": "Higiene personal",
+   "precio_regular": 1212.78,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/acondicionador-pantene-100-cc-sup-00125",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00126",
+   "titulo": "Rollo de cocina Higienol x 4 u",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 6923.22,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/rollo-de-cocina-higienol-x-4-u-sup-00126",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00127",
+   "titulo": "Glaciar Agua mineral 2250 cc",
+   "marca": "Glaciar",
+   "categoria": "Bebidas",
+   "precio_regular": 20493.78,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/glaciar-agua-mineral-2250-cc-sup-00127",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00128",
+   "titulo": "Higienol Bolsa de residuos 24 unidades",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 168576.79,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/higienol-bolsa-de-residuos-24-unidades-sup-00128",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00129",
+   "titulo": "Lysoform Desinfectante 750 ml",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 12443.03,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/lysoform-desinfectante-750-ml-sup-00129",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00130",
+   "titulo": "Detergente Magistral x 900 cc",
+   "marca": "Magistral",
+   "categoria": "Limpieza",
+   "precio_regular": 13290.57,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/detergente-magistral-x-900-cc-sup-00130",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00131",
+   "titulo": "Pasta dental Oral-B 90 cc",
+   "marca": "Oral-B",
+   "categoria": "Higiene personal",
+   "precio_regular": 840.29,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/pasta-dental-oral-b-90-cc-sup-00131",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00132",
+   "titulo": "Higienol Bolsa de residuos 12 unidades",
+   "marca": "Higienol",
+   "categoria": "Hogar",
+   "precio_regular": 129308.52,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/higienol-bolsa-de-residuos-12-unidades-sup-00132",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00133",
+   "titulo": "Limpiador de pisos Poett 3000 cc",
+   "marca": "Poett",
+   "categoria": "Limpieza",
+   "precio_regular": 46219.04,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/limpiador-de-pisos-poett-3000-cc-sup-00133",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00134",
+   "titulo": "Bolsapel Bolsa de residuos 6 unidades",
+   "marca": "Bolsapel",
+   "categoria": "Hogar",
+   "precio_regular": 45609.91,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/bolsapel-bolsa-de-residuos-6-unidades-sup-00134",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00135",
+   "titulo": "Arroz largo fino Gallo x 250 gr",
+   "marca": "Gallo",
+   "categoria": "Alimentos",
+   "precio_regular": 2637.73,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/arroz-largo-fino-gallo-x-250-gr-sup-00135",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00136",
+   "titulo": "Bebida energizante Monster x 2 L",
+   "marca": "Monster",
+   "categoria": "Bebidas",
+   "precio_regular": 18503.5,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/bebida-energizante-monster-x-2-l-sup-00136",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00137",
+   "titulo": "Harina de trigo Favorita x 250 gr",
+   "marca": "Favorita",
+   "categoria": "Alimentos",
+   "precio_regular": 581.85,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/harina-de-trigo-favorita-x-250-gr-sup-00137",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00138",
+   "titulo": "Cafe molido Nescafé x 1,5 kg",
+   "marca": "Nescafé",
+   "categoria": "Alimentos",
+   "precio_regular": 17215.17,
+   "precio_promocional": 14632.89,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "15% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/cafe-molido-nescafe-x-1-5-kg-sup-00138",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00139",
+   "titulo": "Bebida energizante Red Bull x 350 cc",
+   "marca": "Red Bull",
+   "categoria": "Bebidas",
+   "precio_regular": 2253.08,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/bebida-energizante-red-bull-x-350-cc-sup-00139",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00140",
+   "titulo": "Papel higienico Higienol repuesto 500 cc",
+   "marca": "Higienol",
+   "categoria": "Higiene personal",
+   "precio_regular": 3635.89,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/papel-higienico-higienol-repuesto-500-cc-sup-00140",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00141",
+   "titulo": "Cif Desinfectante 900 cc",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 16832.3,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/cif-desinfectante-900-cc-sup-00141",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00142",
+   "titulo": "Fideos spaghetti Lucchetti x 2 kg",
+   "marca": "Lucchetti",
+   "categoria": "Alimentos",
+   "precio_regular": 6060.95,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/fideos-spaghetti-lucchetti-x-2-kg-sup-00142",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00143",
+   "titulo": "Limpiador de pisos Cif x 3000 ml",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 19716.89,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "segunda_unidad",
+    "porcentaje": 70,
+    "descripcion": "70% off en la segunda unidad",
+    "vigencia_hasta": "2026-11-12"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/limpiador-de-pisos-cif-x-3000-ml-sup-00143",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00144",
+   "titulo": "Jabon de tocador Rexona 90 cc",
+   "marca": "Rexona",
+   "categoria": "Higiene personal",
+   "precio_regular": 1434.96,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/jabon-de-tocador-rexona-90-cc-sup-00144",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00145",
+   "titulo": "Mayonesa Fanacoa 1 kg",
+   "marca": "Fanacoa",
+   "categoria": "Alimentos",
+   "precio_regular": 10198.32,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/mayonesa-fanacoa-1-kg-sup-00145",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00146",
+   "titulo": "Gaseosa cola Coca-Cola 1 L",
+   "marca": "Coca-Cola",
+   "categoria": "Bebidas",
+   "precio_regular": 1533.42,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/gaseosa-cola-coca-cola-1-l-sup-00146",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00147",
+   "titulo": "Bolsa de residuos Bolsapel x 24 unidades",
+   "marca": "Bolsapel",
+   "categoria": "Hogar",
+   "precio_regular": 89153.81,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/bolsa-de-residuos-bolsapel-x-24-unidades-sup-00147",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00148",
+   "titulo": "Rollo de cocina Elite 6 u",
+   "marca": "Elite",
+   "categoria": "Hogar",
+   "precio_regular": 50189,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/rollo-de-cocina-elite-6-u-sup-00148",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00149",
+   "titulo": "Fideos spaghetti Favorita 500 gr",
+   "marca": "Favorita",
+   "categoria": "Alimentos",
+   "precio_regular": 3101.38,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/fideos-spaghetti-favorita-500-gr-sup-00149",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00150",
+   "titulo": "Yerba mate Taragüi 1,5 kg",
+   "marca": "Taragüi",
+   "categoria": "Alimentos",
+   "precio_regular": 18694.99,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/yerba-mate-taragui-1-5-kg-sup-00150",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00151",
+   "titulo": "Jabon de tocador repuesto Lux x 200 ml",
+   "marca": "Lux",
+   "categoria": "Higiene personal",
+   "precio_regular": 4798.86,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/jabon-de-tocador-repuesto-lux-x-200-ml-sup-00151",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00152",
+   "titulo": "Aquarius Agua saborizada 500 ml",
+   "marca": "Aquarius",
+   "categoria": "Bebidas",
+   "precio_regular": 3815.47,
+   "precio_promocional": 2861.6,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "25% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/aquarius-agua-saborizada-500-ml-sup-00152",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00153",
+   "titulo": "Gaseosa cola Pepsi 2000 ml",
+   "marca": "Pepsi",
+   "categoria": "Bebidas",
+   "precio_regular": 21987.53,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/gaseosa-cola-pepsi-2000-ml-sup-00153",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00154",
+   "titulo": "Pasta dental Sensodyne x 200 cc",
+   "marca": "Sensodyne",
+   "categoria": "Higiene personal",
+   "precio_regular": 495.51,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/pasta-dental-sensodyne-x-200-cc-sup-00154",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00155",
+   "titulo": "Servilletas Campanita 1 u",
+   "marca": "Campanita",
+   "categoria": "Hogar",
+   "precio_regular": 1602.19,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/servilletas-campanita-1-u-sup-00155",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00156",
+   "titulo": "Lucchetti Fideos spaghetti 250 g",
+   "marca": "Lucchetti",
+   "categoria": "Alimentos",
+   "precio_regular": 2072.24,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/lucchetti-fideos-spaghetti-250-g-sup-00156",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00157",
+   "titulo": "Jugo de naranja Citric 1000 ml",
+   "marca": "Citric",
+   "categoria": "Bebidas",
+   "precio_regular": 1653.3,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/jugo-de-naranja-citric-1000-ml-sup-00157",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00158",
+   "titulo": "Esponja de cocina Scotch-Brite x 4 un",
+   "marca": "Scotch-Brite",
+   "categoria": "Hogar",
+   "precio_regular": 6213.63,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/esponja-de-cocina-scotch-brite-x-4-un-sup-00158",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00159",
+   "titulo": "Jabon liquido para ropa Skip 900 cc",
+   "marca": "Skip",
+   "categoria": "Limpieza",
+   "precio_regular": 1265.37,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/jabon-liquido-para-ropa-skip-900-cc-sup-00159",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00160",
+   "titulo": "Gaseosa cola Pepsi 2500 ml",
+   "marca": "Pepsi",
+   "categoria": "Bebidas",
+   "precio_regular": 2333.49,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/gaseosa-cola-pepsi-2500-ml-sup-00160",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00161",
+   "titulo": "Yerba mate Taragüi 900 gr",
+   "marca": "Taragüi",
+   "categoria": "Alimentos",
+   "precio_regular": 3821.9,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/yerba-mate-taragui-900-gr-sup-00161",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00162",
+   "titulo": "Jabon liquido para ropa Drive 1,5 L",
+   "marca": "Drive",
+   "categoria": "Limpieza",
+   "precio_regular": 5919.52,
+   "precio_promocional": 4439.64,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "25% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/jabon-liquido-para-ropa-drive-1-5-l-sup-00162",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00163",
+   "titulo": "Aceite de girasol Cañuelas x 500 g",
+   "marca": "Cañuelas",
+   "categoria": "Alimentos",
+   "precio_regular": 708.03,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/aceite-de-girasol-canuelas-x-500-g-sup-00163",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00164",
+   "titulo": "Molinos Arroz largo fino 2000 gr",
+   "marca": "Molinos",
+   "categoria": "Alimentos",
+   "precio_regular": 9490.77,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/molinos-arroz-largo-fino-2000-gr-sup-00164",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00165",
+   "titulo": "Leche entera La Serenísima x 500 g",
+   "marca": "La Serenísima",
+   "categoria": "Alimentos",
+   "precio_regular": 3433.05,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/leche-entera-la-serenisima-x-500-g-sup-00165",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00166",
+   "titulo": "Jabon de tocador Rexona 50 ml",
+   "marca": "Rexona",
+   "categoria": "Higiene personal",
+   "precio_regular": 286.91,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/jabon-de-tocador-rexona-50-ml-sup-00166",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00167",
+   "titulo": "Molinos Arroz largo fino 900 gr",
+   "marca": "Molinos",
+   "categoria": "Alimentos",
+   "precio_regular": 12946.93,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/molinos-arroz-largo-fino-900-gr-sup-00167",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00168",
+   "titulo": "Gaseosa cola Manaos x 350 cc",
+   "marca": "Manaos",
+   "categoria": "Bebidas",
+   "precio_regular": 4682.64,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/gaseosa-cola-manaos-x-350-cc-sup-00168",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00169",
+   "titulo": "Suavizante para ropa Comfort x 500 ml",
+   "marca": "Comfort",
+   "categoria": "Limpieza",
+   "precio_regular": 9253.82,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/suavizante-para-ropa-comfort-x-500-ml-sup-00169",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00170",
+   "titulo": "Bonafide Cafe molido 900 g",
+   "marca": "Bonafide",
+   "categoria": "Alimentos",
+   "precio_regular": 9507.57,
+   "precio_promocional": 8556.81,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "10% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/bonafide-cafe-molido-900-g-sup-00170",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00171",
+   "titulo": "Fideos spaghetti Favorita x 250 gr",
+   "marca": "Favorita",
+   "categoria": "Alimentos",
+   "precio_regular": 2067.86,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/fideos-spaghetti-favorita-x-250-gr-sup-00171",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00172",
+   "titulo": "Aceite de girasol Cocinero 1 kg",
+   "marca": "Cocinero",
+   "categoria": "Alimentos",
+   "precio_regular": 3748.89,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/aceite-de-girasol-cocinero-1-kg-sup-00172",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00173",
+   "titulo": "Elite Papel higienico repuesto 200 cc",
+   "marca": "Elite",
+   "categoria": "Higiene personal",
+   "precio_regular": 2910.3,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/elite-papel-higienico-repuesto-200-cc-sup-00173",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00174",
+   "titulo": "Jabon de tocador Rexona x 400 cc",
+   "marca": "Rexona",
+   "categoria": "Higiene personal",
+   "precio_regular": 7701.99,
+   "precio_promocional": 5391.39,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "30% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/jabon-de-tocador-rexona-x-400-cc-sup-00174",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00175",
+   "titulo": "Desodorante Nivea 750 cc",
+   "marca": "Nivea",
+   "categoria": "Higiene personal",
+   "precio_regular": 12061.26,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/desodorante-nivea-750-cc-sup-00175",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00176",
+   "titulo": "Limpiador de pisos Cif x 500 ml",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 10687.15,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/limpiador-de-pisos-cif-x-500-ml-sup-00176",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00177",
+   "titulo": "Agua mineral Eco de los Andes 1 litros",
+   "marca": "Eco de los Andes",
+   "categoria": "Bebidas",
+   "precio_regular": 2770.76,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/agua-mineral-eco-de-los-andes-1-litros-sup-00177",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00178",
+   "titulo": "Coca-Cola Gaseosa cola sabor pomelo 2 litros",
+   "marca": "Coca-Cola",
+   "categoria": "Bebidas",
+   "precio_regular": 9550.24,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/coca-cola-gaseosa-cola-sabor-pomelo-2-litros-sup-00178",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00179",
+   "titulo": "Lavandina Clorox 750 cc",
+   "marca": "Clorox",
+   "categoria": "Limpieza",
+   "precio_regular": 8462.83,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/lavandina-clorox-750-cc-sup-00179",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00180",
+   "titulo": "Chango Azucar refinada 500 grs",
+   "marca": "Chango",
+   "categoria": "Alimentos",
+   "precio_regular": 844.82,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/chango-azucar-refinada-500-grs-sup-00180",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00181",
+   "titulo": "Azucar refinada Ledesma x 2 kg",
+   "marca": "Ledesma",
+   "categoria": "Alimentos",
+   "precio_regular": 20289.88,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/azucar-refinada-ledesma-x-2-kg-sup-00181",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00182",
+   "titulo": "Matarazzo Fideos spaghetti integral 1500 gr",
+   "marca": "Matarazzo",
+   "categoria": "Alimentos",
+   "precio_regular": 20090.22,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/matarazzo-fideos-spaghetti-integral-1500-gr-sup-00182",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00183",
+   "titulo": "Elite Papel higienico 1 lt",
+   "marca": "Elite",
+   "categoria": "Higiene personal",
+   "precio_regular": 18767.93,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/elite-papel-higienico-1-lt-sup-00183",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00184",
+   "titulo": "Magistral Detergente 750 cc",
+   "marca": "Magistral",
+   "categoria": "Limpieza",
+   "precio_regular": 3141.61,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/magistral-detergente-750-cc-sup-00184",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00185",
+   "titulo": "Galletitas dulces Oreo 1,5 kg",
+   "marca": "Oreo",
+   "categoria": "Alimentos",
+   "precio_regular": 5629.84,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/galletitas-dulces-oreo-1-5-kg-sup-00185",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00186",
+   "titulo": "Sedal Shampoo 100 ml",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 2135.88,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/sedal-shampoo-100-ml-sup-00186",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00187",
+   "titulo": "Favorita Fideos spaghetti 1 kg",
+   "marca": "Favorita",
+   "categoria": "Alimentos",
+   "precio_regular": 12105.3,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/favorita-fideos-spaghetti-1-kg-sup-00187",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00188",
+   "titulo": "Desinfectante Procenex 900 ml",
+   "marca": "Procenex",
+   "categoria": "Limpieza",
+   "precio_regular": 11782.42,
+   "precio_promocional": 10015.06,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "15% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/desinfectante-procenex-900-ml-sup-00188",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00189",
+   "titulo": "Pantene Acondicionador 90 cc",
+   "marca": "Pantene",
+   "categoria": "Higiene personal",
+   "precio_regular": 494.27,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/pantene-acondicionador-90-cc-sup-00189",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00190",
+   "titulo": "Hellmann's Mayonesa orgánico 2 kg",
+   "marca": "Hellmann's",
+   "categoria": "Alimentos",
+   "precio_regular": 26110.34,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "segunda_unidad",
+    "porcentaje": 70,
+    "descripcion": "70% off en la segunda unidad",
+    "vigencia_hasta": "2026-11-12"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/hellmann-s-mayonesa-organico-2-kg-sup-00190",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00191",
+   "titulo": "Rollo de cocina perfumado Elite x 4 u",
+   "marca": "Elite",
+   "categoria": "Hogar",
+   "precio_regular": 21173.29,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/rollo-de-cocina-perfumado-elite-x-4-u-sup-00191",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00192",
+   "titulo": "Suavizante para ropa null x 750 cc",
+   "marca": null,
+   "categoria": "Limpieza",
+   "precio_regular": 13356.26,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/suavizante-para-ropa-null-x-750-cc-sup-00192",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00193",
+   "titulo": "Esponja de cocina doble hoja Mortimer x 24 u",
+   "marca": "Mortimer",
+   "categoria": "Hogar",
+   "precio_regular": 103672,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/esponja-de-cocina-doble-hoja-mortimer-x-24-u-sup-00193",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00194",
+   "titulo": "Detergente Cif 1800 cc",
+   "marca": "Cif",
+   "categoria": "Limpieza",
+   "precio_regular": 28827.08,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/detergente-cif-1800-cc-sup-00194",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00195",
+   "titulo": "Agua mineral Glaciar 350 cc",
+   "marca": "Glaciar",
+   "categoria": "Bebidas",
+   "precio_regular": 2275.09,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/agua-mineral-glaciar-350-cc-sup-00195",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00196",
+   "titulo": "Sedal Shampoo 90 ml",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 1407.79,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/sedal-shampoo-90-ml-sup-00196",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00197",
+   "titulo": "Jabon liquido para ropa Skip x 6000 ml",
+   "marca": "Skip",
+   "categoria": "Limpieza",
+   "precio_regular": 38483.07,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/jabon-liquido-para-ropa-skip-x-6000-ml-sup-00197",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00198",
+   "titulo": "Jabon liquido para ropa Ala 750 ml",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 10300.17,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/jabon-liquido-para-ropa-ala-750-ml-sup-00198",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00199",
+   "titulo": "Speed Bebida energizante 2250 ml",
+   "marca": "Speed",
+   "categoria": "Bebidas",
+   "precio_regular": 23407.32,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/speed-bebida-energizante-2250-ml-sup-00199",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00200",
+   "titulo": "Jabon liquido para ropa aroma lavanda Skip x 500 ml",
+   "marca": "Skip",
+   "categoria": "Limpieza",
+   "precio_regular": 1602.92,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/jabon-liquido-para-ropa-aroma-lavanda-skip-x-500-ml-sup-00200",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00201",
+   "titulo": "Agua saborizada Levité 2000 cc",
+   "marca": "Levité",
+   "categoria": "Bebidas",
+   "precio_regular": 13241.74,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/agua-saborizada-levite-2000-cc-sup-00201",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00202",
+   "titulo": "Gaseosa cola Manaos 1000 cc",
+   "marca": "Manaos",
+   "categoria": "Bebidas",
+   "precio_regular": 3030.21,
+   "precio_promocional": 2727.19,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "10% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/gaseosa-cola-manaos-1000-cc-sup-00202",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00203",
+   "titulo": "Galletitas dulces Bagley x 2000 grs",
+   "marca": "Bagley",
+   "categoria": "Alimentos",
+   "precio_regular": 10664.31,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/galletitas-dulces-bagley-x-2000-grs-sup-00203",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00204",
+   "titulo": "Shampoo Pantene x 100 ml",
+   "marca": "Pantene",
+   "categoria": "Higiene personal",
+   "precio_regular": 1823.26,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/shampoo-pantene-x-100-ml-sup-00204",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00205",
+   "titulo": "Limpiador de pisos Lysoform x 3 litros",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 35938.05,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/limpiador-de-pisos-lysoform-x-3-litros-sup-00205",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00206",
+   "titulo": "Higienol Papel higienico sensitive 200 ml",
+   "marca": "Higienol",
+   "categoria": "Higiene personal",
+   "precio_regular": 3106.44,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/higienol-papel-higienico-sensitive-200-ml-sup-00206",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00207",
+   "titulo": "Detergente Ala x 900 cc",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 15845.83,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/detergente-ala-x-900-cc-sup-00207",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00208",
+   "titulo": "Rexona Jabon de tocador 500 cc",
+   "marca": "Rexona",
+   "categoria": "Higiene personal",
+   "precio_regular": 5014.6,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/rexona-jabon-de-tocador-500-cc-sup-00208",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00209",
+   "titulo": "Esponja de cocina Scotch-Brite 24 u",
+   "marca": "Scotch-Brite",
+   "categoria": "Hogar",
+   "precio_regular": 299091.56,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/esponja-de-cocina-scotch-brite-24-u-sup-00209",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00210",
+   "titulo": "Jugo de naranja Cepita 500 ml",
+   "marca": "Cepita",
+   "categoria": "Bebidas",
+   "precio_regular": 3919.85,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/jugo-de-naranja-cepita-500-ml-sup-00210",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00211",
+   "titulo": "Bebida energizante Red Bull 250 cc",
+   "marca": "Red Bull",
+   "categoria": "Bebidas",
+   "precio_regular": 266.87,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/bebida-energizante-red-bull-250-cc-sup-00211",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00212",
+   "titulo": "Morixe Harina de trigo 3000 gr",
+   "marca": "Morixe",
+   "categoria": "Alimentos",
+   "precio_regular": 43707.51,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/morixe-harina-de-trigo-3000-gr-sup-00212",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00213",
+   "titulo": "Gaseosa cola 2,25 lt",
+   "marca": null,
+   "categoria": "Bebidas",
+   "precio_regular": 5045.8,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 3,
+    "paga": 2,
+    "descripcion": "3x2",
+    "vigencia_hasta": "2026-11-20"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/gaseosa-cola-2-25-lt-sup-00213",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00214",
+   "titulo": "Virulana Esponja de cocina 4 u",
+   "marca": "Virulana",
+   "categoria": "Hogar",
+   "precio_regular": 32818.83,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/virulana-esponja-de-cocina-4-u-sup-00214",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00215",
+   "titulo": "Nivea Desodorante 90 cc",
+   "marca": "Nivea",
+   "categoria": "Higiene personal",
+   "precio_regular": 957.38,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/nivea-desodorante-90-cc-sup-00215",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00216",
+   "titulo": "Suavizante para ropa Vivere 1 lt",
+   "marca": "Vivere",
+   "categoria": "Limpieza",
+   "precio_regular": 13966.74,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/suavizante-para-ropa-vivere-1-lt-sup-00216",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00217",
+   "titulo": "Taragüi Yerba mate 250 grs",
+   "marca": "Taragüi",
+   "categoria": "Alimentos",
+   "precio_regular": 2487.74,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/taragui-yerba-mate-250-grs-sup-00217",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00218",
+   "titulo": "Mayonesa Hellmann's 750 gr",
+   "marca": "Hellmann's",
+   "categoria": "Alimentos",
+   "precio_regular": 5387.36,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/mayonesa-hellmann-s-750-gr-sup-00218",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00219",
+   "titulo": "Azucar refinada Ledesma x 250 gr",
+   "marca": "Ledesma",
+   "categoria": "Alimentos",
+   "precio_regular": 2226.88,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/azucar-refinada-ledesma-x-250-gr-sup-00219",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00220",
+   "titulo": "Jabon de tocador Dove 750 ml",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 16163.33,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/jabon-de-tocador-dove-750-ml-sup-00220",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00221",
+   "titulo": "Servilletas Campanita 4 unidades",
+   "marca": "Campanita",
+   "categoria": "Hogar",
+   "precio_regular": 17197.09,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/servilletas-campanita-4-unidades-sup-00221",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00222",
+   "titulo": "Agua saborizada H2OH 2250 ml",
+   "marca": "H2OH",
+   "categoria": "Bebidas",
+   "precio_regular": 17054.05,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/agua-saborizada-h2oh-2250-ml-sup-00222",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00223",
+   "titulo": "Pepsi Gaseosa cola 700 ml",
+   "marca": "Pepsi",
+   "categoria": "Bebidas",
+   "precio_regular": 792.68,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/pepsi-gaseosa-cola-700-ml-sup-00223",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00224",
+   "titulo": "Arroz largo fino Gallo x 2 kg",
+   "marca": "Gallo",
+   "categoria": "Alimentos",
+   "precio_regular": 23841.73,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/arroz-largo-fino-gallo-x-2-kg-sup-00224",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00225",
+   "titulo": "Suavizante para ropa Comfort 2 litros",
+   "marca": "Comfort",
+   "categoria": "Limpieza",
+   "precio_regular": 6616.74,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "segunda_unidad",
+    "porcentaje": 70,
+    "descripcion": "70% off en la segunda unidad",
+    "vigencia_hasta": "2026-11-12"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/suavizante-para-ropa-comfort-2-litros-sup-00225",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00226",
+   "titulo": "Levité Agua saborizada 1500 cc",
+   "marca": "Levité",
+   "categoria": "Bebidas",
+   "precio_regular": 14446.04,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/levite-agua-saborizada-1500-cc-sup-00226",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00227",
+   "titulo": "Jabon de tocador Dove 100 cc",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 612.31,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/jabon-de-tocador-dove-100-cc-sup-00227",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00228",
+   "titulo": "Acondicionador Sedal 750 ml",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 3128.39,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/acondicionador-sedal-750-ml-sup-00228",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00229",
+   "titulo": "Mortimer Esponja de cocina 6 un",
+   "marca": "Mortimer",
+   "categoria": "Hogar",
+   "precio_regular": 38274.35,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/mortimer-esponja-de-cocina-6-un-sup-00229",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00230",
+   "titulo": "Servilletas Sussex 2 un",
+   "marca": "Sussex",
+   "categoria": "Hogar",
+   "precio_regular": 6217.43,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/servilletas-sussex-2-un-sup-00230",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00231",
+   "titulo": "Ala Suavizante para ropa 900 ml",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 14041.89,
+   "precio_promocional": 9829.32,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "30% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/ala-suavizante-para-ropa-900-ml-sup-00231",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00232",
+   "titulo": "Yerba mate Amanda x 900 grs",
+   "marca": "Amanda",
+   "categoria": "Alimentos",
+   "precio_regular": 12114.81,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/yerba-mate-amanda-x-900-grs-sup-00232",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00233",
+   "titulo": "Jugo de naranja Cepita 2250 cc",
+   "marca": "Cepita",
+   "categoria": "Bebidas",
+   "precio_regular": 21391.59,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/jugo-de-naranja-cepita-2250-cc-sup-00233",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00234",
+   "titulo": "Dove Acondicionador 1 lt",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 14510.49,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/dove-acondicionador-1-lt-sup-00234",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00235",
+   "titulo": "Agua mineral Eco de los Andes 2 L",
+   "marca": "Eco de los Andes",
+   "categoria": "Bebidas",
+   "precio_regular": 6170.02,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/agua-mineral-eco-de-los-andes-2-l-sup-00235",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00236",
+   "titulo": "Levité Agua saborizada zero 500 ml",
+   "marca": "Levité",
+   "categoria": "Bebidas",
+   "precio_regular": 932.75,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/levite-agua-saborizada-zero-500-ml-sup-00236",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00237",
+   "titulo": "Agua mineral 350 ml",
+   "marca": null,
+   "categoria": "Bebidas",
+   "precio_regular": 1730.54,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/agua-mineral-350-ml-sup-00237",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00238",
+   "titulo": "Shampoo Pantene x 50 ml",
+   "marca": "Pantene",
+   "categoria": "Higiene personal",
+   "precio_regular": 910.38,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/shampoo-pantene-x-50-ml-sup-00238",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00239",
+   "titulo": "Cafe molido Nescafé 900 gr",
+   "marca": "Nescafé",
+   "categoria": "Alimentos",
+   "precio_regular": 11200.79,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/cafe-molido-nescafe-900-gr-sup-00239",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00240",
+   "titulo": "Papel higienico Elite 400 ml",
+   "marca": "Elite",
+   "categoria": "Higiene personal",
+   "precio_regular": 4101.74,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/papel-higienico-elite-400-ml-sup-00240",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00241",
+   "titulo": "Jabon de tocador Rexona 200 ml",
+   "marca": "Rexona",
+   "categoria": "Higiene personal",
+   "precio_regular": 3730.45,
+   "precio_promocional": 3357.41,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "10% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/jabon-de-tocador-rexona-200-ml-sup-00241",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00242",
+   "titulo": "Jugo de naranja Cepita 2 litros",
+   "marca": "Cepita",
+   "categoria": "Bebidas",
+   "precio_regular": 14769.26,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/jugo-de-naranja-cepita-2-litros-sup-00242",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00243",
+   "titulo": "Agua mineral Glaciar x 500 cc",
+   "marca": "Glaciar",
+   "categoria": "Bebidas",
+   "precio_regular": 2330.29,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/agua-mineral-glaciar-x-500-cc-sup-00243",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00244",
+   "titulo": "Head & Shoulders Shampoo 500 ml",
+   "marca": "Head & Shoulders",
+   "categoria": "Higiene personal",
+   "precio_regular": 8553.07,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/head-shoulders-shampoo-500-ml-sup-00244",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00245",
+   "titulo": "Shampoo Sedal x 750 cc",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 11550.3,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/shampoo-sedal-x-750-cc-sup-00245",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00246",
+   "titulo": "Cepita Jugo de naranja 2500 ml",
+   "marca": "Cepita",
+   "categoria": "Bebidas",
+   "precio_regular": 27910.14,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/cepita-jugo-de-naranja-2500-ml-sup-00246",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00247",
+   "titulo": "Papel higienico Scott 90 cc",
+   "marca": "Scott",
+   "categoria": "Higiene personal",
+   "precio_regular": 1582.76,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/papel-higienico-scott-90-cc-sup-00247",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00248",
+   "titulo": "Papel higienico Scott 400 ml",
+   "marca": "Scott",
+   "categoria": "Higiene personal",
+   "precio_regular": 3998.11,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/papel-higienico-scott-400-ml-sup-00248",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00249",
+   "titulo": "Acondicionador Dove 750 cc",
+   "marca": "Dove",
+   "categoria": "Higiene personal",
+   "precio_regular": 1565.22,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/acondicionador-dove-750-cc-sup-00249",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00250",
+   "titulo": "Detergente Ala x 1,5 L",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 12280.49,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/detergente-ala-x-1-5-l-sup-00250",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00251",
+   "titulo": "Querubin Lavandina 1800 ml",
+   "marca": "Querubin",
+   "categoria": "Limpieza",
+   "precio_regular": 5892.18,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/querubin-lavandina-1800-ml-sup-00251",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00252",
+   "titulo": "Lysoform Desinfectante 900 ml",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 13826.44,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/lysoform-desinfectante-900-ml-sup-00252",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00253",
+   "titulo": "Aquarius Agua saborizada 1 L",
+   "marca": "Aquarius",
+   "categoria": "Bebidas",
+   "precio_regular": 9922.33,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/aquarius-agua-saborizada-1-l-sup-00253",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00254",
+   "titulo": "Baggio Jugo de naranja 1,5 lt",
+   "marca": "Baggio",
+   "categoria": "Bebidas",
+   "precio_regular": 17873.66,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/baggio-jugo-de-naranja-1-5-lt-sup-00254",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00255",
+   "titulo": "Red Bull Bebida energizante 2000 cc",
+   "marca": "Red Bull",
+   "categoria": "Bebidas",
+   "precio_regular": 10851.52,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/red-bull-bebida-energizante-2000-cc-sup-00255",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00256",
+   "titulo": "Pureza Harina de trigo 250 g",
+   "marca": "Pureza",
+   "categoria": "Alimentos",
+   "precio_regular": 523.44,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/pureza-harina-de-trigo-250-g-sup-00256",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00257",
+   "titulo": "Baggio Jugo de naranja 2,5 L",
+   "marca": "Baggio",
+   "categoria": "Bebidas",
+   "precio_regular": 26323.66,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/baggio-jugo-de-naranja-2-5-l-sup-00257",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00258",
+   "titulo": "Higienol Papel higienico 1 lt",
+   "marca": "Higienol",
+   "categoria": "Higiene personal",
+   "precio_regular": 11725.94,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/higienol-papel-higienico-1-lt-sup-00258",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00259",
+   "titulo": "Aceite de girasol Natura 500 grs",
+   "marca": "Natura",
+   "categoria": "Alimentos",
+   "precio_regular": 3298.18,
+   "precio_promocional": 2638.54,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "20% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/aceite-de-girasol-natura-500-grs-sup-00259",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00260",
+   "titulo": "Papel higienico Scott x 200 ml",
+   "marca": "Scott",
+   "categoria": "Higiene personal",
+   "precio_regular": 3981.13,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/papel-higienico-scott-x-200-ml-sup-00260",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00261",
+   "titulo": "La Serenísima Leche entera 1 kg",
+   "marca": "La Serenísima",
+   "categoria": "Alimentos",
+   "precio_regular": 7917.11,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": false,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/la-serenisima-leche-entera-1-kg-sup-00261",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00262",
+   "titulo": "Jabon liquido para ropa Ala 1000 cc",
+   "marca": "Ala",
+   "categoria": "Limpieza",
+   "precio_regular": 10366.98,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/jabon-liquido-para-ropa-ala-1000-cc-sup-00262",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00263",
+   "titulo": "Pasta dental Colgate 90 cc",
+   "marca": "Colgate",
+   "categoria": "Higiene personal",
+   "precio_regular": 1379.85,
+   "precio_promocional": null,
+   "promocion": {
+    "tipo": "nxm",
+    "lleva": 2,
+    "paga": 1,
+    "descripcion": "2x1",
+    "vigencia_hasta": "2026-11-10"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/pasta-dental-colgate-90-cc-sup-00263",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00264",
+   "titulo": "Shampoo Sedal 1 litros",
+   "marca": "Sedal",
+   "categoria": "Higiene personal",
+   "precio_regular": 13843.09,
+   "precio_promocional": 9690.16,
+   "promocion": {
+    "tipo": "porcentaje",
+    "descripcion": "30% de descuento",
+    "vigencia_hasta": "2026-11-15"
+   },
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/shampoo-sedal-1-litros-sup-00264",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00265",
+   "titulo": "Lysoform Desinfectante aroma lavanda 1000 cc",
+   "marca": "Lysoform",
+   "categoria": "Limpieza",
+   "precio_regular": 2525.92,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/lysoform-desinfectante-aroma-lavanda-1000-cc-sup-00265",
+   "publicado": "2026-11-02"
+  },
+  {
+   "sku": "SUP-00266",
+   "titulo": "Pasta dental Colgate 100 ml",
+   "marca": "Colgate",
+   "categoria": "Higiene personal",
+   "precio_regular": 1787.53,
+   "precio_promocional": null,
+   "promocion": null,
+   "moneda": "ARS",
+   "disponible": true,
+   "regiones": [
+    "AMBA",
+    "Mendoza"
+   ],
+   "url": "https://superciudad.example/p/pasta-dental-colgate-100-ml-sup-00266",
+   "publicado": "2026-11-02"
+  }
+ ]
+}
