@@ -78,6 +78,7 @@ def a_markdown(informe: dict) -> str:
         "# Informe de posicionamiento de precios — Ragnar S.A.", "",
         f"- **Fecha:** {informe['fecha']}",
         f"- **Solicitud:** {_md(informe['solicitud'])}",
+        f"- **Respuesta:** {_md(informe['respuesta'])}",
         f"- **Competidores consultados:** {consultados}",
     ]
     if competidores["omitidos"]:

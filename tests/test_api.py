@@ -5,7 +5,7 @@ from uuid import uuid4
 import pytest
 from fastapi.testclient import TestClient
 
-from agente.tools.generar_informe import construir_informe, generar_informe, retirar_informe
+from agente.tools.generar_informe import _respuesta, construir_informe, generar_informe, retirar_informe
 from api import rutas, servicio_agente
 from api.exportador import a_csv, a_markdown
 from api.main import app
@@ -108,6 +108,81 @@ def test_tool_continua_el_analisis_anterior():
     assert informe["interpretacion"]["categorias"] == ["Limpieza"]
     assert informe["interpretacion"]["regiones"] == ["AMBA"]
     assert {i["producto"]["marca"] for i in informe["items"]} == {"Ala"}
+
+
+def test_producto_nuevo_cambia_de_tema():
+    estado = {}
+    generar_informe(contexto_tool(estado=estado), categorias=["Limpieza"], clasificacion="mas_caro", regiones=["AMBA"], limite=3)
+    resultado = generar_informe(contexto_tool(estado=estado), productos=["café"], continuar_analisis=True)
+    informe = retirar_informe(resultado["informe_id"])
+    assert informe["items"]
+    assert informe["interpretacion"]["categorias"] == []
+    assert informe["interpretacion"]["filtros"] == {}
+    assert informe["interpretacion"]["regiones"] == ["AMBA"]
+
+
+def test_marca_incompatible_con_la_categoria_anterior_no_da_cero():
+    estado = {}
+    generar_informe(contexto_tool(estado=estado), categorias=["Bebidas"], limite=3)
+    resultado = generar_informe(contexto_tool(estado=estado), marcas=["Oral-B"], continuar_analisis=True)
+    informe = retirar_informe(resultado["informe_id"])
+    assert {i["producto"]["marca"] for i in informe["items"]} == {"Oral-B"}
+
+
+@pytest.mark.parametrize("continuar", [True, False])
+def test_modelo_que_repite_la_categoria_anterior_no_da_cero(continuar):
+    estado = {}
+    generar_informe(contexto_tool(estado=estado), categorias=["Bebidas"], umbral_pct=15, regiones=["AMBA"], limite=3)
+    resultado = generar_informe(contexto_tool(estado=estado), productos=["café"], categorias=["Bebidas"],
+                                umbral_pct=15, regiones=["AMBA"], continuar_analisis=continuar)
+    informe = retirar_informe(resultado["informe_id"])
+    assert informe["interpretacion"]["categorias"] == []
+    assert informe["interpretacion"]["filtros"] == {}
+    assert informe["items"]
+
+
+def test_modelo_que_repite_todo_y_cambia_la_region_conserva_el_alcance():
+    estado = {}
+    generar_informe(contexto_tool(estado=estado), productos=["Yerba mate"], limite=3)
+    resultado = generar_informe(contexto_tool(estado=estado), productos=["Yerba mate"], regiones=["Córdoba"], continuar_analisis=True)
+    informe = retirar_informe(resultado["informe_id"])
+    assert informe["interpretacion"]["productos"] == ["Yerba mate"]
+    assert informe["interpretacion"]["regiones"] == ["Córdoba"]
+
+
+def test_pedido_valido_sin_continuar_no_se_altera():
+    estado = {}
+    generar_informe(contexto_tool(estado=estado), categorias=["Bebidas"], limite=3)
+    resultado = generar_informe(contexto_tool(estado=estado), categorias=["Bebidas"], clasificacion="mas_caro", limite=3)
+    informe = retirar_informe(resultado["informe_id"])
+    assert informe["interpretacion"]["categorias"] == ["Bebidas"]
+    assert informe["interpretacion"]["filtros"] == {"clasificacion": "mas_caro"}
+
+
+def test_respuesta_resume_el_resultado():
+    informe = construir_informe({**ALCANCE, "limite": None, "filtros": {"clasificacion": "mas_caro"}}, "x")
+    total = informe["totalAnalizados"]
+    filtrados = informe["resumen"]["totalProductos"]
+    assert informe["respuesta"] == f"De {total} productos revisados, {filtrados} cumplen lo pedido: {filtrados} están más caros que la competencia."
+
+
+def test_respuesta_concuerda_en_singular():
+    resumen = {"mas_caro": 1, "mas_barato": 0, "en_linea": 0, "sin_coincidencias": 0, "no_confiable": 0}
+    frase = _respuesta([{}], resumen, 4)
+    assert frase == "De 4 productos revisados, 1 cumple lo pedido: 1 está más caro que la competencia."
+
+
+def test_respuesta_cuando_el_filtro_deja_todo_afuera():
+    alcance = {**ALCANCE, "categorias": [], "regiones": [], "ids": ["RAG-00001"], "filtros": {"clasificacion": "no_confiable"}}
+    informe = construir_informe(alcance, "x")
+    assert informe["items"] == []
+    assert informe["totalEncontrados"] == 1
+    assert informe["respuesta"] == "El producto revisado no cumple lo pedido."
+
+
+def test_respuesta_sin_productos():
+    informe = construir_informe({**ALCANCE, "categorias": [], "productos": ["Producto que no existe"]}, "x")
+    assert informe["respuesta"] == "No encontramos productos del catálogo para este pedido."
 
 
 def test_ignora_clasificacion_desconocida():

@@ -155,7 +155,9 @@ Cada `sesionId` tiene una conversación de ADK y sus últimos 25 informes. Está
 al reiniciar la API, y vencen tras 2 horas sin uso.
 
 Un pedido como "y en Córdoba?" llega con `continuar_analisis=true`: lo que no menciona se toma del alcance
-anterior. "empezar de cero" envía `nuevoAnalisis=true`, que abre una conversación nueva de ADK.
+anterior. Una marca o categoría nueva acota el análisis anterior, y un producto nuevo ("y el café?") cambia de
+tema: conserva región y competidores, pero no la categoría ni los filtros. Si acotar dejaría cero productos,
+también se cambia de tema. "empezar de cero" envía `nuevoAnalisis=true`, que abre una conversación nueva de ADK.
 
 ---
 
