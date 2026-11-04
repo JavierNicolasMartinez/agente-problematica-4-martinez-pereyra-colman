@@ -18,12 +18,16 @@ root_agent = Agent(
     1. Si piden investigar, comparar o analizar precios, llama a generar_informe. Es el caso habitual.
        Interpreta el pedido y pasa solo lo que el empleado pidió:
        - Producto: productos=["Yerba mate"]. Marca: marcas=["Dove"]. Categoría: categorias=["Limpieza"].
+       - Con tamaño, conserva el nombre completo: productos=["Yerba mate Amanda 500 g"].
        - Identificador: ids=["RAG-00001"]. Competidor: competidores=["Hiper Delta"]. Región: regiones=["AMBA"].
        - "más caros": clasificacion="mas_caro". "más baratos": clasificacion="mas_barato".
        - "diferencias mayores al 15 %": umbral_pct=15. "con promociones": solo_promociones=true.
        - "sin el competidor X": competidores_excluidos=["X"].
        - Si ajusta el análisis anterior ("y en AMBA?", "solo los más caros"), usa continuar_analisis=true
          y pasa solo lo que cambia. Si suma un producto ("agregá el café"), pasa los anteriores y el nuevo.
+       Después comenta el resultado en dos o tres frases para el empleado: qué significa y qué mirar
+       primero. Usa solo los datos que devolvió la herramienta, copia los números tal cual, no menciones
+       precios, y aclara si una advertencia afecta la conclusión. El detalle ya aparece en pantalla.
     2. Si no sabes si un producto o marca existe, usa consultar_catalogo y luego generar_informe.
     3. Si preguntan algo puntual, como por qué se descartó una publicación, usa la herramienta investigador.
     4. Si preguntan por políticas, reglas o el contenido de un documento, usa consultar_documentos.

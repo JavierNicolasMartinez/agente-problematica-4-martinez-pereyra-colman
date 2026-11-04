@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { ChevronRight, Download, FileText, SearchX, TriangleAlert } from 'lucide-react';
+import { Bot, ChevronRight, Download, FileText, SearchX, TriangleAlert } from 'lucide-react';
 import FilaProducto from './FilaProducto.jsx';
 import Lateral from './Lateral.jsx';
 import { CLASIFICACIONES, fmtPct } from '../formato.js';
@@ -151,6 +151,8 @@ export default function Informe({ informe, sesionId, investigar, verCatalogo }) 
         <h1 className="solicitud"><q>{informe.solicitud}</q></h1>
         <Entidades interpretacion={informe.interpretacion} competidores={informe.competidores} />
       </header>
+
+      {informe.comentarioAgente && <p className="aviso aclaracion" role="status"><Bot aria-hidden="true" />{informe.comentarioAgente}</p>}
 
       {informe.items.length === 0 ? (
         <>

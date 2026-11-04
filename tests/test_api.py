@@ -1,4 +1,5 @@
 """Pruebas de la API con el contrato del frontend. El modelo se reemplaza por una respuesta fija."""
+import asyncio
 from types import SimpleNamespace
 from uuid import uuid4
 
@@ -83,6 +84,19 @@ def test_marca_pasada_como_producto_igual_se_encuentra():
     assert {i["producto"]["marca"] for i in informe["items"]} == {"Coca-Cola"}
 
 
+@pytest.mark.parametrize("nombre", ["Yerba mate Amanda 500 g", "Yerba mate Amanda de 500 gr", "yerba mate amanda x 0,5 kg"])
+def test_producto_pedido_con_su_tamano(nombre):
+    informe = construir_informe({**ALCANCE, "categorias": [], "regiones": [], "productos": [nombre]}, "x")
+    assert informe["items"]
+    assert {(i["producto"]["marca"], i["producto"]["presentacion"]) for i in informe["items"]} == {("Amanda", "500 g")}
+
+
+def test_tamano_inexistente_muestra_las_otras_presentaciones():
+    informe = construir_informe({**ALCANCE, "categorias": [], "regiones": [], "productos": ["Yerba mate Amanda 123 g"]}, "x")
+    assert {i["producto"]["marca"] for i in informe["items"]} == {"Amanda"}
+    assert len({i["producto"]["presentacion"] for i in informe["items"]}) > 1
+
+
 def test_filtra_por_clasificacion():
     alcance = {**ALCANCE, "limite": None, "filtros": {"clasificacion": "mas_caro"}}
     informe = construir_informe(alcance, "x")
@@ -96,7 +110,8 @@ def test_tool_pide_alcance_si_falta():
 
 def test_tool_devuelve_resumen_sin_el_detalle_de_precios():
     resultado = generar_informe(contexto_tool(), categorias=["Limpieza"], limite=3)
-    assert set(resultado) == {"informe_id", "resumen", "conclusiones", "advertencias"}
+    assert set(resultado) == {"informe_id", "respuesta", "resumen", "conclusiones", "advertencias", "destacados"}
+    assert "precio" not in str(resultado["destacados"])
     assert retirar_informe(resultado["informe_id"])["resumen"]["totalProductos"] == 3
 
 
@@ -195,6 +210,54 @@ def test_consulta_devuelve_informe(cliente):
     assert cuerpo["tipo"] == "informe"
     assert cuerpo["sesionId"]
     assert cuerpo["informe"]["pasos"][0]["id"] == "interpretar"
+
+
+def _informe_de_prueba():
+    resultado = generar_informe(contexto_tool(), categorias=["Limpieza"], limite=3)
+    return retirar_informe(resultado["informe_id"])
+
+
+def test_comentario_con_datos_del_informe_se_conserva():
+    informe = _informe_de_prueba()
+    total = informe["resumen"]["totalProductos"]
+    texto = f"Se revisaron {total} productos; empezá por los de mayor brecha."
+    assert servicio_agente._comentario_seguro(texto, informe, "x") == texto
+
+
+def test_comentario_con_un_numero_inventado_se_descarta():
+    informe = _informe_de_prueba()
+    assert servicio_agente._comentario_seguro("Conviene bajar el precio a $ 98.765,43.", informe, "x") is None
+
+
+def test_comentario_vacio_no_se_muestra():
+    assert servicio_agente._comentario_seguro("", _informe_de_prueba(), "x") is None
+
+
+def test_si_falla_el_comentario_entrega_el_informe(monkeypatch):
+    resultado = generar_informe(contexto_tool(), categorias=["Limpieza"], limite=3)
+
+    class Respuesta:
+        name = "generar_informe"
+        response = resultado
+
+    class Evento:
+        content = None
+
+        def get_function_responses(self):
+            return [Respuesta()]
+
+        def is_final_response(self):
+            return False
+
+    async def eventos(**_kwargs):
+        yield Evento()
+        raise ConnectionError("sin modelo")
+
+    monkeypatch.setattr(servicio_agente._runner, "run_async", eventos)
+    sesion = SimpleNamespace(id_adk="x")
+    informe_id, texto = asyncio.run(servicio_agente._correr_agente(sesion, "hola"))
+    assert informe_id == resultado["informe_id"]
+    assert texto == ""
 
 
 def test_consulta_sin_alcance_pide_aclaracion(cliente):

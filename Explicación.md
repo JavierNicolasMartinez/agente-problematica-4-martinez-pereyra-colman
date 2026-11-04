@@ -19,7 +19,8 @@ La regla central es que **el modelo decide y Python calcula**:
 
 El modelo nunca le pasa un precio a una herramienta: solo pasa identificadores (`producto_id`, `competidor_id`,
 `sku`) y los precios se leen de los datos. Además, el informe que ve el empleado lo calcula Python entero; el
-modelo no lo redacta. Por eso no puede inventar precios en el informe.
+modelo solo agrega un comentario breve, que se valida contra esos datos. Por eso no puede inventar precios en
+el informe.
 
 ---
 
@@ -72,9 +73,10 @@ Ejemplo: "Productos de limpieza más caros que la competencia en AMBA".
    `clasificacion="mas_caro"`.
 4. La herramienta selecciona los productos, decide qué competidores consultar, busca publicaciones, verifica
    cada una, compara precios, clasifica y arma el informe.
-5. La herramienta deja el informe listo y corta el turno del modelo con `skip_summarization`. Así no se hace
-   otra llamada al modelo.
-6. La API retira el informe, lo guarda en la sesión y lo devuelve al frontend.
+5. La herramienta deja el informe listo y le devuelve al modelo un resumen sin precios.
+6. Gemma comenta el resultado en dos o tres frases. La API descarta el comentario si cita un número que no
+   figura en esos datos, y entrega el informe igual si el comentario falla.
+7. La API retira el informe, lo guarda en la sesión y lo devuelve al frontend.
 
 Si el pedido no es de precios o falta información, el modelo responde en texto y el frontend lo muestra como
 una aclaración. Las preguntas puntuales ("¿por qué se descartó esta publicación?") van al sub-agente

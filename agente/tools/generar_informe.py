@@ -20,6 +20,7 @@ from .verificar_equivalencia import ESTADOS_COMPARABLES
 
 MAX_PRODUCTOS_POR_INFORME = 120
 MAX_INFORMES_PENDIENTES = 50
+MAX_DESTACADOS = 5
 CLASIFICACIONES = ("mas_caro", "mas_barato", "sin_coincidencias", "no_confiable")
 LISTAS_PRODUCTOS = ("ids", "productos", "marcas", "categorias")
 LISTAS_COMPETENCIA = ("competidores", "regiones", "competidoresExcluidos")
@@ -310,6 +311,25 @@ def construir_informe(alcance: dict, solicitud: str) -> dict:
     }
 
 
+def _destacados(items: list) -> list:
+    """Productos con mayor diferencia, sin precios: el modelo los comenta, no los calcula."""
+    con_diferencia = [i for i in items if i["analisis"]["diferenciaMedianaPct"] is not None]
+    mayores = sorted(con_diferencia, key=lambda i: abs(i["analisis"]["diferenciaMedianaPct"]), reverse=True)
+    return [
+        {"producto": i["producto"]["producto"], "marca": i["producto"]["marca"],
+         "presentacion": i["producto"]["presentacion"], "clasificacion": i["analisis"]["clasificacion"],
+         "diferencia_mediana_pct": i["analisis"]["diferenciaMedianaPct"]}
+        for i in mayores[:MAX_DESTACADOS]
+    ]
+
+
+def datos_para_comentar(informe: dict) -> dict:
+    """Lo único que ve el modelo de un informe, y lo único que puede citar en su comentario."""
+    return {"informe_id": informe["id"], "respuesta": informe["respuesta"], "resumen": informe["resumen"],
+            "conclusiones": informe["conclusiones"], "advertencias": informe["advertencias"],
+            "destacados": _destacados(informe["items"])}
+
+
 def _texto_solicitud(tool_context: ToolContext) -> str:
     contenido = tool_context.user_content
     partes = contenido.parts if contenido and contenido.parts else []
@@ -356,7 +376,8 @@ def generar_informe(
         continuar_analisis: true si el pedido ajusta el análisis anterior, por ejemplo "y en AMBA?".
 
     Returns:
-        informe_id, resumen, conclusiones y advertencias. Si falta alcance, devuelve error.
+        informe_id, respuesta, resumen, conclusiones, advertencias y destacados.
+        Si falta alcance, devuelve error.
     """
     filtros = {}
     if clasificacion in CLASIFICACIONES:
@@ -390,7 +411,4 @@ def generar_informe(
     informe = construir_informe(alcance, _texto_solicitud(tool_context))
     _guardar_pendiente(informe)
     tool_context.state[CLAVE_ULTIMO_ALCANCE] = alcance
-    # El informe ya está completo: no hace falta otra llamada al modelo para resumirlo.
-    tool_context.actions.skip_summarization = True
-    return {"informe_id": informe["id"], "resumen": informe["resumen"],
-            "conclusiones": informe["conclusiones"], "advertencias": informe["advertencias"]}
+    return datos_para_comentar(informe)
