@@ -40,6 +40,20 @@ El backend sirve el frontend compilado en http://127.0.0.1:3001.
 cd backend && npm test
 ```
 
+## Claude Code + gentle-ai
+
+El repo trae la configuración de [gentle-ai](https://github.com/Gentleman-Programming/gentle-ai) para Claude Code
+(`.claude/CLAUDE.md`, `.claude/agents/`, `.claude/settings.json` y `.mcp.json` con Context7).
+Se aplica sola al abrir el proyecto con Claude Code. Para que funcionen los hooks de revisión,
+instalar el binario una vez en cada máquina:
+
+```bash
+go install github.com/gentleman-programming/gentle-ai/v4/cmd/gentle-ai@latest
+```
+
+Sin el binario, Claude Code igual usa las instrucciones; los hooks simplemente no hacen nada.
+Para no enviar métricas anónimas: `gentle-ai telemetry disable`.
+
 ## Documentación
 - [`Explicación.md`](Explicación.md): cómo funciona todo, archivo por archivo.
 - [`DESIGN.md`](DESIGN.md): sistema visual del frontend.

@@ -1,0 +1,63 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "command": "command -v gentle-ai >/dev/null 2>&1 && { gentle-ai review stop-hook --agent claude-code; } || true",
+            "timeout": 30,
+            "type": "command"
+          }
+        ],
+        "matcher": "startup|resume|clear|compact"
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "command": "command -v gentle-ai >/dev/null 2>&1 && { gentle-ai review stop-hook --agent claude-code; } || true",
+            "timeout": 60,
+            "type": "command"
+          }
+        ],
+        "matcher": ""
+      },
+      {
+        "hooks": [
+          {
+            "async": true,
+            "command": "command -v gentle-ai >/dev/null 2>&1 && { gentle-ai telemetry runtime claude --json; } || true",
+            "timeout": 5,
+            "type": "command"
+          }
+        ],
+        "matcher": ""
+      }
+    ],
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "async": true,
+            "command": "command -v gentle-ai >/dev/null 2>&1 && { gentle-ai telemetry runtime claude --json; } || true",
+            "timeout": 5,
+            "type": "command"
+          }
+        ],
+        "matcher": ""
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "command": "command -v gentle-ai >/dev/null 2>&1 && { gentle-ai skill-registry refresh --quiet --no-gitignore --cwd \"${CLAUDE_PROJECT_DIR:-$PWD}\"; } || true",
+            "type": "command"
+          }
+        ],
+        "matcher": ""
+      }
+    ]
+  }
+}
