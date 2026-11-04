@@ -9,11 +9,14 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse
 from starlette.exceptions import HTTPException
 
+from .documentos import MAX_BYTES_PDF
+from .documentos import router as router_documentos
 from .rutas import router
 from .servicio_agente import ModeloNoDisponible
 
 DIST = Path(__file__).resolve().parent.parent / "frontend" / "dist"
 MAX_BYTES_CUERPO = 10 * 1024
+RUTA_DOCUMENTOS = "/api/documentos"
 ORIGENES = os.environ.get("ORIGENES_PERMITIDOS", "http://localhost:5173,http://127.0.0.1:5173").split(",")
 CABECERAS_SEGURIDAD = {
     "X-Content-Type-Options": "nosniff",
@@ -29,7 +32,8 @@ app.add_middleware(CORSMiddleware, allow_origins=ORIGENES, allow_methods=["GET",
 
 @app.middleware("http")
 async def proteger(request: Request, call_next):
-    if int(request.headers.get("content-length") or 0) > MAX_BYTES_CUERPO:
+    limite = MAX_BYTES_PDF if request.url.path == RUTA_DOCUMENTOS else MAX_BYTES_CUERPO
+    if int(request.headers.get("content-length") or 0) > limite:
         return JSONResponse({"error": "La solicitud es demasiado grande."}, status_code=413)
     respuesta = await call_next(request)
     respuesta.headers.update(CABECERAS_SEGURIDAD)
@@ -66,6 +70,7 @@ async def error_interno(_: Request, __: Exception) -> JSONResponse:
 
 
 app.include_router(router)
+app.include_router(router_documentos)
 
 
 @app.get("/{ruta:path}", include_in_schema=False)

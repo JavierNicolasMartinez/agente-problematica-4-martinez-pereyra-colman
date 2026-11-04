@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { ShieldCheck, ShieldOff } from 'lucide-react';
+import Documentos from '../componentes/Documentos.jsx';
 import { api } from '../api.js';
 
 export default function Fuentes() {
@@ -12,6 +13,7 @@ export default function Fuentes() {
       <h1 className="titulo-vista">Fuentes de precios</h1>
       <p className="bajada">Competidores que el agente puede consultar. Son fuentes simuladas para el trabajo académico: nombres, sitios y precios son ficticios. Una fuente que prohíbe la consulta automatizada se omite y se informa.</p>
       {error && <p className="aviso error">{error}</p>}
+      <Documentos />
       <div className="fuentes-grilla">
         {datos?.competidores.map((c) => (
           <article key={c.id} className="tarjeta-fuente" data-bloqueada={!c.permiteConsulta}>
