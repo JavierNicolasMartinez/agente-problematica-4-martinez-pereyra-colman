@@ -1,203 +1,165 @@
 # Explicación del proyecto
 
-Guía para entender **qué hace cada parte** del agente de precios de Ragnar y **cómo seguirlo**.
+Cómo funciona el agente y dónde está cada cosa.
 
 ---
 
 ## 1. Idea general
 
 ```
-Empleado escribe un pedido
-        │
-        ▼
-┌──────────────┐  POST /api/agente/consultas   ┌──────────────────────────────┐
-│  Frontend    │ ─────────────────────────────▶│  Backend (Express)           │
-│  React+Vite  │ ◀───────────── informe JSON ──│  Orquestador del agente      │
-└──────────────┘                               └──────────────────────────────┘
-                                                      │
-       ┌──────────────┬──────────────┬────────────────┼──────────────┬───────────────┐
-       ▼              ▼              ▼                ▼              ▼               ▼
-  Interpretar     RAG (vacío)    Catálogo        Buscar precios   Emparejar     Comparar/Analizar
-     F01                           F02           en fuentes F03      F04          F05 F06 F07
-                                                                                   │
-                                                                                   ▼
-                                                                           Informe F08 F09
+Frontend React  ──HTTP──▶  API FastAPI  ──▶  root_agent (ADK)  ──▶  Herramientas en Python
+                                                   │                  (catálogo, fuentes, cálculos)
+                                                   └──▶  gemma4:31b-cloud (Ollama)
 ```
 
-El agente **no usa un LLM** por ahora: todo es determinístico (reglas), así cada resultado se puede explicar.
-El RAG y un posible LLM se enchufan en puntos ya preparados (ver sección 6).
+La regla central es que **el modelo decide y Python calcula**:
+
+- **Gemma** interpreta el pedido y elige qué herramienta usar.
+- **Las herramientas** buscan, verifican, comparan y arman el informe.
+
+El modelo nunca le pasa un precio a una herramienta: solo pasa identificadores (`producto_id`, `competidor_id`,
+`sku`) y los precios se leen de los datos. Además, el informe que ve el empleado lo calcula Python entero; el
+modelo no lo redacta. Por eso no puede inventar precios en el informe.
 
 ---
 
 ## 2. Estructura de carpetas
 
 ```
-backend/
-  main.js                     Arranca el servidor.
-  .env.example                Variables de configuración.
-  data/
-    catalogo_ragnar.csv       Catálogo entregado por Ragnar (500 artículos).
-    fuentes/*.json            Sitios de competidores SIMULADOS (uno por archivo).
-    tipos_cambio.json         Tipo de cambio de demostración (UYU → ARS).
-  scripts/
-    generarFuentesSimuladas.js  Crea data/fuentes con semilla fija.
-  src/
-    app.js                    Arma Express: seguridad, rutas, errores.
-    config.js                 Toda la configuración en un lugar.
-    agente/
-      orquestador.js          Coordina los 8 pasos y guarda la traza.
-      interpretador.js        F01: entiende el pedido.
-      emparejador.js          F04: ¿es el mismo artículo?
-      comparador.js           F05/F06: diferencias y promociones.
-      analizador.js           F07: más caro / más barato / sin coincidencia.
-      generadorInforme.js     F08/F09: informe, conclusiones y fuentes.
-      exportador.js           Informe a CSV y Markdown.
-    herramientas/
-      consultarCatalogo.js    F02: herramienta de catálogo.
-      buscarPrecios.js        F03: herramienta de búsqueda + qué competidores consultar.
-      proveedores/            Fuentes de precios (hoy simuladas).
-    repositorios/
-      catalogoRepositorio.js  Lee y valida el CSV (solo lectura).
-      fuentesRepositorio.js   Lee y valida las fuentes y tipos de cambio.
-    rag/                      Módulo RAG vacío, para implementar.
-    sesiones/almacenSesiones.js  F10: memoria de consultas por sesión.
-    rutas/                    Endpoints HTTP.
-    middlewares/              Validación y manejo de errores.
-    utils/                    Texto, unidades y errores.
-  test/                       Tests con node:test.
-frontend/
-  src/
-    App.jsx                   Estado general y navegación.
-    api.js                    Cliente HTTP.
-    componentes/              Piezas de la interfaz.
-    vistas/                   Catálogo y Fuentes.
-    estilos/                  tokens.css (colores, tipos) y app.css.
+agente/                        Agente ADK
+  agent.py                     root_agent: interpreta el pedido y decide
+  config.py                    Modelo que se usa
+  sub_agents/investigador.py   Responde preguntas puntuales en texto
+  tools/                       Una herramienta por archivo
+    consultar_catalogo.py      F02: busca en el catálogo
+    buscar_precios_competencia.py  F03: busca publicaciones
+    verificar_equivalencia.py  F04: decide si es el mismo artículo
+    comparar_precios.py        F05 y F06: diferencias y promociones
+    analizar_posicionamiento.py    F07: analiza varios productos en texto
+    generar_informe.py         F08 y F09: arma el informe del frontend
+    comun/                     Lógica compartida
+      texto.py                 Normalización de texto
+      precios.py               Presentaciones, promociones y cálculos
+      datos.py                 Lectura del CSV y de los JSON
+      analisis.py              Clasificación contra la mediana
+      investigacion.py         Búsqueda, verificación y comparación de un producto
+  data/                        Catálogo, fuentes simuladas y tipos de cambio
+api/                           Conecta el agente con el frontend
+  main.py                      Aplicación, errores y seguridad
+  rutas.py                     Rutas /api
+  servicio_agente.py           Ejecuta el agente y arma la respuesta
+  sesiones.py                  Sesiones e informes en memoria
+  exportador.py                Exportación a CSV y Markdown
+frontend/                      Interfaz en React
+tests/                         Pruebas con pytest
 ```
 
 ---
 
-## 3. Recorrido de una consulta (paso a paso)
+## 3. Recorrido de una consulta
 
-Ejemplo: **"Productos de limpieza más caros que la competencia en AMBA"**
+Ejemplo: "Productos de limpieza más caros que la competencia en AMBA".
 
-| # | Paso | Archivo | Qué pasa |
-|---|---|---|---|
-| 1 | Interpretar | `interpretador.js` | Detecta categoría *Limpieza*, filtro *más caros*, región *AMBA*. |
-| 2 | RAG | `rag/index.js` | Hoy devuelve "no configurado". |
-| 3 | Catálogo | `consultarCatalogo.js` | Trae los 101 artículos de Limpieza. |
-| 4 | Competidores | `buscarPrecios.js` | Elige los que operan en AMBA y permiten consulta. *Grupo Vértice* se omite (sus términos lo prohíben). |
-| 5 | Buscar | `buscarPrecios.js` + `proveedores/` | Por cada artículo y competidor busca "Lavandina Ayudin" y guarda la **hora de consulta**. |
-| 6 | Emparejar | `emparejador.js` | Revisa cada resultado: nombre, marca, categoría, variante, presentación. |
-| 7 | Comparar | `comparador.js` | Calcula diferencias, normaliza por kg/litro/unidad y separa promociones. |
-| 8 | Analizar | `analizador.js` | Clasifica contra la **mediana** de la competencia y aplica el filtro "más caros". |
-| 9 | Informe | `generadorInforme.js` | Resumen, conclusiones, fuentes (URL + fecha) y advertencias. |
+1. El frontend envía `POST /api/agente/consultas`.
+2. La API busca la sesión del empleado y ejecuta el agente.
+3. Gemma entiende el pedido y llama a `generar_informe` con `categorias=["Limpieza"]`, `regiones=["AMBA"]` y
+   `clasificacion="mas_caro"`.
+4. La herramienta selecciona los productos, decide qué competidores consultar, busca publicaciones, verifica
+   cada una, compara precios, clasifica y arma el informe.
+5. La herramienta deja el informe listo y corta el turno del modelo con `skip_summarization`. Así no se hace
+   otra llamada al modelo.
+6. La API retira el informe, lo guarda en la sesión y lo devuelve al frontend.
 
-La respuesta incluye `informe.pasos` con lo que hizo cada paso y cuánto tardó. El frontend lo muestra en
-"Cómo lo resolvió el agente".
+Si el pedido no es de precios o falta información, el modelo responde en texto y el frontend lo muestra como
+una aclaración. Las preguntas puntuales ("¿por qué se descartó esta publicación?") van al sub-agente
+`investigador`, que el agente raíz usa como herramienta (`AgentTool`).
 
 ---
 
-## 4. Funcionalidades del enunciado → dónde están
+## 4. Funcionalidades del enunciado
 
-| Req. | Qué pide | Cómo se resolvió |
-|---|---|---|
-| **F01** | Entender pedidos | `interpretador.js`: diccionarios construidos desde el catálogo (productos, marcas, categorías), alias ("coca", "yerba"), competidores, regiones, filtros ("más caros", "mayores al 15 %", "solo promociones"), IDs `RAG-00001` y límites ("top 10"). Si no entiende, pide aclaración. |
-| **F02** | Consultar catálogo | `catalogoRepositorio.js` valida cada fila con zod. Sin métodos de escritura: **no puede modificar precios**. |
-| **F03** | Investigar precios | `buscarPrecios.js` usa proveedores intercambiables. Hoy: `proveedores/simulado.js`. |
-| **F04** | Coincidencia de productos | `emparejador.js`. Ver tabla de estados abajo. |
-| **F05** | Comparar precios | `comparador.js`: diferencia absoluta y %. Si cambia la presentación, compara por kg / litro / unidad. |
-| **F06** | Promociones | `comparador.js → precioPromocional()`: porcentaje, 2x1, 3x2, 70 % en la 2.ª unidad. Precio regular y promocional **siempre separados**. |
-| **F07** | Análisis | `analizador.js`: más caro, más barato, en línea, diferencia significativa, no encontrado, no confiable. |
-| **F08** | Informes | `generadorInforme.js` + `exportador.js` (CSV y Markdown). |
-| **F09** | Fundamentación | Cada precio usado lleva `url`, `sku`, `consultadoEn` y `publicado`. Si no hay resultado, **no se inventa**: se informa "no encontrado". |
-| **F10** | Contexto entre consultas | `almacenSesiones.js` guarda la última interpretación. "ahora solo en Córdoba" o "agregá el café" reutilizan el contexto. |
+| Función | Dónde está |
+|---|---|
+| F01 Comprensión de solicitudes | `root_agent` y los parámetros de `generar_informe` |
+| F02 Consulta del catálogo | `tools/consultar_catalogo.py` |
+| F03 Investigación de precios | `tools/buscar_precios_competencia.py` |
+| F04 Coincidencia de productos | `tools/verificar_equivalencia.py` |
+| F05 Comparación de precios | `tools/comparar_precios.py` |
+| F06 Promociones | `promocion_vigente` en `comun/precios.py` |
+| F07 Análisis de resultados | `comun/analisis.py` |
+| F08 Informes | `tools/generar_informe.py` y `api/exportador.py` |
+| F09 Fuentes y fechas | `_fuentes_utilizadas` en `generar_informe.py` |
+| F10 Gestión de consultas | Sesiones de ADK y `continuar_analisis` |
 
 ### Estados de coincidencia (F04)
 
-| Estado | Cuándo | ¿Se compara? |
+| Estado | Significado | ¿Se compara? |
 |---|---|---|
-| `equivalente` | Nombre, marca, categoría y variante OK, misma presentación (±1 %). | Sí, por envase. |
-| `equivalente_otra_presentacion` | Todo OK pero otro tamaño (ej. 500 g vs 1 kg). | Sí, por kg / litro / unidad. |
-| `no_confiable` | Falta un dato para asegurar (sin marca, sin contenido, nombre parcial). | **No**. Se informa. |
-| `descartado` | Otra marca, otra variante ("light", "repuesto"), unidad incompatible, otra categoría. | **No**. |
-
-Entre varios candidatos se elige: primero `equivalente`, después el tamaño **más cercano**, después la mayor confianza.
+| `equivalente` | Mismo artículo y misma presentación | Sí, por envase |
+| `equivalente_otra_presentacion` | Mismo artículo, otro tamaño | Sí, por kg, litro o unidad |
+| `no_confiable` | Faltan datos para asegurarlo | No |
+| `descartado` | Otra marca, categoría, unidad o variante | No |
 
 ### Fórmulas (F05)
 
+Una diferencia positiva significa que Ragnar está **más caro**.
+
 ```
-diferenciaAbsoluta = precioRagnar − precioCompetidor
-diferencia%        = (precioRagnar − precioCompetidor) / precioCompetidor × 100
-precio por kg      = precio / gramos × 1000      (igual para litros con ml)
+diferencia absoluta   = precio Ragnar - precio competidor
+diferencia porcentual = (precio Ragnar - precio competidor) / precio competidor * 100
 ```
-**Positivo = Ragnar más caro.** La clasificación usa la **mediana** de las diferencias de todos los
-competidores comparados. "En línea" = ±1 %. "Significativa" = ≥ 10 % (configurable o pedido en el mensaje).
+
+Cada producto se clasifica contra la **mediana** de sus diferencias, para que un solo precio raro no decida.
+Queda `en_linea` si la mediana está dentro de ±1 %, y es significativa desde el 10 %, salvo que el pedido
+indique otro umbral.
 
 ### Restricciones del enunciado
 
 | Restricción | Cómo se cumple |
 |---|---|
-| No inventar precios | Solo se usan precios que vienen de una fuente; sin coincidencia, se informa. Las conclusiones se arman con datos calculados. |
-| Fuente y fecha | `url`, `sku`, `consultadoEn`, `publicado` en cada comparación. |
-| Verificar antes de comparar | Solo se comparan `equivalente` y `equivalente_otra_presentacion`. |
-| Regular vs promoción | Campos y columnas separadas. |
-| Informar si no hay coincidencia confiable | Estados `no_confiable` y `sin_coincidencias`. |
-| Diferencias regionales y monetarias | Filtro por región; competidores de otro país solo si se piden; conversión con `tipos_cambio.json` (con aviso). |
-| No comprar ni modificar precios | No existe ningún endpoint ni método que lo haga. |
-| Respetar condiciones de acceso | Cada fuente declara `permite_consulta_automatizada`. Si es `false`, se omite y se avisa. |
+| No inventar precios | Las herramientas reciben identificadores, y el informe lo arma Python |
+| Precios con fuente y fecha | Cada comparación guarda url, sku y fecha de consulta |
+| No comparar sin verificar | `comparar_precios` vuelve a verificar y se niega si no hay equivalencia |
+| Regular y promocional separados | Se calculan e informan por separado |
+| Avisar si no hay coincidencia confiable | Clasificaciones `no_confiable` y `sin_coincidencias` |
+| Diferencias regionales y monetarias | Filtro por región y conversión con `tipos_cambio.json` |
+| No comprar ni modificar precios | No existe ninguna herramienta de escritura |
+| Respetar el acceso a las fuentes | Se omiten las fuentes con `permite_consulta_automatizada: false` |
 
 ---
 
 ## 5. API
 
-| Método | Ruta | Para qué |
-|---|---|---|
-| GET | `/api/salud` | Estado del servidor. |
-| GET | `/api/catalogo?q=&categoria=&marca=&pagina=&limite=` | Listado paginado. |
-| GET | `/api/catalogo/facetas` | Categorías, marcas y productos con cantidades. |
-| GET | `/api/catalogo/:id` | Un producto (`RAG-00001`). |
-| GET | `/api/competidores` | Fuentes y tipos de cambio. |
-| GET | `/api/agente/sugerencias` | Ejemplos de pedidos. |
-| POST | `/api/agente/consultas` | **Ejecuta el agente.** Body: `{ mensaje, sesionId?, nuevoAnalisis? }` |
-| POST | `/api/sesiones` | Crea una sesión. |
-| GET | `/api/sesiones/:id` | Historial de la sesión. |
-| GET | `/api/sesiones/:id/informes/:informeId` | Un informe. |
-| GET | `/api/sesiones/:id/informes/:informeId/exportar?formato=csv\|md` | Descarga. |
+Mantiene el formato que espera el frontend.
 
-Respuesta de `/api/agente/consultas` (resumida):
-```json
-{
-  "sesionId": "uuid",
-  "tipo": "informe",
-  "interpretacion": { "productos": [], "categorias": ["Limpieza"], "regiones": ["AMBA"], "filtros": { "clasificacion": "mas_caro" } },
-  "informe": {
-    "resumen": { "totalProductos": 54, "mas_caro": 54 },
-    "conclusiones": ["..."],
-    "items": [{ "producto": {}, "competidores": [{ "estado": "equivalente", "comparacion": {}, "publicacion": { "url": "..." } }], "analisis": {} }],
-    "fuentes": [{ "url": "...", "consultadoEn": "2026-11-03T..." }],
-    "pasos": [{ "titulo": "Interpretar la solicitud", "detalle": "...", "duracionMs": 2 }]
-  }
-}
-```
-Si el pedido no se entiende: `"tipo": "aclaracion"` con un mensaje y sugerencias.
+| Método y ruta | Para qué sirve |
+|---|---|
+| `POST /api/agente/consultas` | Ejecuta una consulta. Cuerpo: `mensaje`, `sesionId` y `nuevoAnalisis` |
+| `GET /api/agente/sugerencias` | Ejemplos de pedidos |
+| `GET /api/catalogo` | Catálogo paginado y con filtros |
+| `GET /api/catalogo/facetas` | Categorías, marcas, productos y países |
+| `GET /api/catalogo/{id}` | Un producto |
+| `GET /api/competidores` | Fuentes y tipos de cambio |
+| `GET /api/sesiones/{id}/informes/{informeId}` | Un informe guardado |
+| `GET /api/sesiones/{id}/informes/{informeId}/exportar` | Exportación, con `formato=csv` o `md` |
+| `GET /api/salud` | Estado del servicio |
+
+Los errores se devuelven como `{"error": "...", "detalles": [...]}`. Si el modelo no responde, la API devuelve
+503 con un mensaje que indica revisar Ollama.
 
 ---
 
-## 6. Dónde enchufar el RAG (y un LLM)
+## 6. Sesiones y contexto (F10)
 
-1. **RAG**: implementar `backend/src/rag/index.js → recuperarContexto()`. El orquestador ya la llama en el
-   paso 2 y el frontend ya muestra los fragmentos. Instrucciones en `backend/src/rag/README.md`.
-   Regla: el RAG sirve para **interpretar y explicar**, nunca como fuente de precios de la competencia.
-2. **LLM para entender pedidos** (opcional): reemplazar `interpretar()` por una función que devuelva el
-   **mismo objeto**. El resto del agente no cambia.
-3. **Fuente real**: crear un proveedor en `herramientas/proveedores/` con la misma forma que el simulado
-   (ver su README) y registrarlo en `proveedores/index.js`.
+Cada `sesionId` tiene una conversación de ADK y sus últimos 25 informes. Están en memoria, así que se pierden
+al reiniciar la API, y vencen tras 2 horas sin uso.
+
+Un pedido como "y en Córdoba?" llega con `continuar_analisis=true`: lo que no menciona se toma del alcance
+anterior. "empezar de cero" envía `nuevoAnalisis=true`, que abre una conversación nueva de ADK.
 
 ---
 
 ## 7. Fuentes simuladas
-
-`npm run generar-fuentes` crea seis competidores ficticios con semilla fija (siempre los mismos datos):
 
 | Competidor | Regiones | Moneda | Consulta |
 |---|---|---|---|
@@ -206,62 +168,34 @@ Si el pedido no se entiende: `"tipo": "aclaracion"` con un mensaje y sugerencias
 | SuperCiudad | AMBA, Mendoza | ARS | Permitida |
 | Almacén Pampa | Córdoba, Rosario, Mendoza | ARS | Permitida |
 | Grupo Vértice | AMBA | ARS | **No permitida** (demuestra la restricción) |
-| Tienda Oriental | Montevideo | UYU | Permitida (demuestra conversión de moneda) |
+| Tienda Oriental | Montevideo | UYU | Permitida (demuestra la conversión de moneda) |
 
-El generador mete a propósito casos difíciles: títulos desordenados ("Terrabusi Galletitas dulces 900 grs"),
-otras presentaciones, variantes ("light", "repuesto"), publicaciones sin marca y promociones.
+Sin un competidor o una región pedidos, solo se consultan fuentes del país del producto.
 
-**Dato del catálogo:** hay artículos repetidos (mismo producto, marca y presentación con distinto ID y precio).
-El agente los marca como "repetido en catálogo" y lo avisa en el informe.
+**Limitación conocida de los datos:** 282 filas del catálogo pertenecen a 117 grupos repetidos, con el mismo
+producto, marca y presentación pero distinto ID y precio. El agente los marca como "repetido en catálogo" y lo
+avisa en el informe. Como los JSON se generaron una vez por artículo, estos casos pueden mostrar diferencias
+muy grandes: los cálculos son correctos, pero el dato de origen es incoherente.
 
 ---
 
 ## 8. Seguridad
 
-| Riesgo | Medida |
-|---|---|
-| Entradas maliciosas | Validación con zod en body, query y params. Mensaje de 3 a 500 caracteres. Campos desconocidos → 400. |
-| Cuerpos enormes | `express.json({ limit: '10kb' })`. |
-| Abuso / DoS | Límite de 300 pedidos/min en `/api` y 30 consultas/min al agente por IP. Máx. 120 productos por consulta. |
-| Memoria | Máx. 500 sesiones, 25 informes por sesión, vencimiento a las 2 h. |
-| Acceso a informes ajenos | Un informe solo se entrega si coincide el ID de sesión (UUID aleatorio). |
-| XSS | React escapa todo el texto; no se usa `dangerouslySetInnerHTML`. CSP estricta con Helmet (`script-src 'self'`). |
-| Enlaces externos | `rel="noopener noreferrer nofollow"`. |
-| Inyección de fórmulas en CSV | Celdas que empiezan con `= + - @` se prefijan con `'`. |
-| Markdown | Se escapan caracteres especiales en la exportación. |
-| CORS | Solo orígenes listados en `ORIGENES_PERMITIDOS`. |
-| Fuga de información | Errores genéricos (sin trazas), sin `x-powered-by`, servidor escucha en `127.0.0.1` por defecto. |
-| Path traversal | IDs validados por regex; archivos estáticos solo desde `frontend/dist`. |
-| Secretos | No hay claves en el código. `.env` está en `.gitignore`. |
-| Dependencias | `npm audit`: 0 vulnerabilidades al momento de entregar. |
+- La API escucha solo en `127.0.0.1` por defecto.
+- Se validan cuerpo, parámetros y largo del mensaje. El cuerpo admite hasta 10 kB.
+- Cada cliente puede hacer hasta 30 consultas por minuto.
+- Las respuestas llevan cabeceras de seguridad, incluida una política de contenido restrictiva.
+- Un informe solo se puede leer desde la sesión que lo generó.
+- En CSV se neutralizan las celdas que empiezan con `=`, `+`, `-` o `@`, para evitar inyección de fórmulas.
+- Las fuentes externas son datos: el agente no ejecuta nada de lo que contienen.
 
 ---
 
-## 9. Frontend
+## 9. Ejemplos de pedidos
 
-- **Investigar**: escribís el pedido; ves lo que entendió el agente, el panorama (barra de distribución y
-  conclusiones), la lista de productos con la **regla de góndola** y, al abrir un producto, la tabla por
-  competidor con criterios de coincidencia, precio regular, promoción, diferencia y fuente.
-- **Seguimiento**: después del primer informe, el cuadro dice "Continúa sobre: …". Escribí "ahora solo en
-  Córdoba" o "agregá el café". "Empezar de cero" ignora el contexto.
-- **Catálogo**: búsqueda y filtro por categoría; botón "Investigar" por artículo.
-- **Fuentes**: competidores, regiones, moneda y si permiten consulta.
-- Diseño documentado en `DESIGN.md`.
-
-### Cómo leer la regla de góndola
-El fleje amarillo **R** es Ragnar. Cada círculo es un competidor: a la **izquierda** vende más barato,
-a la **derecha** más caro. Rojo = Ragnar más caro que ese competidor; verde = más barato.
-Anillo amarillo = tiene promoción. Borde punteado = fuera de escala.
-
----
-
-## 10. Ejemplos de pedidos
-
-- `Compará la yerba mate en todos los competidores`
-- `Productos de limpieza más caros que la competencia en AMBA`
-- `Bebidas con diferencias mayores al 15 %`
-- `Precios de Coca-Cola en Hiper Delta y SuperCiudad`
-- `Gaseosa Coca-Cola solo promociones`
-- `Compará RAG-00001 y RAG-00002`
-- `Yerba mate Playadito en Montevideo` (conversión de moneda)
-- Seguimiento: `ahora solo en Córdoba`, `agregá el café`, `sacá Hiper Delta`
+- "Compará la yerba mate en todos los competidores"
+- "Productos de limpieza más caros que la competencia en AMBA"
+- "Bebidas con diferencias mayores al 15 %"
+- "Precios de Coca-Cola en Hiper Delta y SuperCiudad"
+- "Compará el Detergente Ala en Montevideo"
+- Seguimientos: "ahora solo en Córdoba", "agregá el café"
