@@ -8,6 +8,7 @@ from .analizar_posicionamiento import analizar_posicionamiento
 from .buscar_precios_competencia import buscar_precios_competencia
 from .comparar_precios import comparar_precios
 from .consultar_catalogo import consultar_catalogo
+from .consultar_documentos import consultar_documentos
 from .generar_informe import generar_informe
 from .verificar_equivalencia import verificar_equivalencia
 
@@ -16,6 +17,7 @@ __all__ = [
     "buscar_precios_competencia",
     "comparar_precios",
     "consultar_catalogo",
+    "consultar_documentos",
     "generar_informe",
     "verificar_equivalencia",
 ]

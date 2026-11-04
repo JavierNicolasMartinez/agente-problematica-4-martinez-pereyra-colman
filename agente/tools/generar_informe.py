@@ -9,6 +9,8 @@ from uuid import uuid4
 
 from google.adk.tools import ToolContext
 
+from agente.rag.services import COLECCION_DOCUMENTOS, DocumentService
+
 from .buscar_precios_competencia import resolver_fuentes
 from .comun.analisis import UMBRAL_SIGNIFICATIVO_PCT
 from .comun.investigacion import ahora_iso, buscar_en_fuentes, investigar_producto
@@ -216,11 +218,26 @@ def _fuentes_utilizadas(items: list) -> list:
     ]
 
 
+def _documentos_disponibles() -> list:
+    try:
+        return DocumentService().list_documents(COLECCION_DOCUMENTOS)
+    except Exception:
+        return []
+
+
+def _detalle_rag(documentos: list) -> str:
+    if not documentos:
+        return "Sin documentos cargados."
+    cantidad = _cantidad(len(documentos), "documento disponible", "documentos disponibles")
+    return f"{cantidad} para consultas puntuales; los precios salen solo de las fuentes."
+
+
 def construir_informe(alcance: dict, solicitud: str) -> dict:
     """Ejecuta la investigación completa para un alcance ya interpretado."""
     traza = _Traza()
     traza.paso("interpretar", "Interpretar la solicitud", _detalle_interpretacion(alcance))
-    traza.paso("rag", "Recuperar contexto (RAG)", "Módulo RAG no configurado todavía.")
+    documentos = _documentos_disponibles()
+    traza.paso("rag", "Recuperar contexto (RAG)", _detalle_rag(documentos))
 
     filtros = alcance["filtros"]
     umbral = filtros.get("umbralPct", UMBRAL_SIGNIFICATIVO_PCT)
@@ -287,7 +304,7 @@ def construir_informe(alcance: dict, solicitud: str) -> dict:
         "conclusiones": conclusiones,
         "items": items,
         "fuentes": fuentes_usadas,
-        "contextoRag": {"habilitado": False, "fragmentos": [], "sugerencias": None},
+        "contextoRag": {"habilitado": bool(documentos), "fragmentos": [], "sugerencias": None},
         "advertencias": advertencias,
         "pasos": traza.pasos,
     }
