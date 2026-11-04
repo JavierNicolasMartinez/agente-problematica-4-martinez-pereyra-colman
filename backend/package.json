@@ -1,0 +1,25 @@
+{
+  "name": "ragnar-agente-precios-backend",
+  "version": "1.0.0",
+  "description": "API del agente inteligente de investigación y comparación de precios de Ragnar S.A.",
+  "type": "module",
+  "main": "main.js",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "dev": "node --watch main.js",
+    "test": "node --test",
+    "generar-fuentes": "node scripts/generarFuentesSimuladas.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "csv-parse": "^7.0.3",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.3",
+    "helmet": "^8.3.0",
+    "zod": "^4.6.7"
+  }
+}
