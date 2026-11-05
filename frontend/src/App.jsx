@@ -7,9 +7,13 @@ import Cargando from './componentes/Cargando.jsx';
 import Informe from './componentes/Informe.jsx';
 import Catalogo from './vistas/Catalogo.jsx';
 import Fuentes from './vistas/Fuentes.jsx';
+import Valhalla from './vistas/Valhalla.jsx';
 import { api } from './api.js';
 
 const CLAVE_SESION = 'ragnar.sesion';
+const RUTAS = { investigar: '/', catalogo: '/catalogo', fuentes: '/fuentes', valhalla: '/valhalla' };
+
+const vistaDeRuta = () => Object.keys(RUTAS).find((v) => RUTAS[v] === window.location.pathname) ?? 'investigar';
 
 // sessionStorage puede no estar disponible (modo privado, bloqueos): siempre con try/catch.
 const leerSesion = () => { try { return sessionStorage.getItem(CLAVE_SESION); } catch { return null; } };
@@ -24,7 +28,7 @@ function describirContexto(i) {
 }
 
 export default function App() {
-  const [vista, setVista] = useState('investigar');
+  const [vista, setVista] = useState(vistaDeRuta);
   const [sesionId, setSesionId] = useState(leerSesion);
   const [historial, setHistorial] = useState([]);
   const [informes, setInformes] = useState({});
@@ -36,6 +40,16 @@ export default function App() {
   const [sugerencias, setSugerencias] = useState([]);
 
   useEffect(() => { api.sugerencias().then((r) => setSugerencias(r.sugerencias)).catch(() => {}); }, []);
+
+  // La vista y la dirección se mantienen iguales, incluso con los botones atrás y adelante del navegador.
+  useEffect(() => {
+    if (window.location.pathname !== RUTAS[vista]) window.history.pushState(null, '', RUTAS[vista]);
+  }, [vista]);
+  useEffect(() => {
+    const alNavegar = () => setVista(vistaDeRuta());
+    window.addEventListener('popstate', alNavegar);
+    return () => window.removeEventListener('popstate', alNavegar);
+  }, []);
 
   const consultar = useCallback(async (mensaje, { sinContexto = false } = {}) => {
     setVista('investigar');
@@ -96,6 +110,7 @@ export default function App() {
       <main className="principal">
         {vista === 'catalogo' && <Catalogo investigar={(m) => consultar(m, { sinContexto: true })} />}
         {vista === 'fuentes' && <Fuentes />}
+        {vista === 'valhalla' && <Valhalla />}
         {vista === 'investigar' && (
           <div className="contenedor">
             {!informe && !pendiente ? (

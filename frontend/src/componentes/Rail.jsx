@@ -1,10 +1,11 @@
-import { Search, Boxes, Store, Plus } from 'lucide-react';
+import { Search, Boxes, Store, Swords, Plus } from 'lucide-react';
 import { fmtHora } from '../formato.js';
 
 const VISTAS = [
   { id: 'investigar', nombre: 'Investigar', icono: Search },
   { id: 'catalogo', nombre: 'Catálogo', icono: Boxes },
   { id: 'fuentes', nombre: 'Fuentes', icono: Store },
+  { id: 'valhalla', nombre: 'Valhalla', icono: Swords },
 ];
 
 export function Logo() {
