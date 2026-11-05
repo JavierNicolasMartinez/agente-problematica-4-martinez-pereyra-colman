@@ -2,7 +2,7 @@ import { SearchX } from 'lucide-react';
 import { iniciales, fmtPct } from '../formato.js';
 
 /**
- * Regla de góndola: Ragnar en el centro (fleje amarillo) y cada competidor
+ * Regla de góndola: Ragnar en el centro (runa dorada) y cada competidor
  * ubicado según cuánto más barato (izquierda) o más caro (derecha) vende el mismo artículo.
  */
 export function posiciones(competidores) {
@@ -31,7 +31,7 @@ export default function ReglaGondola({ competidores, analisis, conEscala = false
   const x = (rel) => 50 + (Math.max(-limite, Math.min(limite, rel)) / limite) * 50;
   const minX = Math.min(50, ...datos.map((d) => x(d.rel)));
   const maxX = Math.max(50, ...datos.map((d) => x(d.rel)));
-  // Ubicación de iniciales para que no se pisen: abajo, si no entra arriba (lejos del fleje de Ragnar), si no se ocultan (quedan en el tooltip).
+  // Ubicación de iniciales para que no se pisen: abajo, si no entra arriba (lejos de la runa de Ragnar), si no se ocultan (quedan en el tooltip).
   const ordenados = [...datos].sort((a, b) => x(a.rel) - x(b.rel));
   const lugar = new Map();
   let ultAbajo = -Infinity;
@@ -50,7 +50,7 @@ export default function ReglaGondola({ competidores, analisis, conEscala = false
         <div className="regla-eje" />
         {minX < 50 && <div className="regla-zona caro" style={{ left: `${minX}%`, width: `${50 - minX}%` }} />}
         {maxX > 50 && <div className="regla-zona barato" style={{ left: '50%', width: `${maxX - 50}%` }} />}
-        <div className="regla-ragnar"><span className="etiqueta-r">R</span><span className="poste" /></div>
+        <div className="regla-ragnar"><span className="etiqueta-r">ᚱ</span><span className="poste" /></div>
         {datos.map((d, i) => (
           <span
             key={d.id}

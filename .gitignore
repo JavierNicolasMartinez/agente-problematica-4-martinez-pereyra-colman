@@ -10,3 +10,9 @@ coverage/
 
 # gentle-ai (registro de skills local)
 .atl/
+.venv/
+__pycache__/
+.pytest_cache/
+.adk/
+agente/data/vector_store/
+agente/data/documentos/

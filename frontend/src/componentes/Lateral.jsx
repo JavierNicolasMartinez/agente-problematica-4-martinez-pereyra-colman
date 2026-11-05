@@ -1,8 +1,8 @@
-import { Check, Minus, TriangleAlert, Ban } from 'lucide-react';
+import { Check, Minus, Ban } from 'lucide-react';
 import { fmtFecha } from '../formato.js';
 
 export default function Lateral({ informe }) {
-  const { pasos, competidores, advertencias, contextoRag, fuentes } = informe;
+  const { pasos, competidores, contextoRag, fuentes } = informe;
   return (
     <aside className="lateral" aria-label="Cómo se resolvió">
       <section className="bloque-lateral">
@@ -35,15 +35,6 @@ export default function Lateral({ informe }) {
         </ul>
         <p className="prod-meta">Informe generado {fmtFecha(informe.fecha)}</p>
       </section>
-
-      {advertencias.length > 0 && (
-        <section className="bloque-lateral">
-          <h2>Para revisar</h2>
-          <ul className="lista-simple">
-            {advertencias.map((a) => <li key={a}><TriangleAlert className="alerta" aria-hidden="true" /><span>{a}</span></li>)}
-          </ul>
-        </section>
-      )}
 
       {contextoRag?.habilitado && contextoRag.fragmentos.length > 0 && (
         <section className="bloque-lateral">
