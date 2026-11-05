@@ -29,6 +29,16 @@ export const api = {
   catalogo: (params) => pedir(`/catalogo?${new URLSearchParams(Object.entries(params).filter(([, v]) => v !== '' && v != null))}`),
   facetas: () => pedir('/catalogo/facetas'),
   competidores: () => pedir('/competidores'),
+  documentos: () => pedir('/documentos'),
+  subirDocumento: async (archivo) => {
+    const datos = new FormData();
+    datos.append('archivo', archivo);
+    const res = await fetch('/api/documentos', { method: 'POST', body: datos }).catch(() => null);
+    if (!res) throw new Error('No se pudo conectar con el servidor. ¿Está corriendo el backend?');
+    const cuerpo = await res.json().catch(() => ({}));
+    if (!res.ok) throw new Error(cuerpo.error || `Error ${res.status}`);
+    return cuerpo;
+  },
   informe: (sesionId, informeId) => pedir(`/sesiones/${encodeURIComponent(sesionId)}/informes/${encodeURIComponent(informeId)}`),
   urlExportar: (sesionId, informeId, formato) => `/api/sesiones/${encodeURIComponent(sesionId)}/informes/${encodeURIComponent(informeId)}/exportar?formato=${formato}`,
 };

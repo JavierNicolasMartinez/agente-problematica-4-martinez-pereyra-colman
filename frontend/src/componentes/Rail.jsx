@@ -1,19 +1,21 @@
-import { Search, Boxes, Store, Plus } from 'lucide-react';
+import { Search, Boxes, Store, Swords, Plus } from 'lucide-react';
 import { fmtHora } from '../formato.js';
 
 const VISTAS = [
   { id: 'investigar', nombre: 'Investigar', icono: Search },
   { id: 'catalogo', nombre: 'Catálogo', icono: Boxes },
   { id: 'fuentes', nombre: 'Fuentes', icono: Store },
+  { id: 'valhalla', nombre: 'Valhalla', icono: Swords },
 ];
 
 export function Logo() {
   return (
     <svg className="marca-logo" viewBox="0 0 32 32" aria-hidden="true">
-      <rect width="32" height="32" rx="7" fill="oklch(0.41 0.06 163)" />
-      <rect x="6" y="20" width="20" height="2.5" rx="1.25" fill="oklch(0.85 0.03 163)" />
-      <rect x="10.5" y="9" width="11" height="8.5" rx="2" fill="oklch(0.885 0.165 95)" />
-      <rect x="15" y="17.5" width="2" height="2.5" fill="oklch(0.885 0.165 95)" />
+      <circle cx="16" cy="16" r="15" fill="#c79a3e" />
+      <circle cx="16" cy="16" r="13" fill="#8f2a24" />
+      <path fill="#e3d6b8" d="M16 3a13 13 0 0 1 13 13H16Zm0 13v13A13 13 0 0 1 3 16Z" />
+      <circle cx="16" cy="16" r="7.5" fill="#101a29" stroke="#c79a3e" strokeWidth="1.4" />
+      <path fill="none" stroke="#e2bd63" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M13.5 10.5v11m0-11 5 3.2-5 3 5 4.8" />
     </svg>
   );
 }
@@ -54,6 +56,7 @@ export default function Rail({ vista, cambiarVista, historial, informeActual, ab
 
       <div className="rail-pie">
         <button type="button" className="boton-rail" onClick={nuevaSesion}><Plus aria-hidden="true" /> Nueva sesión</button>
+        <p className="rail-runas" aria-hidden="true">ᚱᚨᚷᚾᚨᚱ ᛚᛟᚦᛒᚱᛟᚲ</p>
         <p className="aviso-simulado">Precios de competidores desde fuentes simuladas, con fines académicos.</p>
       </div>
     </aside>

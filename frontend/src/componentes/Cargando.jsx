@@ -13,6 +13,7 @@ export default function Cargando({ mensaje }) {
   return (
     <div className="cargando" role="status" aria-live="polite">
       <h1 className="solicitud"><q>{mensaje}</q></h1>
+      <p className="cuervos">Los cuervos salieron a recorrer el mercado…</p>
       <ol className="cargando-pasos">
         {PASOS.map((p, i) => {
           const estado = i < paso ? 'hecho' : i === paso ? 'activo' : 'pendiente';
